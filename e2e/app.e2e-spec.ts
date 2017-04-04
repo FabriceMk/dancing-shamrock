@@ -7,8 +7,8 @@ describe('dancing-clover App', function() {
     page = new DancingCloverPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display the correct app title', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getTitle()).toEqual('Dancing Clover');
   });
 });
