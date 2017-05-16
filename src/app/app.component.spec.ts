@@ -8,7 +8,7 @@ import 'hammerjs';
 describe('AppComponent', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [ MaterialModule.forRoot() ],
+      imports: [ MaterialModule ],
       declarations: [
         AppComponent
       ],
@@ -22,7 +22,7 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   }));
 
-  it(`should have as title 'app works!'`, async(() => {
+  it(`should have correct Title`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app.title).toEqual('Dancing Clover');
