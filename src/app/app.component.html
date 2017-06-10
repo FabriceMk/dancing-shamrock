@@ -11,7 +11,7 @@
         <md-toolbar color="primary">
           <span><md-icon>menu</md-icon></span>
 
-          <span>Dancing Clover</span>
+          <span>{{this.title}}</span>
 
           <button md-icon-button [md-menu-trigger-for]="menu">
             <md-icon>more_vert</md-icon>
@@ -30,7 +30,7 @@
         </md-card>
 
         <span class="done">
-          <button md-fab>
+          <button md-fab (click)="buttonClicked()">
             <md-icon>check circle</md-icon>
           </button>
         </span>
