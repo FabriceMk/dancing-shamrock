@@ -1,16 +1,15 @@
 <md-sidenav-container fullscreen>
     <md-sidenav mode="over" opened="true">
       <md-list>
-        <md-list-item> Pepper </md-list-item>
-        <md-list-item> Salt </md-list-item>
-        <md-list-item> Paprika </md-list-item>
+        <md-list-item>{{ 'pepper' | capitalize }}</md-list-item>
+        <md-list-item>{{ 'salt' | capitalize }}</md-list-item>
+        <md-list-item>{{ 'sugar' | capitalize }}</md-list-item>
       </md-list>
     </md-sidenav>
     <div class="my-content">
       <div>
         <md-toolbar color="primary">
           <span><md-icon>menu</md-icon></span>
-
           <span>{{this.title}}</span>
 
           <button md-icon-button [md-menu-trigger-for]="menu">
