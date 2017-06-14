@@ -1,18 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'Dancing Clover';
 
-  ngOnInit(): void {
-    console.log(`App has been launched with ${this.title} as title`);
-  }
+  constructor(private titleService: Title) { }
 
   buttonClicked() {
     this.title = 'Dancing Shamrock';
+    this.titleService.setTitle(this.title);
   }
 }
