@@ -1,4 +1,12 @@
-[
-    "caledonian-set",
-    "clare-lancers-set"
-]
+{
+  "data": [
+    {
+      "id": "caledonian-set",
+      "name": "Caledonian Set"
+    },
+    {
+      "id": "clare-lances-set",
+      "name": "Clare Lancers Set"
+    }
+  ]
+}

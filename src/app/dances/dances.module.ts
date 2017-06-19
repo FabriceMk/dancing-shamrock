@@ -1,19 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { CapitalizePipe } from './pipes/capitalize.pipe';
+import { DancesListComponent } from './dances-list/dances-list.component';
+
+import { DancesService } from './shared/dances.service';
 
 /**
  * Module for all useful shared tools, pipes, components that can be used across the whole application
  */
 @NgModule({
-  declarations: [
-    CapitalizePipe
-  ],
+  declarations: [ DancesListComponent ],
   imports: [ CommonModule ],
-  exports: [
-    CommonModule,
-    CapitalizePipe
-  ]
+  exports: [],
+  providers: [ DancesService ]
 })
 export class SharedModule {}
