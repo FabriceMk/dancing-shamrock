@@ -1,5 +1,5 @@
 <md-sidenav-container fullscreen>
-    <md-sidenav mode="over" opened="true">
+    <md-sidenav mode="over" opened="false">
       <md-list>
         <md-list-item>{{ 'pepper' | capitalize }}</md-list-item>
         <md-list-item>{{ 'salt' | capitalize }}</md-list-item>
@@ -12,7 +12,7 @@
           <span><md-icon>menu</md-icon></span>
           <span>{{this.title}}</span>
 
-          <button md-icon-button [md-menu-trigger-for]="menu">
+          <button md-icon-button>
             <md-icon>more_vert</md-icon>
           </button>
         </md-toolbar>
@@ -21,18 +21,7 @@
           <button md-menu-item>Option 2</button>
         </md-menu>
 
-        <md-card>
-          <button md-button>All</button>
-          <button md-raised-button>Of</button>
-          <button md-raised-button color="primary">The</button>
-          <button md-raised-button color="accent">Buttons</button>
-        </md-card>
-
-        <span class="done">
-          <button md-fab (click)="buttonClicked()">
-            <md-icon>check circle</md-icon>
-          </button>
-        </span>
+        <router-outlet></router-outlet>
       </div>
     </div>
 </md-sidenav-container>

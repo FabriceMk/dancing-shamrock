@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { DancesService } from '../shared/dances.service';
 
-import { DanceOverview } from '../shared/models/dance-overview';
+import { DanceOverview } from '../shared/models/dance-overview.model';
 
 @Component({
   selector: 'app-dances-list',

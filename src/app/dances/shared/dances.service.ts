@@ -3,7 +3,7 @@ import { Http, Response } from '@angular/http';
 
 import { Observable } from 'rxjs/Observable';
 
-import { DanceOverview } from './models/dance-overview';
+import { DanceOverview } from './models/dance-overview.model';
 
 /**
  * Service in charge of fetching Dances data.
