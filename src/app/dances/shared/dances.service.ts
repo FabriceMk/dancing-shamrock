@@ -20,7 +20,7 @@ export class DancesService {
   */
   getDancesList(): Observable<DanceOverview[]> {
     return this.http.get(`${this.source}/dances-index.json`)
-                    .map((res: Response) => res.json())
+                    .map((res: Response) => res.json() as DanceOverview[])
                     .catch(this.handleError);
   }
 

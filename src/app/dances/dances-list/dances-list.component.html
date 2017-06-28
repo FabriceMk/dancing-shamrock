@@ -1,7 +1,7 @@
 <md-card>
   <md-list>
-    <md-list-item> Pepper </md-list-item>
-    <md-list-item> Salt </md-list-item>
-    <md-list-item> Mustard </md-list-item>
+    <md-list-item *ngFor="let dance of dances">
+      {{dance.name}}
+    </md-list-item>
   </md-list>
 </md-card>

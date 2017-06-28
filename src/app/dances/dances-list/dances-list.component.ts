@@ -17,11 +17,11 @@ export class DancesListComponent implements OnInit {
 
   ngOnInit() { this.loadDances(); }
 
-  loadDances() {
+  loadDances(): void {
     this.dancesService.getDancesList()
-                      .subscribe(
-                        dances => this.dances = dances,
-                        error => this.errorMessage = <any>error
-                      );
+      .subscribe(
+        dances => this.dances = dances,
+        error => this.errorMessage = <any>error
+      );
   }
 }
