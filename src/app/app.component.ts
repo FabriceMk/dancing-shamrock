@@ -10,9 +10,4 @@ export class AppComponent {
   title = 'Dancing Clover';
 
   constructor(private titleService: Title) { }
-
-  buttonClicked() {
-    this.title = 'Dancing Shamrock';
-    this.titleService.setTitle(this.title);
-  }
 }
