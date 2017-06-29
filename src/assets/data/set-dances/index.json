@@ -1,0 +1,42 @@
+[
+  {
+    "id": "antrim-square",
+    "name": "Antrim Square"
+  },
+  {
+    "id": "ballyvourney-jig",
+    "name": "Ballyvourney (Jig)"
+  },
+  {
+    "id": "caledonian",
+    "name": "Caledonian"
+  },
+  {
+    "id": "castle",
+    "name": "Castle / Cashel"
+  },
+  {
+    "id": "clare-lancers",
+    "name": "Clare Lancers"
+  },
+  {
+    "id": "clare-plain",
+    "name": "Clare Plain "
+  },
+  {
+    "id": "connemara-reel",
+    "name": "Connemara (Reel)"
+  },
+  {
+    "id": "corofin-plain",
+    "name": "Corofin Plain"
+  },
+  {
+    "id": "merchant",
+    "name": "Merchant"
+  },
+  {
+    "id": "sliabh-luachra",
+    "name": "Sliabh Luachra"
+  }
+]

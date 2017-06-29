@@ -11,7 +11,7 @@ import { DanceOverview } from './models/dance-overview.model';
 @Injectable()
 export class DancesService {
 
-  private source = './assets/data/dances';
+  private source = './assets/data/set-dances';
 
   constructor (private http: Http) {}
 
@@ -19,7 +19,7 @@ export class DancesService {
   * Fetches dances list.
   */
   getDancesList(): Observable<DanceOverview[]> {
-    return this.http.get(`${this.source}/dances-index.json`)
+    return this.http.get(`${this.source}/index.json`)
                     .map((res: Response) => res.json() as DanceOverview[])
                     .catch(this.handleError);
   }
