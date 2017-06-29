@@ -19,7 +19,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    // Anguular modules
+    // Angular modules
     BrowserModule,
     FormsModule,
     HttpModule,
