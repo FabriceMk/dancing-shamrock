@@ -35,3 +35,7 @@ notifications:
   email:
     on_failure: change
     on_success: change
+
+cache:
+  directories:
+    - node_modules

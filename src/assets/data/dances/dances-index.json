@@ -1,4 +1,10 @@
 [
-    "caledonian-set",
-    "clare-lancers-set"
+  {
+    "id": "caledonian-set",
+    "name": "Caledonian Set"
+  },
+  {
+    "id": "clare-lancers-set",
+    "name": "Clare Lancers Set"
+  }
 ]
