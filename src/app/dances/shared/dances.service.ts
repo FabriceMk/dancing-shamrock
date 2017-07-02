@@ -3,7 +3,7 @@ import { Http, Response } from '@angular/http';
 
 import { Observable } from 'rxjs/Observable';
 
-import { DanceOverview } from './models/dance-overview.model';
+import { SetDanceOverview } from './models/set-dance-overview.model';
 
 /**
  * Service in charge of fetching Dances data.
@@ -18,9 +18,9 @@ export class DancesService {
   /**
   * Fetches dances list.
   */
-  getDancesList(): Observable<DanceOverview[]> {
+  getDancesList(): Observable<SetDanceOverview[]> {
     return this.http.get(`${this.source}/index.json`)
-                    .map((res: Response) => res.json() as DanceOverview[])
+                    .map((res: Response) => res.json() as SetDanceOverview[])
                     .catch(this.handleError);
   }
 

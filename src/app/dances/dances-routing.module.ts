@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { DancesListComponent } from './dances-list/dances-list.component';
+import { SetDancesListComponent } from './set-dances-list/set-dances-list.component';
 
 const dancesRoutes: Routes = [
-  { path: 'dances',  component: DancesListComponent }
+  { path: 'dances',  component: SetDancesListComponent }
 ];
 
 @NgModule({

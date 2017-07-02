@@ -2,16 +2,16 @@ import { Component, OnInit } from '@angular/core';
 
 import { DancesService } from '../shared/dances.service';
 
-import { DanceOverview } from '../shared/models/dance-overview.model';
+import { SetDanceOverview } from '../shared/models/set-dance-overview.model';
 
 @Component({
-  selector: 'app-dances-list',
-  templateUrl: './dances-list.component.html',
-  styleUrls: ['./dances-list.component.scss']
+  selector: 'app-set-dances-list',
+  templateUrl: './set-dances-list.component.html',
+  styleUrls: ['./set-dances-list.component.scss']
 })
-export class DancesListComponent implements OnInit {
+export class SetDancesListComponent implements OnInit {
   errorMessage: string;
-  dances: DanceOverview[];
+  dances: SetDanceOverview[];
 
   constructor(private dancesService: DancesService) { }
 
@@ -23,5 +23,10 @@ export class DancesListComponent implements OnInit {
         dances => this.dances = dances,
         error => this.errorMessage = <any>error
       );
+  }
+
+  displaySteps(dance: SetDanceOverview) {
+    const result = dance.stepsStyles.join(' - ');
+    return result;
   }
 }
