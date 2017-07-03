@@ -60,13 +60,13 @@
     "name": "Merchant",
     "alternativeNames": [],
     "figuresCount": 4,
-    "stepsStyles": ["na"]
+    "stepsStyles": ["reel", "hornpipe"]
   },
   {
     "id": "sliabh-luachra",
     "name": "Sliabh Luachra",
     "alternativeNames": [],
     "figuresCount": 6,
-    "stepsStyles": ["na"]
+    "stepsStyles": ["polka", "jig", "slide", "hornpipe"]
   }
 ]

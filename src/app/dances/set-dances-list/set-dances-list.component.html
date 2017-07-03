@@ -1,9 +1,19 @@
-<md-card>
-  <md-list>
-    <md-list-item *ngFor="let dance of dances">
-      <h2 md-line>{{ dance.name }}</h2>
-      <p md-line>Figures: {{ dance.figuresCount }}</p>
-      <p md-line>Steps: {{ displaySteps(dance) }}</p>
-    </md-list-item>
-  </md-list>
-</md-card>
+<div>
+  <md-card>
+    <md-list>
+      <md-list-item *ngFor="let dance of dances">
+        <h2 md-line>{{ dance.name }}</h2>
+        <p md-line>Figures: {{ dance.figuresCount }}</p>
+        <p md-line>Styles: {{ displaySteps(dance) }}</p>
+      </md-list-item>
+    </md-list>
+  </md-card>
+
+  <div class="actions">
+    <button md-fab><md-icon>search</md-icon></button>
+  </div>
+</div>
+
+
+
+
