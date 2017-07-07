@@ -31,7 +31,7 @@ describe('root: AppComponent', () => {
     expect(comp).toBeTruthy();
   }));
 
-  it(`should render title in the toolbar`, async(() => {
+  it('should render title in the toolbar', async(() => {
     const node = el.querySelector('#app-title');
 
     fixture.detectChanges();
