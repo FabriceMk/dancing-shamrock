@@ -24,6 +24,9 @@ import { AppComponent } from './app.component';
     FormsModule,
     HttpModule,
 
+    // AngularMaterial
+    BrowserAnimationsModule,
+
     // Base modules
     CoreModule,
     SharedModule,
