@@ -1,3 +1,5 @@
+@import 'metrics';
+
 .main-toolbar {
   position: fixed;
   top: 0;
@@ -11,5 +13,5 @@
 }
 
 .dynamic-content {
-  margin-top: 96px;
+  margin-top: $toolbar-height;
 }
