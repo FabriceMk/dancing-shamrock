@@ -1,6 +1,11 @@
 
 md-card {
   text-align: left;
+  padding: 0px;
+
+  md-nav-list {
+    padding: 0px;
+  }
 }
 
 .actions {
