@@ -18,8 +18,8 @@ export class DancesService {
   constructor (private http: Http) {}
 
   /**
-  * Fetches dances list.
-  */
+   * Fetches dances list.
+   */
   getDancesList(): Observable<SetDanceOverview[]> {
     return this.http.get(`${this.source}/index.json`)
                     .map((res: Response) => res.json() as SetDanceOverview[])
