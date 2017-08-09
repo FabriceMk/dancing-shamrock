@@ -2,8 +2,10 @@ import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
 
 import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/catch';
 
-import { DanceOverview } from './models/dance-overview.model';
+import { SetDanceOverview } from './models/set-dance-overview.model';
 
 /**
  * Service in charge of fetching Dances data.
@@ -11,16 +13,16 @@ import { DanceOverview } from './models/dance-overview.model';
 @Injectable()
 export class DancesService {
 
-  private source = './assets/data/dances';
+  private source = './assets/data/set-dances';
 
   constructor (private http: Http) {}
 
   /**
-  * Fetches dances list.
-  */
-  getDancesList(): Observable<DanceOverview[]> {
-    return this.http.get(`${this.source}/dances-index.json`)
-                    .map((res: Response) => res.json() as DanceOverview[])
+   * Fetches dances list.
+   */
+  getDancesList(): Observable<SetDanceOverview[]> {
+    return this.http.get(`${this.source}/index.json`)
+                    .map((res: Response) => res.json() as SetDanceOverview[])
                     .catch(this.handleError);
   }
 

@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { MaterialExporterModule } from './../material-exporter.module';
 import { DancesRoutingModule } from './dances-routing.module';
 
-import { DancesListComponent } from './dances-list/dances-list.component';
+import { SetDancesListComponent } from './set-dances-list/set-dances-list.component';
 
 import { DancesService } from './shared/dances.service';
 
@@ -12,13 +12,13 @@ import { DancesService } from './shared/dances.service';
  * Module for everything related to dances
  */
 @NgModule({
-  declarations: [ DancesListComponent ],
+  declarations: [ SetDancesListComponent ],
   imports: [
     CommonModule,
     MaterialExporterModule ,
     DancesRoutingModule
   ],
-  exports: [ DancesListComponent ],
+  exports: [ SetDancesListComponent ],
   providers: [ DancesService ]
 })
 export class DancesModule {}

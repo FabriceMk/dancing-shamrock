@@ -1,0 +1,72 @@
+[
+  {
+    "id": "antrim-square",
+    "name": "Antrim Square",
+    "alternativeNames": [],
+    "figuresCount": 3,
+    "stepsStyles": ["reel", "jig", "polka"]
+  },
+  {
+    "id": "ballyvourney-jig",
+    "name": "Ballyvourney (Jig)",
+    "alternativeNames": ["BV (Jig)"],
+    "figuresCount": 5,
+    "stepsStyles": ["jig"]
+  },
+  {
+    "id": "caledonian",
+    "name": "Caledonian",
+    "alternativeNames": [],
+    "figuresCount": 6,
+    "stepsStyles": ["reel", "jig"]
+  },
+  {
+    "id": "castle",
+    "name": "Castle",
+    "alternativeNames": ["Cashel"],
+    "figuresCount": 6,
+    "stepsStyles": ["slide", "polka", "hornpipe"]
+  },
+  {
+    "id": "clare-lancers",
+    "name": "Clare Lancers",
+    "alternativeNames": [],
+    "figuresCount": 5,
+    "stepsStyles": ["reel"]
+  },
+  {
+    "id": "clare-plain",
+    "name": "Clare Plain ",
+    "alternativeNames": ["Plain"],
+    "figuresCount": 6,
+    "stepsStyles": ["reel", "jig"]
+  },
+  {
+    "id": "connemara-reel",
+    "name": "Connemara (Reel)",
+    "alternativeNames": [],
+    "figuresCount": 4,
+    "stepsStyles": ["reel"]
+  },
+  {
+    "id": "corofin-plain",
+    "name": "Corofin Plain",
+    "alternativeNames": [],
+    "figuresCount": 6,
+    "stepsStyles": ["reel", "jig"]
+  },
+  {
+    "id": "merchant",
+    "name": "Merchant",
+    "alternativeNames": [],
+    "figuresCount": 4,
+    "stepsStyles": ["reel", "hornpipe"]
+  },
+  {
+    "id": "sliabh-luachra",
+    "name": "Sliabh Luachra",
+    "alternativeNames": [],
+    "figuresCount": 6,
+    "stepsStyles": ["polka", "jig", "slide", "hornpipe"]
+  }
+]

@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'metrics';
 
 /*html, body, material-app, md-sidenav-container, .my-content {
   margin: 0;
@@ -6,10 +7,21 @@
   height: 100%;
 }*/
 
-body {
+html, body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   font-family: Roboto, sans-serif;
 }
+
+.done {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+}
+
+/* Angular Material customizations */
 
 md-card {
   max-width: 80%;
@@ -19,11 +31,4 @@ md-card {
 
 md-toolbar-row {
   justify-content: space-between;
-}
-
-.done {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  color: white;
 }
