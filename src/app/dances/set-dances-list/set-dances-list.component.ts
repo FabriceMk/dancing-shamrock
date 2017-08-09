@@ -4,6 +4,9 @@ import { DancesService } from '../shared/dances.service';
 
 import { SetDanceOverview } from '../shared/models/set-dance-overview.model';
 
+/**
+ * Component which displays a list of set dances.
+ */
 @Component({
   selector: 'app-set-dances-list',
   templateUrl: './set-dances-list.component.html',

@@ -6,19 +6,24 @@ import { DancesRoutingModule } from './dances-routing.module';
 
 import { SetDancesListComponent } from './set-dances-list/set-dances-list.component';
 
+import { SetDancesDetailsComponent } from './set-dances-details/set-dances-details.component';
+
 import { DancesService } from './shared/dances.service';
 
 /**
  * Module for everything related to dances
  */
 @NgModule({
-  declarations: [ SetDancesListComponent ],
+  declarations: [
+    SetDancesListComponent,
+    SetDancesDetailsComponent
+  ],
   imports: [
     CommonModule,
     MaterialExporterModule ,
     DancesRoutingModule
   ],
-  exports: [ SetDancesListComponent ],
+  exports: [],
   providers: [ DancesService ]
 })
 export class DancesModule {}

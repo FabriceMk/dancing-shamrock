@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 import { CapitalizePipe } from './pipes/capitalize.pipe';
 
@@ -13,6 +14,7 @@ import { CapitalizePipe } from './pipes/capitalize.pipe';
   imports: [ CommonModule ],
   exports: [
     CommonModule,
+    FormsModule,
     CapitalizePipe
   ]
 })
