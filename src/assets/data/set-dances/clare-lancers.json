@@ -3,11 +3,11 @@
     "name": "Clare Lancers",
     "alternativeNames": [],
     "figuresCount": 5,
-    "stepsStyles": ["reel"],
+    "styles": ["reel"],
     "figures": [
         {
             "name": "The Square",
-            "style": "reels",
+            "style": "reel",
             "duration": 160,
             "movements": [
                 [
@@ -148,7 +148,7 @@
         },
         {
             "name": "Turn the Lady",
-            "style": "reels",
+            "style": "reel",
             "duration": 192,
             "movements": [
                 [

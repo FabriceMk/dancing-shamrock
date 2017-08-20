@@ -14,6 +14,6 @@ export class SetDanceOverview {
   /** Figures count in the set dance */
   figuresCount: number;
 
-  /** Steps Styles present across the figures  */
-  stepsStyles: string[];
+  /** Styles present across the figures  */
+  styles: string[];
 }
