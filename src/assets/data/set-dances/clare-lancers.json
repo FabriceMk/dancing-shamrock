@@ -1,0 +1,128 @@
+{
+    "id": "clare-lancers",
+    "name": "Clare Lancers",
+    "alternativeNames": [],
+    "figuresCount": 5,
+    "stepsStyles": ["reel"],
+    "figures": [
+        {
+            "name": "The Square",
+            "style": "reels",
+            "duration": 160,
+            "movements": [
+                [{
+                    "id": "lead-around",
+                    "name": "Lead around",
+                    "description": "Partners take crossed hand hold in front and dance around anti-clockwise to place, the gents turning the ladies under both arms into waltz hold on the last 2 bars.",
+                    "couples": [1,2,3,4],
+                    "duration": 8
+                }],
+                [{
+                    "id": "swing",
+                    "name": "Swing partners",
+                    "description": "",
+                    "couples": [1,2,3,4],
+                    "duration": 8
+                }],
+                [{
+                    "id": "passby-swing",
+                    "name": "Pass by and swing",
+                    "description": "1st gent and 2nd lady pass by and swing: they dance in, passing L shoulder to L shoulder, ½ turn L to face each other (4 bars) and swing with waltz hold (4 bars) to end with their backs to their own place.",
+                    "couples": [1,2],
+                    "duration": 8
+                },
+                {
+                    "id": "passthrough-square",
+                    "name": "Pass through (Square)",
+                    "description": "Each couple dances through the other, ladies in the centre, each dancer R shoulder to R shoulder with the opposite lady/gent.  Partners then pass each other L shoulder to L shoulder to exchange places and turn in. Couples dance through each other R shoulder to R shoulder and partners pass L shoulder to L shoulder back to place. Side couples dance the last 2 bars in place.",
+                    "couples": [1,2],
+                    "duration": 8
+                }],
+                [{
+                    "id": "swing",
+                    "name": "Swing corners",
+                    "description": "Each gent with the lady on his L.",
+                    "couples": [1,2,3,4],
+                    "duration": 8
+                },
+                {
+                    "id": "swing",
+                    "name": "Swing partners",
+                    "description": "",
+                    "couples": [1,2,3,4],
+                    "duration": 8
+                }],
+                [{
+                    "id": "repeat",
+                    "reference": 3,
+                    "description": "With 2nd gent and 1st lady leading.",
+                    "couples": [1,2],
+                    "duration": 16
+                }],
+                [{
+                    "id": "swing",
+                    "name": "Swing corners",
+                    "description": "",
+                    "couples": [1,2,3,4],
+                    "duration": 8
+                },
+                {
+                    "id": "swing",
+                    "name": "Swing partners",
+                    "description": "",
+                    "couples": [1,2,3,4],
+                    "duration": 8
+                }],
+                [{
+                    "id": "repeat",
+                    "reference": 3,
+                    "description": "With 1st side gent and 2nd side lady leading.",
+                    "couples": [3,4],
+                    "duration": 16
+                }],
+                [{
+                    "id": "swing",
+                    "name": "Swing corners",
+                    "description": "",
+                    "couples": [1,2,3,4],
+                    "duration": 8
+                },
+                {
+                    "id": "swing",
+                    "name": "Swing partners",
+                    "description": "",
+                    "couples": [1,2,3,4],
+                    "duration": 8
+                }],
+                [{
+                    "id": "repeat",
+                    "reference": 3,
+                    "description": "With 2nd side gent and 1st side lady leading.",
+                    "couples": [3,4],
+                    "duration": 16
+                }],
+                [{
+                    "id": "swing",
+                    "name": "Swing corners",
+                    "description": "",
+                    "couples": [1,2,3,4],
+                    "duration": 8
+                },
+                {
+                    "id": "swing",
+                    "name": "Swing partners",
+                    "description": "",
+                    "couples": [1,2,3,4],
+                    "duration": 8
+                }],
+                [{
+                    "id": "house-around",
+                    "name": "House around",
+                    "description": "The last 2 steps can be doubled.",
+                    "couples": [1,2,3,4],
+                    "duration": 8
+                }]
+            ]
+        }
+    ]
+}
