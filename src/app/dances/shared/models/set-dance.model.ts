@@ -1,7 +1,7 @@
 /**
- * Set Dance Entry with overview data
+ * Set Dance entry with all its data.
  */
-export class SetDanceOverview {
+export class SetDance {
   /** Unique identifier of the set dance */
   id: string;
 

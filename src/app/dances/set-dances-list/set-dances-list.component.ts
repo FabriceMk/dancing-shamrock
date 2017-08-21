@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { DancesService } from '../shared/dances.service';
 
-import { SetDanceOverview } from '../shared/models/set-dance-overview.model';
+import { SetDance } from '../shared/models/set-dance.model';
 
 /**
  * Component which displays a list of set dances.
@@ -14,7 +14,7 @@ import { SetDanceOverview } from '../shared/models/set-dance-overview.model';
 })
 export class SetDancesListComponent implements OnInit {
   errorMessage: string;
-  dances: SetDanceOverview[];
+  dances: SetDance[];
 
   constructor(private dancesService: DancesService) { }
 
@@ -28,7 +28,7 @@ export class SetDancesListComponent implements OnInit {
       );
   }
 
-  displaySteps(dance: SetDanceOverview) {
+  displaySteps(dance: SetDance) {
     const result = dance.stepsStyles.join(' - ');
     return result;
   }
