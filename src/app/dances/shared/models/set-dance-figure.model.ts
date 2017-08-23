@@ -1,4 +1,4 @@
-import { SetDanceMovementGroup } from './set-dance-movement-group.model';
+import { SetDanceMovement } from './set-dance-movement.model';
 
 /**
  * Set Dance Figure.
@@ -13,6 +13,6 @@ export class SetDanceFigure {
   /** Duration in bars of the Figure */
   duration: number;
 
-  /** List of Movement Groups in the Figure */
-  movementsGroups: SetDanceMovementGroup[];
+  /** List of Movements in the Figure */
+  movements: SetDanceMovement[];
 }

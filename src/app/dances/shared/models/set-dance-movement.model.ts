@@ -1,11 +1,15 @@
 /**
- * Set Dance movement.
+ * Set Dance Movement.
+ * Represents a particular Movement in a Figure.
+ * Can also be an aggregation of other Movements, this can be useful to modelize
+ * a group of movements that should be repeated with only slight variations
+ * (usually just the couples involved).
  */
 export class SetDanceMovement {
-  /** Id of the Movement */
+  /** Id of the Movement (can be used to link to the glossary entry) */
   id: string;
 
-  /** Name of the Movement */
+  /** Readable name of the Movement */
   name: string;
 
   /** Description of the Movement */
@@ -20,6 +24,11 @@ export class SetDanceMovement {
    */
   couples: number[];
 
-  /** Duration in bars */
+  /** Duration in bars of the movement, should be set for single movements,
+   * will be ignored if sub movements are set because it will be dynamically calculated.
+   */
   duration: number;
+
+  /** Ordered List of optional sub Movements in the Group. */
+  movements: SetDanceMovement[];
 }

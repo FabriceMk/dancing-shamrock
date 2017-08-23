@@ -2,37 +2,25 @@
   "id": "clare-lancers",
   "name": "Clare Lancers",
   "alternativeNames": [],
-  "figuresCount": 5,
-  "styles": [
-    "reel"
-  ],
   "figures": [
     {
       "name": "The Square",
       "style": "reel",
       "duration": 160,
-      "movementsGroups": [
+      "movements": [
         {
-          "movements": [
-            {
-              "id": "lead-around",
-              "name": "Lead around",
-              "description": "Partners take crossed hand hold in front and dance around anti-clockwise to place, the gents turning the ladies under both arms into waltz hold on the last 2 bars.",
-              "couples": [1,2,3,4],
-              "duration": 8
-            }
-          ]
+          "id": "lead-around",
+          "name": "Lead around",
+          "description": "Partners take crossed hand hold in front and dance around anti-clockwise to place, the gents turning the ladies under both arms into waltz hold on the last 2 bars.",
+          "couples": [1,2,3,4],
+          "duration": 8
         },
         {
-          "movements": [
-            {
-              "id": "swing",
-              "name": "Swing partners",
-              "description": "",
-              "couples": [1,2,3,4],
-              "duration": 8
-            }
-          ]
+          "id": "swing",
+          "name": "Swing partners",
+          "description": "",
+          "couples": [1,2,3,4],
+          "duration": 8
         },
         {
           "movements": [
@@ -71,15 +59,11 @@
           ]
         },
         {
-          "movements": [
-            {
-              "id": "repeat",
-              "reference": 3,
-              "description": "With 2nd gent and 1st lady leading.",
-              "couples": [1,2],
-              "duration": 16
-            }
-          ]
+          "id": "repeat",
+          "reference": 3,
+          "description": "With 2nd gent and 1st lady leading.",
+          "couples": [1,2],
+          "duration": 16
         },
         {
           "movements": [
@@ -100,15 +84,11 @@
           ]
         },
         {
-          "movements": [
-            {
-              "id": "repeat",
-              "reference": 3,
-              "description": "With 1st side gent and 2nd side lady leading.",
-              "couples": [3,4],
-              "duration": 16
-            }
-          ]
+          "id": "repeat",
+          "reference": 3,
+          "description": "With 1st side gent and 2nd side lady leading.",
+          "couples": [3,4],
+          "duration": 16
         },
         {
           "movements": [
@@ -129,15 +109,11 @@
           ]
         },
         {
-          "movements": [
-            {
-              "id": "repeat",
-              "reference": 3,
-              "description": "With 2nd side gent and 1st side lady leading.",
-              "couples": [3,4],
-              "duration": 16
-            }
-          ]
+          "id": "repeat",
+          "reference": 3,
+          "description": "With 2nd side gent and 1st side lady leading.",
+          "couples": [3,4],
+          "duration": 16
         },
         {
           "movements": [
@@ -158,15 +134,11 @@
           ]
         },
         {
-          "movements": [
-            {
-              "id": "house-around",
-              "name": "House around",
-              "description": "The last 2 steps can be doubled.",
-              "couples": [1,2,3,4],
-              "duration": 8
-            }
-          ]
+          "id": "house-around",
+          "name": "House around",
+          "description": "The last 2 steps can be doubled.",
+          "couples": [1,2,3,4],
+          "duration": 8
         }
       ]
     },
@@ -176,26 +148,18 @@
       "duration": 192,
       "movements": [
         {
-          "movements": [
-            {
-              "id": "lead-around",
-              "name": "Lead around",
-              "description": "Partners take crossed hand hold in front and dance around anti-clockwise to place, the gents turning the ladies under both arms into waltz hold on the last 2 bars.",
-              "couples": [1,2,3,4],
-              "duration": 8
-            }
-          ]
+          "id": "lead-around",
+          "name": "Lead around",
+          "description": "Partners take crossed hand hold in front and dance around anti-clockwise to place, the gents turning the ladies under both arms into waltz hold on the last 2 bars.",
+          "couples": [1,2,3,4],
+          "duration": 8
         },
         {
-          "movements": [
-            {
-              "id": "swing",
-              "name": "Swing partners",
-              "description": "",
-              "couples": [1,2,3,4],
-              "duration": 8
-            }
-          ]
+          "id": "swing",
+          "name": "Swing partners",
+          "description": "",
+          "couples": [1,2,3,4],
+          "duration": 8
         },
         {
           "movements": [
@@ -241,15 +205,11 @@
           ]
         },
         {
-          "movements": [
-            {
-              "id": "repeat",
-              "reference": 3,
-              "description": "",
-              "couples": [2],
-              "duration": 24
-            }
-          ]
+          "id": "repeat",
+          "reference": 3,
+          "description": "",
+          "couples": [2],
+          "duration": 24
         },
         {
           "movements": [
@@ -270,15 +230,11 @@
           ]
         },
         {
-          "movements": [
-            {
-              "id": "repeat",
-              "reference": 3,
-              "description": "",
-              "couples": [3],
-              "duration": 24
-            }
-          ]
+          "id": "repeat",
+          "reference": 3,
+          "description": "",
+          "couples": [3],
+          "duration": 24
         },
         {
           "movements": [
@@ -299,15 +255,11 @@
           ]
         },
         {
-          "movements": [
-            {
-              "id": "repeat",
-              "reference": 3,
-              "description": "",
-              "couples": [4],
-              "duration": 24
-            }
-          ]
+          "id": "repeat",
+          "reference": 3,
+          "description": "",
+          "couples": [4],
+          "duration": 24
         },
         {
           "movements": [
@@ -328,15 +280,11 @@
           ]
         },
         {
-          "movements": [
-            {
-              "id": "house-around",
-              "name": "House around",
-              "description": "The last 2 steps can be doubled.",
-              "couples": [1,2,3,4],
-              "duration": 8
-            }
-          ]
+          "id": "house-around",
+          "name": "House around",
+          "description": "The last 2 steps can be doubled.",
+          "couples": [1,2,3,4],
+          "duration": 8
         }
       ]
     }
