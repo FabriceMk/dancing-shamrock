@@ -3,6 +3,9 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
 import 'rxjs/add/operator/switchMap';
 
+import { DancesService } from '../shared/dances.service';
+import { SetDance } from '../shared/models/set-dance.model';
+
 /**
  * Component which displays the details of a set dance.
  */
@@ -12,16 +15,19 @@ import 'rxjs/add/operator/switchMap';
   styleUrls: ['./set-dances-details.component.scss']
 })
 export class SetDancesDetailsComponent implements OnInit {
-  id: string;
+  dance: SetDance;
 
   constructor(
     private route: ActivatedRoute,
-    private router: Router
+    private router: Router,
+    private dancesService: DancesService
   ) {}
 
   ngOnInit() {
-    this.route.params.subscribe(params => {
-      this.id = params['id'];
-    });
+    this.route.params
+      .switchMap((params: ParamMap) => this.dancesService.getDance(params['id']))
+      .subscribe(dance => {
+        this.dance = dance;
+      });
   }
 }

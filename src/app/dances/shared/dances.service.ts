@@ -6,6 +6,7 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 import { SetDanceOverview } from './models/set-dance-overview.model';
+import { SetDance } from './models/set-dance.model';
 
 /**
  * Service in charge of fetching Dances data.
@@ -22,8 +23,14 @@ export class DancesService {
    */
   getDancesList(): Observable<SetDanceOverview[]> {
     return this.http.get(`${this.source}/index.json`)
-                    .map((res: Response) => res.json() as SetDanceOverview[])
-                    .catch(this.handleError);
+      .map((res: Response) => res.json() as SetDanceOverview[])
+      .catch(this.handleError);
+  }
+
+  getDance(danceId: string): Observable<SetDance> {
+    return this.http.get(`${this.source}/${danceId}.json`)
+      .map((res: Response) => res.json() as SetDance)
+      .catch(this.handleError);
   }
 
   private handleError(error: Response | any) {
