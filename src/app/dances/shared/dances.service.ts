@@ -27,6 +27,10 @@ export class DancesService {
       .catch(this.handleError);
   }
 
+  /**
+   * Fetches a single dance with its details
+   * @param danceId Unique identifier of the dance.
+   */
   getDance(danceId: string): Observable<SetDance> {
     return this.http.get(`${this.source}/${danceId}.json`)
       .map((res: Response) => res.json() as SetDance)

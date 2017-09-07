@@ -8,10 +8,10 @@ import { CapitalizePipe } from './pipes/capitalize.pipe';
  * Module for all useful shared tools, pipes, components that can be used across the whole application
  */
 @NgModule({
+  imports: [ CommonModule ],
   declarations: [
     CapitalizePipe
   ],
-  imports: [ CommonModule ],
   exports: [
     CommonModule,
     FormsModule,

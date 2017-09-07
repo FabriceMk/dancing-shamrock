@@ -15,9 +15,6 @@ import { DancesModule } from './dances/dances.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
     // Angular modules
     BrowserModule,
@@ -37,6 +34,9 @@ import { AppComponent } from './app.component';
 
     // App Routing Module
     AppRoutingModule
+  ],
+  declarations: [
+    AppComponent
   ],
   exports: [],
   providers: [],

@@ -15,6 +15,8 @@ import { SetDance } from '../shared/models/set-dance.model';
   styleUrls: ['./set-dances-details.component.scss']
 })
 export class SetDancesDetailsComponent implements OnInit {
+
+  /** The set dance to display the details from. */
   dance: SetDance;
 
   constructor(

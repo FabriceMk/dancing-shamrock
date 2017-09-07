@@ -18,7 +18,9 @@ export class SetDancesListComponent implements OnInit {
 
   constructor(private dancesService: DancesService) { }
 
-  ngOnInit() { this.loadDances(); }
+  ngOnInit() {
+    this.loadDances();
+  }
 
   loadDances(): void {
     this.dancesService.getDancesList()
