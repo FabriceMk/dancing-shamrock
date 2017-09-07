@@ -15,9 +15,11 @@ import { SetDance } from '../shared/models/set-dance.model';
   styleUrls: ['./set-dances-details.component.scss']
 })
 export class SetDancesDetailsComponent implements OnInit {
-
   /** The set dance to display the details from. */
   dance: SetDance;
+
+  isLoading = true;
+  hasError = false;
 
   constructor(
     private route: ActivatedRoute,
@@ -28,8 +30,14 @@ export class SetDancesDetailsComponent implements OnInit {
   ngOnInit() {
     this.route.params
       .switchMap((params: ParamMap) => this.dancesService.getDance(params['id']))
-      .subscribe(dance => {
+      .subscribe(
+        dance => {
         this.dance = dance;
-      });
+        this.isLoading = false;
+        },
+        error => {
+          this.hasError = true;
+        }
+      );
   }
 }

@@ -1,3 +1,8 @@
-<div *ngIf=dance>
-  Dance with name: {{ dance.name }}
-</div>
+<md-spinner *ngIf="isLoading"></md-spinner>
+<md-tab-group *ngIf="dance">
+  <md-tab *ngFor="let figure of dance.figures; let i = index;" label="Figure {{ i+1 }}">
+    <md-card>
+        Figure name: {{ figure.name }}
+    </md-card>
+  </md-tab>
+</md-tab-group>

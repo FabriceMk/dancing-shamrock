@@ -6,7 +6,9 @@ import {
   MdToolbarModule,
   MdCardModule,
   MdButtonModule,
-  MdIconModule
+  MdIconModule,
+  MdProgressSpinnerModule,
+  MdTabsModule
  } from '@angular/material';
 
 @NgModule({
@@ -17,7 +19,9 @@ import {
     MdToolbarModule,
     MdCardModule,
     MdButtonModule,
-    MdIconModule
+    MdIconModule,
+    MdProgressSpinnerModule,
+    MdTabsModule
   ],
   exports: [
     MdListModule,
@@ -26,7 +30,9 @@ import {
     MdToolbarModule,
     MdCardModule,
     MdButtonModule,
-    MdIconModule
+    MdIconModule,
+    MdProgressSpinnerModule,
+    MdTabsModule
   ],
 })
 export class MaterialExporterModule { }
