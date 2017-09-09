@@ -1,8 +1,25 @@
 <md-spinner *ngIf="isLoading"></md-spinner>
 <md-tab-group *ngIf="dance">
-  <md-tab *ngFor="let figure of dance.figures; let i = index;" label="Figure {{ i+1 }}">
+  <md-tab *ngFor="let figure of dance.figures; let i = index;" label="Figure {{i+1}}">
     <md-card>
-        Figure name: {{ figure.name }}
+        <md-card-title>
+          {{figure.name}}
+        </md-card-title>
+        <md-card-subtitle>
+          Style: {{figure.style}}
+        </md-card-subtitle>
+        <md-card-content>
+          <div *ngFor="let movement of figure.movements; let j = index;">
+            <div *ngIf="movement.id !== 'group'; else movement_group">
+              {{j+1 + '. ' + movement.id}}
+            </div>
+            <ng-template #movement_group>
+              <div *ngFor="let subMovement of movement.movements">
+                {{subMovement.name}}
+              </div>
+            </ng-template>
+          </div>
+        </md-card-content>
     </md-card>
   </md-tab>
 </md-tab-group>
