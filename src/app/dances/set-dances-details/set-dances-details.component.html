@@ -10,14 +10,22 @@
         </md-card-subtitle>
         <md-card-content>
           <div *ngFor="let movement of figure.movements; let j = index;">
-            <div *ngIf="movement.id !== 'group'; else movement_group">
-              {{j+1 + '. ' + movement.id}}
+            <p>{{j+1 + '. '}}</p>
+            <div *ngIf="movement.id !== specialType.GROUP 
+            && movement.id !== specialType.REPEAT">
+              <p>{{movement.name}}</p>
+              <p>{{movement.description}}</p>
             </div>
-            <ng-template #movement_group>
+            <ng-container *ngIf="movement.id === specialType.GROUP">
               <div *ngFor="let subMovement of movement.movements">
-                {{subMovement.name}}
+                <p>{{subMovement.name}}</p>
+                <p>{{subMovement.description}}</p>                  
               </div>
-            </ng-template>
+            </ng-container>
+            <ng-container *ngIf="movement.id === specialType.REPEAT">
+              <p>Repeat {{movement.reference}}</p>
+              <p>{{movement.description}}</p>
+            </ng-container>
           </div>
         </md-card-content>
     </md-card>
