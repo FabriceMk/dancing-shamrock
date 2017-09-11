@@ -3,6 +3,5 @@
  * set dance movements.
  */
 export enum SetDanceMovementSpecialType {
-  REPEAT = 'repeat',
-  GROUP = 'group'
+  REPEAT = 'repeat'
 }

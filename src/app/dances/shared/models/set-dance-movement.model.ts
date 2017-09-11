@@ -28,7 +28,4 @@ export class SetDanceMovement {
    * will be ignored if sub movements are set because it will be dynamically calculated.
    */
   duration: number;
-
-  /** Ordered List of optional sub Movements in the Group. */
-  movements: SetDanceMovement[];
 }
