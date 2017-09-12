@@ -9,19 +9,18 @@
           Style: {{figure.style}}
         </md-card-subtitle>
         <md-card-content>
-          <div *ngFor="let movement of figure.movements; let j = index;">
-            <p>{{j+1 + '. '}}</p>
-            <div *ngFor="let group of movement;">
-              <ng-container *ngIf="group.id !== specialType.REPEAT">
-                <p>{{group.name}}</p>
-                <p>{{group.description}}</p>
-              </ng-container>
-              <ng-container *ngIf="group.id === specialType.REPEAT">
-                <p>Repeat {{group.reference}}</p>
-                <p>{{group.description}}</p>
-              </ng-container>
-            </div>
-          </div>
+          <md-list>
+            <ng-container *ngFor="let movement of figure.movements; let j = index;">
+              <!-- <p>{{j+1 + '. '}}</p> -->
+              <!-- <h3 md-subheader>Folders</h3> -->
+              <md-list-item *ngFor="let group of movement;">              
+                <p class="primary-text" md-line *ngIf="group.id !== specialType.REPEAT">{{group.name}}</p>
+                <p class="primary-text" md-line *ngIf="group.id === specialType.REPEAT">Repeat {{group.reference}}</p>
+                <p class="secondary-text" md-line>{{group.description}}</p>
+              </md-list-item>
+            </ng-container>
+          </md-list>
+          
         </md-card-content>
     </md-card>
   </md-tab>
