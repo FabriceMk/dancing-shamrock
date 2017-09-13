@@ -7,6 +7,8 @@
       "name": "The Square",
       "style": "reel",
       "duration": 160,
+      "videoUrl": "https://www.youtube.com/watch?v=hnzR8Bpmnyo",
+      "videoThumbnailUrl": "https://img.youtube.com/vi/hnzR8Bpmnyo/maxresdefault.jpg",    
       "movements": [
         [
           {
@@ -148,6 +150,8 @@
       "name": "Turn the Lady",
       "style": "reel",
       "duration": 192,
+      "videoUrl": "https://www.youtube.com/watch?v=vA1_jfgO8xs",
+      "videoThumbnailUrl": "https://img.youtube.com/vi/vA1_jfgO8xs/maxresdefault.jpg", 
       "movements": [
         [
           {
