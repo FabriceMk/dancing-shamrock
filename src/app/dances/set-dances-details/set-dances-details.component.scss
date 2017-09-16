@@ -1,0 +1,23 @@
+@import 'metrics';
+
+.group-movement {
+  display: flex;
+  flex-direction: row;
+
+  padding-top: $magic-spacing;
+  
+  .group-number {
+    min-width: 24px;
+  }
+}
+
+md-divider {
+  margin-top: $magic-spacing;
+}
+
+.group-content {
+  margin-left: $magic-spacing;
+  display: flex;
+  flex-direction: column;
+}
+
