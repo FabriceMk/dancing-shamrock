@@ -8,16 +8,26 @@
   
   .group-number {
     min-width: 24px;
+    flex: 0 0 auto;
+    margin-left: $magic-spacing;
+  }
+
+  .group-content {
+    margin-left: $magic-spacing;
+    margin-right: $magic-spacing;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+  }
+
+  .group-info {
+    min-width: 24px;
+    flex: 0 0 auto;
   }
 }
 
 md-divider {
   margin-top: $magic-spacing;
-}
-
-.group-content {
-  margin-left: $magic-spacing;
-  display: flex;
-  flex-direction: column;
 }
 

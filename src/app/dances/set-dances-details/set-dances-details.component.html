@@ -3,7 +3,12 @@
   <md-tab *ngFor="let figure of dance.figures; let figureNumber = index;" label="Figure {{figureNumber+1}}">
     <md-card>
         <md-card-title>{{figure.name}}</md-card-title>
-        <md-card-subtitle>Style: {{figure.style}}</md-card-subtitle>
+        <md-card-subtitle>
+          <md-chip-list>
+            <md-chip selected="true" color="primary">{{figure.style | capitalize}}</md-chip>
+            <md-chip>{{figure.duration}} bars</md-chip>
+          </md-chip-list>
+        </md-card-subtitle>
         <md-card-content>
           <md-list>
             <ng-container *ngFor="let movement of figure.movements; let movementNumber = index;">
@@ -17,11 +22,16 @@
                   <div class="primary-text" *ngIf="group.id === specialType.REPEAT">Repeat {{group.reference}}</div>
                   <div class="secondary-text" *ngIf="group.description">{{group.description}}</div>
                 </div>
+                <div class="group-info">
+                  <md-chip-list>
+                    <md-chip color="primary">{{group.duration}}</md-chip>
+                  </md-chip-list>
+                </div>
               </div>
             </ng-container>
           </md-list>
         </md-card-content>
-        <img md-card-image src="{{figure.videoThumbnailUrl}}" alt="Video Thumbnail">
+        <img md-card-image src="{{figure.videoThumbnailUrl}}" alt="Video Thumbnail" onError="this.src='assets/images/placeholder_big_wide.png';">
         <md-card-actions>
           <button md-button>SHARE</button>
         </md-card-actions>
