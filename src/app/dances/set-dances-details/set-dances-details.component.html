@@ -15,7 +15,10 @@
               <md-divider></md-divider>
               <div class="group-movement" *ngFor="let group of movement; let groupNumber = index;">
                 <div class="group-number">
-                  <span *ngIf="groupNumber == 0">{{movementNumber+1 + '. '}}</span>
+                  <!-- <md-chip-list>
+                    <md-chip selected="true" color="primary" *ngIf="groupNumber == 0">{{movementNumber+1 + '. '}}</md-chip>
+                  </md-chip-list> -->
+                  <span class="primary-text" *ngIf="groupNumber == 0">{{movementNumber+1 + '. '}}</span>
                 </div>
                 <div class="group-content">
                   <div class="primary-text" *ngIf="group.id !== specialType.REPEAT">{{group.name}}</div>
@@ -32,9 +35,9 @@
           </md-list>
         </md-card-content>
         <img md-card-image src="{{figure.videoThumbnailUrl}}" alt="Video Thumbnail" onError="this.src='assets/images/placeholder_big_wide.png';">
-        <md-card-actions>
+        <!-- <md-card-actions>
           <button md-button>SHARE</button>
-        </md-card-actions>
+        </md-card-actions> -->
     </md-card>
   </md-tab>
 </md-tab-group>
