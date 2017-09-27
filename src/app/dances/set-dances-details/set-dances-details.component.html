@@ -21,8 +21,11 @@
                   <span class="primary-text" *ngIf="groupNumber == 0">{{movementNumber+1 + '. '}}</span>
                 </div>
                 <div class="group-content">
-                  <div class="primary-text" *ngIf="group.id !== specialType.REPEAT">{{group.name}}</div>
-                  <div class="primary-text" *ngIf="group.id === specialType.REPEAT">Repeat {{group.reference}}</div>
+                  <div class="group-header" >
+                    <span class="primary-text" *ngIf="group.id !== specialType.REPEAT">{{group.name}}</span>
+                    <span class="primary-text" *ngIf="group.id === specialType.REPEAT">Repeat {{group.reference}}</span>
+                    <span class="couples-display">{{displayCouples(group.couples)}}</span>
+                  </div>
                   <div class="secondary-text" *ngIf="group.description">{{group.description}}</div>
                 </div>
                 <div class="group-info">
@@ -34,7 +37,7 @@
             </ng-container>
           </md-list>
         </md-card-content>
-        <img md-card-image src="{{figure.videoThumbnailUrl}}" alt="Video Thumbnail" onError="this.src='assets/images/placeholder_big_wide.png';">
+        <!-- <img md-card-image src="{{figure.videoThumbnailUrl}}" alt="Video Thumbnail" onError="this.src='assets/images/placeholder_big_wide.png';"> -->
         <!-- <md-card-actions>
           <button md-button>SHARE</button>
         </md-card-actions> -->

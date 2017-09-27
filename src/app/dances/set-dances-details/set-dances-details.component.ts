@@ -47,4 +47,54 @@ export class SetDancesDetailsComponent implements OnInit {
         }
       );
   }
+
+  /**
+   * Displays a nice string for couples.
+   */
+  displayCouples(couplesArray: number[]): string {
+    let firstTop = false;
+    let secondTop = false;
+    let firstSide = false;
+    let secondSide = false;
+
+    for (const couple of couplesArray){
+      switch (couple) {
+        case 1: firstTop = true; break;
+        case 2: firstSide = true; break;
+        case 3: secondTop = true; break;
+        case 4: secondSide = true; break;
+      }
+    }
+
+    if (firstSide && secondTop && firstSide && secondSide) {
+      return 'All couples';
+    }
+
+    if (firstTop && secondTop && !firstSide && !secondSide) {
+      return 'Top couples';
+    }
+
+    if (!firstTop && !secondTop && firstSide && secondSide) {
+      return 'Side couples';
+    }
+
+    const result = [];
+
+    if (firstTop) {
+      result.push('1st Top');
+    }
+
+    if (secondTop) {
+      result.push('2nd Top');
+    }
+
+    if (firstSide) {
+      result.push('1st Side');
+    }
+
+    if (secondSide) {
+      result.push('2nd Side');
+    }
+    return result.join(' - ');
+  }
 }
