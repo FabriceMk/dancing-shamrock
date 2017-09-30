@@ -4,7 +4,7 @@
     <md-card>
         <md-card-title>{{figure.name}}</md-card-title>
         <md-card-subtitle>
-          <md-chip-list>
+          <md-chip-list >
             <md-chip selected="true" color="primary">{{figure.style | capitalize}}</md-chip>
             <md-chip>{{figure.duration}} bars</md-chip>
           </md-chip-list>
@@ -15,9 +15,6 @@
               <md-divider></md-divider>
               <div class="group-movement" *ngFor="let group of movement; let groupNumber = index;">
                 <div class="group-number">
-                  <!-- <md-chip-list>
-                    <md-chip selected="true" color="primary" *ngIf="groupNumber == 0">{{movementNumber+1 + '. '}}</md-chip>
-                  </md-chip-list> -->
                   <span class="primary-text" *ngIf="groupNumber == 0">{{movementNumber+1 + '. '}}</span>
                 </div>
                 <div class="group-content">
@@ -26,7 +23,7 @@
                     <span class="primary-text" *ngIf="group.id === specialType.REPEAT">Repeat {{group.reference}}</span>
                     <span class="couples-display">{{displayCouples(group.couples)}}</span>
                   </div>
-                  <div class="secondary-text" *ngIf="group.description">{{group.description}}</div>
+                  <div class="secondary-text" *ngIf="group.description && displayDescriptions">{{group.description}}</div>
                 </div>
                 <div class="group-info">
                   <md-chip-list>

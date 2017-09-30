@@ -28,6 +28,9 @@ export class SetDancesDetailsComponent implements OnInit {
   /** Error state of the component data. */
   hasError = false;
 
+  /** Displays the descriptions */
+  displayDescriptions = true;
+
   constructor(
     private route: ActivatedRoute,
     private router: Router,
