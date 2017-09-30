@@ -319,7 +319,7 @@
         ],
         [
           {
-            "id": "advance-and-retire",
+            "id": "advance-retire",
             "name": "Ladies Advance and Retire",
             "description": "Ladies advance and retire twice, bowing heads to the opposite lady on the second advance, while gents stand.",
             "couples": [1,2,3,4],
@@ -328,7 +328,7 @@
         ],
         [
           {
-            "id": "advance-and-retire",
+            "id": "advance-retire",
             "name": "Gents Advance and Retire",
             "description": "Gents advance and retire, advance again and bow their heads, take L hands in the centre, tops beneath sides, on the last 2 bars.",
             "couples": [1,2,3,4],
@@ -362,14 +362,14 @@
             "duration": 8
           },
           {
-            "id": "advance-and-retire",
+            "id": "advance-retire",
             "name": "Ladies advance and retire",
             "description": "",
             "couples": [1,2,3,4],
             "duration": 8
           },
           {
-            "id": "advance-and-retire",
+            "id": "advance-retire",
             "name": "Gents advance and retire",
             "description": "",
             "couples": [1,2,3,4],
@@ -417,7 +417,177 @@
       "videoUrl": "https://www.youtube.com/watch?v=vA1_jfgO8xs",
       "videoThumbnailUrl": "https://img.youtube.com/vi/vA1_jfgO8xs/maxresdefault.jpg", 
       "movements": [
-
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing partners",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-within",
+            "name": "House within",
+            "description": "1st Top couple house within the set.",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "Both couples lead around: partners take crossed hand hold in front and lead round clockwise within the set to finish facing the couple they passed first.",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "wheel-r-l",
+            "name": "Wheel R and L",
+            "description": "Couples facing each other now wheel R hand (4 bars) and L hand back to place.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "swing-four",
+            "name": "Swing four",
+            "description": "The same couples now join up to swing clockwise (7 bars) and back to place on the last bar.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "swing",
+            "name": "Swing partners",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-within",
+            "name": "House within",
+            "description": "2nd Top couple house within the set.",
+            "couples": [3],
+            "duration": 8
+          },
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "Both couples lead around anti-clockwise, to finish facing the couple they passed first.",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "wheel-r-l",
+            "name": "Wheel R and L",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing-four",
+            "name": "Swing four",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing partners",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "Side couples dance 2 with 1st Side couple dancing the house within.",
+            "couples": [2,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "wheel-r-l",
+            "name": "Wheel R and L",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing-four",
+            "name": "Swing four",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing partners",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 6,
+            "description": "Side couples dance 6 with 2nd Side couple dancing the house within.",
+            "couples": [2,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "wheel-r-l",
+            "name": "Wheel R and L",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing-four",
+            "name": "Swing four",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing partners",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "The last 2 steps can be doubled.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
       ]
     },
     {
@@ -427,7 +597,157 @@
       "videoUrl": "https://www.youtube.com/watch?v=vA1_jfgO8xs",
       "videoThumbnailUrl": "https://img.youtube.com/vi/vA1_jfgO8xs/maxresdefault.jpg", 
       "movements": [
-
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing partners",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "chain-and-line-up",
+            "name": "Chain and line-up",
+            "description": "Partners face each other, R hand in R hand, chain to meet in the opposite place and turn once with waltz hold (8 bars). They continue to chain in the same direction for the next 6 bars and then form a single line, each gent behind his lady, with 1st Top couple leading and facing out of the set. 1st Side couple fall in behind 1st Top couple while 2nd Top couple is last in line. NOTE: Each side couple moves into their R of the notional gap between first and last couples.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "slide-l-r",
+            "name": "Slide L and R",
+            "description": "Gents slide L and ladies slide R, dancing 1 2, 1 2, 1 2, 123 (4 bars).  Gents slide R and ladies L with longer steps so the lines pass through each other to finish in line with side couples' places (4 bars).  On the last bar, all turn inwards and take hands so that the line of gents faces the line of ladies.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "advance-retire",
+            "name": "Advance and retire",
+            "description": "Lines advance and retire twice.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "dance-back-swing",
+            "name": "Dance back and swing partners",
+            "description": "All dance into their own positions and take waltz hold (4 bars). Couples then swing in place (4 bars).",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "chain-and-line-up",
+            "name": "Chain and line-up",
+            "description": "behind 2nd Top couple. NOTE that places in the line remain the same, but dancers have turned to face in the opposite direction, gent behind lady.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "slide-l-r",
+            "name": "Slide L and R",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire",
+            "name": "Advance and retire",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "dance-back-swing",
+            "name": "Dance back and swing partners",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "chain-and-line-up",
+            "name": "Chain and line-up",
+            "description": "behind 1st Side couple. NOTE that places in the line remain the same, but dancers have turned to face in the opposite direction, gent behind lady.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "slide-l-r",
+            "name": "Slide L and R",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire",
+            "name": "Advance and retire",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "dance-back-swing",
+            "name": "Dance back and swing partners",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "chain-and-line-up",
+            "name": "Chain and line-up",
+            "description": "behind 2nd Side couple. NOTE that places in the line remain the same, but dancers have turned to face in the opposite direction, gent behind lady.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "slide-l-r",
+            "name": "Slide L and R",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire",
+            "name": "Advance and retire",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "dance-back-swing",
+            "name": "Dance back and swing partners",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "The last 2 steps can be doubled.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
       ]
     }
   ]
