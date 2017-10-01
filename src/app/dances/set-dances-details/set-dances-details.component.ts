@@ -3,6 +3,7 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
 import 'rxjs/add/operator/switchMap';
 
+import { ConfigurationService } from '../../core/configuration/configuration.service';
 import { DancesService } from '../shared/dances.service';
 import { SetDance } from '../shared/models/set-dance.model';
 import { SetDanceMovementSpecialType } from '../shared/set-dance-movement-special-type.enum';
@@ -34,6 +35,7 @@ export class SetDancesDetailsComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
+    private configurationService: ConfigurationService,
     private dancesService: DancesService
   ) {}
 
@@ -49,6 +51,8 @@ export class SetDancesDetailsComponent implements OnInit {
           this.hasError = true;
         }
       );
+
+    this.displayDescriptions = this.configurationService.getDescriptionsDisplay();
   }
 
   /**
