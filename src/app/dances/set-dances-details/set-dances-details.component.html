@@ -21,7 +21,6 @@
                   <div class="group-header" >
                     <span class="primary-text" *ngIf="group.id !== specialType.REPEAT">{{group.name}}</span>
                     <span class="primary-text" *ngIf="group.id === specialType.REPEAT">Repeat {{group.reference}}</span>
-                    <!-- <span>{{displayCouples(group.couples)}}</span> -->
                   </div>
                   <div>{{displayCouples(group.couples)}}</div>
                   <div class="secondary-text" *ngIf="group.description && displayDescriptions">{{group.description}}</div>
@@ -33,10 +32,6 @@
             </ng-container>
           </md-list>
         </md-card-content>
-        <!-- <img md-card-image src="{{figure.videoThumbnailUrl}}" alt="Video Thumbnail" onError="this.src='assets/images/placeholder_big_wide.png';"> -->
-        <!-- <md-card-actions>
-          <button md-button>SHARE</button>
-        </md-card-actions> -->
     </md-card>
   </md-tab>
 </md-tab-group>
