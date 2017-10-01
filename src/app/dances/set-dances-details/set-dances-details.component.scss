@@ -1,0 +1,44 @@
+@import 'metrics';
+
+md-card {
+  margin-top: $magic-spacing;
+  margin-bottom: $magic-spacing;
+}
+
+md-card-subtitle {
+  margin-bottom: 0px;
+}
+
+.group-movement {
+  display: flex;
+  flex-direction: row;
+
+  padding-top: $magic-spacing;
+  
+  .group-number {
+    min-width: 24px;
+    flex: 0 0 auto;
+    margin-left: $magic-spacing/2;
+  }
+
+  .group-content {
+    margin-left: $magic-spacing/2;
+    margin-right: $magic-spacing/2;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+
+    .group-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: baseline;
+    }
+  }
+}
+
+md-divider {
+  margin-top: $magic-spacing;
+}
+

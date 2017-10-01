@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'metrics';
+@import 'material';
+@import 'colors';
 
 /*html, body, material-app, md-sidenav-container, .my-content {
   margin: 0;
@@ -22,11 +24,15 @@ html, body {
 }
 
 /* Angular Material customizations */
-
 md-card {
-  max-width: 80%;
+  max-width: 90%;
   margin: 2em auto;
-  text-align: center;
+
+  md-card-actions {
+    .mat-button {
+      color: $primary;
+    }
+  }
 }
 
 md-toolbar-row {

@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const appRoutes: Routes = [
-  { path: '', redirectTo: '/dances', pathMatch: 'full' }
+  { path: '', redirectTo: 'set-dances', pathMatch: 'full' }
 ];
 
 @NgModule({

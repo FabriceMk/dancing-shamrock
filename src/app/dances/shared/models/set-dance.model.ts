@@ -1,7 +1,9 @@
+import { SetDanceFigure } from './set-dance-figure.model';
+
 /**
- * Set Dance Overview entry.
+ * Set Dance entry with all its data.
  */
-export class SetDanceOverview {
+export class SetDance {
   /** Unique identifier of the set dance */
   id: string;
 
@@ -11,9 +13,6 @@ export class SetDanceOverview {
   /** Alternative names of the set dance */
   alternativeNames: string[];
 
-  /** Figures count in the set dance */
-  figuresCount: number;
-
-  /** Styles present across the figures  */
-  styles: string[];
+  /** Figures in the set dance */
+  figures: SetDanceFigure[];
 }

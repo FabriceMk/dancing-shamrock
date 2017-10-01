@@ -3,8 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { SetDancesListComponent } from './set-dances-list/set-dances-list.component';
 
+import { SetDancesDetailsComponent } from './set-dances-details/set-dances-details.component';
+
 const dancesRoutes: Routes = [
-  { path: 'dances',  component: SetDancesListComponent }
+  { path: 'set-dances',  component: SetDancesListComponent },
+  { path: 'set-dances/:id',  component: SetDancesDetailsComponent }
 ];
 
 @NgModule({

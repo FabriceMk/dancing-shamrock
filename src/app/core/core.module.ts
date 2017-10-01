@@ -2,15 +2,16 @@ import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 /**
- * Core Module hosts application wide singleton services, components and single use classes.
+ * Core Module hosts application wide singleton services,
+ * and single components that only appear in AppComponent.
  * Should only be imported by the main AppModule.
  */
 @NgModule({
   imports: [
     CommonModule
   ],
-  exports: [],
   declarations: [],
+  exports: [],
   providers: []
 })
 export class CoreModule {
