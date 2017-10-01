@@ -21,7 +21,8 @@
                   <div class="group-header" >
                     <span class="primary-text" *ngIf="group.id !== specialType.REPEAT">{{group.name}}</span>
                     <span class="primary-text" *ngIf="group.id === specialType.REPEAT">Repeat {{group.reference}}</span>
-                    <span class="couples-display">{{displayCouples(group.couples)}}</span>
+                    <span></span>
+                    <span>{{displayCouples(group.couples)}}</span>
                   </div>
                   <div class="secondary-text" *ngIf="group.description && displayDescriptions">{{group.description}}</div>
                 </div>
