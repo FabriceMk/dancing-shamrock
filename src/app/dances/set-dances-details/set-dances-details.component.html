@@ -21,16 +21,14 @@
                   <div class="group-header" >
                     <span class="primary-text" *ngIf="group.id !== specialType.REPEAT">{{group.name}}</span>
                     <span class="primary-text" *ngIf="group.id === specialType.REPEAT">Repeat {{group.reference}}</span>
-                    <span></span>
-                    <span>{{displayCouples(group.couples)}}</span>
+                    <!-- <span>{{displayCouples(group.couples)}}</span> -->
                   </div>
+                  <div>{{displayCouples(group.couples)}}</div>
                   <div class="secondary-text" *ngIf="group.description && displayDescriptions">{{group.description}}</div>
                 </div>
-                <div class="group-info">
-                  <md-chip-list>
-                    <md-chip color="primary">{{group.duration}}</md-chip>
-                  </md-chip-list>
-                </div>
+                <md-chip-list>
+                  <md-chip>{{group.duration}}</md-chip>
+                </md-chip-list>
               </div>
             </ng-container>
           </md-list>

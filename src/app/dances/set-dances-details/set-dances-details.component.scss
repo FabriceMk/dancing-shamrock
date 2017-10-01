@@ -18,12 +18,12 @@ md-card-subtitle {
   .group-number {
     min-width: 24px;
     flex: 0 0 auto;
-    margin-left: $magic-spacing;
+    margin-left: $magic-spacing/2;
   }
 
   .group-content {
-    margin-left: $magic-spacing;
-    margin-right: $magic-spacing;
+    margin-left: $magic-spacing/2;
+    margin-right: $magic-spacing/2;
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
@@ -33,13 +33,8 @@ md-card-subtitle {
       flex-direction: row;
       justify-content: space-between;
       flex-wrap: wrap;
-      align-items: center;
+      align-items: baseline;
     }
-  }
-
-  .group-info {
-    min-width: 24px;
-    flex: 0 0 auto;
   }
 }
 
