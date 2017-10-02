@@ -2,7 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
 import 'rxjs/add/operator/switchMap';
+import 'rxjs/add/operator/finally';
 
+import { ConfigurationService } from '../../core/configuration/configuration.service';
 import { DancesService } from '../shared/dances.service';
 import { SetDance } from '../shared/models/set-dance.model';
 import { SetDanceMovementSpecialType } from '../shared/set-dance-movement-special-type.enum';
@@ -23,7 +25,7 @@ export class SetDancesDetailsComponent implements OnInit {
   specialType = SetDanceMovementSpecialType;
 
   /** Loading state of the component data. */
-  isLoading = true;
+  isLoading = false;
 
   /** Error state of the component data. */
   hasError = false;
@@ -34,21 +36,29 @@ export class SetDancesDetailsComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
+    private configurationService: ConfigurationService,
     private dancesService: DancesService
   ) {}
 
   ngOnInit() {
     this.route.params
       .switchMap((params: ParamMap) => this.dancesService.getDance(params['id']))
+      .finally(() => this.isLoading = false)
       .subscribe(
         dance => {
-        this.dance = dance;
-        this.isLoading = false;
+          this.dance = dance;
         },
         error => {
           this.hasError = true;
         }
       );
+
+    this.configurationService.getDescriptionsDisplay()
+    .subscribe(
+      (display: boolean) => {
+        this.displayDescriptions = display;
+      }
+    );
   }
 
   /**

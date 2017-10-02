@@ -1,6 +1,8 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
+import { ConfigurationService } from './configuration/configuration.service';
+
 /**
  * Core Module hosts application wide singleton services,
  * and single components that only appear in AppComponent.
@@ -12,7 +14,7 @@ import { CommonModule } from '@angular/common';
   ],
   declarations: [],
   exports: [],
-  providers: []
+  providers: [ ConfigurationService ]
 })
 export class CoreModule {
   constructor (@Optional() @SkipSelf() parentModule: CoreModule) {
