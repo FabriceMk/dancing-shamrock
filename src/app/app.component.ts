@@ -18,11 +18,16 @@ export class AppComponent implements OnInit {
     private configurationService: ConfigurationService) { }
 
   ngOnInit() {
-    this.showDescriptions = this.configurationService.getDescriptionsDisplay();
+    this.configurationService.getDescriptionsDisplay()
+      .subscribe(
+        (show: boolean) => {
+          this.showDescriptions = show;
+        }
+      );
   }
 
   /** Toggles the Descriptions Displays setting. */
   toggleDescriptionsDisplaySetting(): void {
-    this.showDescriptions = this.configurationService.toggleDescriptions();
+    this.configurationService.toggleDescriptions();
   }
 }
