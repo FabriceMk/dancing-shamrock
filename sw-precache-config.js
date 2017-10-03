@@ -4,7 +4,8 @@ module.exports = {
     'dist/**.js',
     'dist/**.css',
     'dist/assets/images/*',
-    'dist/assets/icons/*'
+    'dist/assets/icons/*',
+    'dist/assets/data/**/**.json'
   ],
   root: 'dist',
   stripPrefix: 'dist/',
