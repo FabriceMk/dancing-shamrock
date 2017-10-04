@@ -23,6 +23,7 @@ In the end, my friends who own an Android phone and me will have an app-like exp
 * Score of 100 in [Lighthouse](https://developers.google.com/web/tools/lighthouse/) on the PWA part
 
 ## Todo
+* Improve initial loading time (right now only 62 on Lighthouse on the Performance part)
 * Proper coverage with Unit tests
 * Implement some E2E tests with Protractor
 
