@@ -44,8 +44,8 @@ export class SetDancesListComponent implements OnInit {
     this.router.navigate(['set-dances', 'clare-lancers']);
   }
 
-  displaySteps(dance: SetDanceOverview) {
-    const result = dance.styles.join(' - ');
+  displayStyles(dance: SetDanceOverview) {
+    const result = dance.styles.map((s) => { return s[0].toUpperCase() + s.slice(1); }).join(' - ');
     return result;
   }
 }

@@ -1,44 +1,44 @@
 import { NgModule } from '@angular/core';
 import {
-  MdListModule,
-  MdMenuModule,
-  MdSidenavModule,
-  MdToolbarModule,
-  MdCardModule,
-  MdButtonModule,
-  MdIconModule,
-  MdProgressSpinnerModule,
-  MdTabsModule,
-  MdChipsModule,
-  MdCheckboxModule
+  MatListModule,
+  MatMenuModule,
+  MatSidenavModule,
+  MatToolbarModule,
+  MatCardModule,
+  MatButtonModule,
+  MatIconModule,
+  MatProgressSpinnerModule,
+  MatTabsModule,
+  MatChipsModule,
+  MatCheckboxModule
  } from '@angular/material';
 
 @NgModule({
   imports: [
-    MdListModule,
-    MdMenuModule,
-    MdSidenavModule,
-    MdToolbarModule,
-    MdCardModule,
-    MdButtonModule,
-    MdIconModule,
-    MdProgressSpinnerModule,
-    MdTabsModule,
-    MdChipsModule,
-    MdCheckboxModule
+    MatListModule,
+    MatMenuModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    MatCardModule,
+    MatButtonModule,
+    MatIconModule,
+    MatProgressSpinnerModule,
+    MatTabsModule,
+    MatChipsModule,
+    MatCheckboxModule
   ],
   exports: [
-    MdListModule,
-    MdMenuModule,
-    MdSidenavModule,
-    MdToolbarModule,
-    MdCardModule,
-    MdButtonModule,
-    MdIconModule,
-    MdProgressSpinnerModule,
-    MdTabsModule,
-    MdChipsModule,
-    MdCheckboxModule
+    MatListModule,
+    MatMenuModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    MatCardModule,
+    MatButtonModule,
+    MatIconModule,
+    MatProgressSpinnerModule,
+    MatTabsModule,
+    MatChipsModule,
+    MatCheckboxModule
   ],
 })
 export class MaterialExporterModule { }

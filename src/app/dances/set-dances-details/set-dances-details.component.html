@@ -1,18 +1,18 @@
-<md-spinner *ngIf="isLoading"></md-spinner>
-<md-tab-group *ngIf="dance">
-  <md-tab *ngFor="let figure of dance.figures; let figureNumber = index;" label="Figure {{figureNumber+1}}">
-    <md-card>
-        <md-card-title>{{figure.name}}</md-card-title>
-        <md-card-subtitle>
-          <md-chip-list >
-            <md-chip selected="true" color="primary">{{figure.style | capitalize}}</md-chip>
-            <md-chip>{{figure.duration}} bars</md-chip>
-          </md-chip-list>
-        </md-card-subtitle>
-        <md-card-content>
-          <md-list>
+<mat-spinner *ngIf="isLoading"></mat-spinner>
+<mat-tab-group *ngIf="dance">
+  <mat-tab *ngFor="let figure of dance.figures; let figureNumber = index;" label="Figure {{figureNumber+1}}">
+    <mat-card>
+        <mat-card-title>{{figure.name}}</mat-card-title>
+        <mat-card-subtitle>
+          <mat-chip-list >
+            <mat-chip selected="true" color="primary">{{figure.style | capitalize}}</mat-chip>
+            <mat-chip>{{figure.duration}} bars</mat-chip>
+          </mat-chip-list>
+        </mat-card-subtitle>
+        <mat-card-content>
+          <mat-list>
             <ng-container *ngFor="let movement of figure.movements; let movementNumber = index;">
-              <md-divider></md-divider>
+              <mat-divider></mat-divider>
               <div class="group-movement" *ngFor="let group of movement; let groupNumber = index;">
                 <div class="group-number">
                   <span class="primary-text" *ngIf="groupNumber == 0">{{movementNumber+1 + '. '}}</span>
@@ -25,13 +25,13 @@
                   <div>{{displayCouples(group.couples)}}</div>
                   <div class="secondary-text" *ngIf="group.description && displayDescriptions">{{group.description}}</div>
                 </div>
-                <md-chip-list>
-                  <md-chip>{{group.duration}}</md-chip>
-                </md-chip-list>
+                <mat-chip-list>
+                  <mat-chip>{{group.duration}}</mat-chip>
+                </mat-chip-list>
               </div>
             </ng-container>
-          </md-list>
-        </md-card-content>
-    </md-card>
-  </md-tab>
-</md-tab-group>
+          </mat-list>
+        </mat-card-content>
+    </mat-card>
+  </mat-tab>
+</mat-tab-group>
