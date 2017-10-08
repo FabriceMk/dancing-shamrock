@@ -2,11 +2,9 @@
   <mat-nav-list>
     <mat-list-item *ngFor="let dance of dances" [routerLink]="['/set-dances','clare-lancers']">
       <a matLine>{{dance.name}}</a>
-      <!-- <p matLine>Figures: {{ dance.figuresCount }}</p> -->
       <p matLine class="secondary-text">{{displayStyles(dance)}}</p>
-      <div class="secondary-text">Figs. </div>
       <mat-chip-list>
-        <mat-chip color="primary" selected="true">{{dance.figuresCount}}</mat-chip>
+        <mat-chip color="primary" selected="true">Figs. {{dance.figuresCount}}</mat-chip>
       </mat-chip-list>
     </mat-list-item>
   </mat-nav-list>
