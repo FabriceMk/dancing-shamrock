@@ -1,22 +1,22 @@
 <div class="my-content">
-  <md-toolbar class="main-toolbar mat-elevation-z3" color="primary">
-    <button md-icon-button [routerLink]="['']"><md-icon>home</md-icon></button>
+  <mat-toolbar class="main-toolbar mat-elevation-z3" color="primary">
+    <button mat-icon-button [routerLink]="['']"><mat-icon>home</mat-icon></button>
     <span class="toolbar-spacer"></span>
     <span id="app-title">{{this.title}}</span>
     <span class="toolbar-spacer"></span>
-    <button md-icon-button [mdMenuTriggerFor]="menu">
-      <md-icon>more_vert</md-icon>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>more_vert</mat-icon>
     </button>
-    <md-menu #menu="mdMenu">
-      <button md-menu-item (click)='toggleDescriptionsDisplaySetting()'>
-        <md-icon *ngIf='showDescriptions'>visibility_off</md-icon>
-        <md-icon *ngIf='!showDescriptions'>visibility_on</md-icon>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)='toggleDescriptionsDisplaySetting()'>
+        <mat-icon *ngIf='showDescriptions'>visibility_off</mat-icon>
+        <mat-icon *ngIf='!showDescriptions'>visibility_on</mat-icon>
         <span *ngIf='showDescriptions'>Hide descriptions</span>
         <span *ngIf='!showDescriptions'>Show descriptions</span>
       </button>
-      <button md-menu-item><md-icon>info</md-icon><span>About Dancing Clover</span></button>
-    </md-menu>
-  </md-toolbar>
+      <button mat-menu-item><mat-icon>info</mat-icon><span>About Dancing Clover</span></button>
+    </mat-menu>
+  </mat-toolbar>
   
   <div class="dynamic-content">
     <router-outlet></router-outlet>

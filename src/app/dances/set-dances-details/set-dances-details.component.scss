@@ -1,11 +1,11 @@
 @import 'metrics';
 
-md-card {
+mat-card {
   margin-top: $magic-spacing;
   margin-bottom: $magic-spacing;
 }
 
-md-card-subtitle {
+mat-card-subtitle {
   margin-bottom: 0px;
 }
 
@@ -38,7 +38,7 @@ md-card-subtitle {
   }
 }
 
-md-divider {
+mat-divider {
   margin-top: $magic-spacing;
 }
 

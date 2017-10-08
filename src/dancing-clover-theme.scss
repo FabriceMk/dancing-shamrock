@@ -5,7 +5,7 @@
 @include mat-core();
 
 // Define the palettes for your theme using the Material Design palettes available in palette.scss (imported above). For each palette, you can optionally specify a default, lighter, and darker hue.
-$dancing-clover-app-primary: mat-palette($mat-green);
+$dancing-clover-app-primary: mat-palette($mat-green, 600);
 $dancing-clover-app-accent:  mat-palette($mat-deep-orange);
 
 // The warn palette is optional (defaults to red).
