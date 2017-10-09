@@ -1,6 +1,8 @@
 import {Component, Inject} from '@angular/core';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 
+import { environment } from './../../../environments/environment'
+
 /**
  * @title Dialog for 'About' information
  */
@@ -10,6 +12,8 @@ import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
   styleUrls: ['./about-dialog.component.scss']
 })
 export class AboutDialogComponent {
+  /** Version of the application */
+  version = environment.version;
 
   constructor(
     public dialogRef: MatDialogRef<AboutDialogComponent>,

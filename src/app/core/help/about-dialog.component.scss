@@ -1,6 +1,10 @@
 @import 'material';
 
 mat-dialog-content {
+  div {
+    @extend .secondary-text;
+  }
+
   p {
     @extend .secondary-text;
   }
