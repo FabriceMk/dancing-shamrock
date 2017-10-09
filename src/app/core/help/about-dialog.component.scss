@@ -1,0 +1,7 @@
+@import 'material';
+
+mat-dialog-content {
+  p {
+    @extend .secondary-text;
+  }
+}
