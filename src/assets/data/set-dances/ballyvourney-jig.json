@@ -1,0 +1,25 @@
+{
+  "id": "ballvourney-jig",
+  "name": "Ballyvourney (Jig)",
+  "alternativeNames": ["BV (Jig)"],
+  "figures": [
+    {
+      "name": "Swing your Own",
+      "style": "slides",
+      "duration": 88,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "With waltz hold, the 1st step being danced slightly anti-clockwise before beginning the house on the second step.",
+            "couples": [1,3],
+            "duration": 40
+          }
+        ]
+      ]
+    }
+  ]
+}
