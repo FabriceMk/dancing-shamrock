@@ -35,6 +35,7 @@ export class AppComponent implements OnInit {
     this.configurationService.toggleDescriptions();
   }
 
+  /** Opens the 'About' dialog */
   openAboutDialog() {
     this.dialog.open(AboutDialogComponent);
   }
