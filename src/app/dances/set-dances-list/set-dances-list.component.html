@@ -1,6 +1,6 @@
 <div>
   <mat-nav-list>
-    <mat-list-item *ngFor="let dance of dances" [routerLink]="['/set-dances','clare-lancers']">
+    <mat-list-item *ngFor="let dance of dances" [routerLink]="['/set-dances', dance.id]">
       <a matLine>{{dance.name}}</a>
       <p matLine class="secondary-text">{{displayStyles(dance)}}</p>
       <mat-chip-list>
