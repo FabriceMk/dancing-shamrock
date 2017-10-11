@@ -615,7 +615,7 @@
         ],
         [
           {
-            "id": "chain-and-line-up",
+            "id": "chain-lineup",
             "name": "Chain and line-up",
             "description": "Partners face each other, R hand in R hand, chain to meet in the opposite place and turn once with waltz hold (8 bars). They continue to chain in the same direction for the next 6 bars and then form a single line, each gent behind his lady, with 1st Top couple leading and facing out of the set. 1st Side couple fall in behind 1st Top couple while 2nd Top couple is last in line. NOTE: Each Side couple moves into their R of the notional gap between first and last couples.",
             "couples": [1,2,3,4],
@@ -642,7 +642,7 @@
         ],
         [
           {
-            "id": "dance-back-swing",
+            "id": "swing",
             "name": "Dance back and swing partners",
             "description": "All dance into their own positions and take waltz hold (4 bars). Couples then swing in place (4 bars).",
             "couples": [1,2,3,4],
@@ -651,7 +651,7 @@
         ],
         [
           {
-            "id": "chain-and-line-up",
+            "id": "chain-lineup",
             "name": "Chain and line-up",
             "description": "behind 2nd Top couple. NOTE that places in the line remain the same, but dancers have turned to face in the opposite direction, gent behind lady.",
             "couples": [1,2,3,4],
@@ -672,7 +672,7 @@
             "duration": 8
           },
           {
-            "id": "dance-back-swing",
+            "id": "swing",
             "name": "Dance back and swing partners",
             "description": "",
             "couples": [1,2,3,4],
@@ -681,7 +681,7 @@
         ],
         [
           {
-            "id": "chain-and-line-up",
+            "id": "chain-lineup",
             "name": "Chain and line-up",
             "description": "behind 1st Side couple. NOTE that places in the line remain the same, but dancers have turned to face in the opposite direction, gent behind lady.",
             "couples": [1,2,3,4],
@@ -702,7 +702,7 @@
             "duration": 8
           },
           {
-            "id": "dance-back-swing",
+            "id": "swing",
             "name": "Dance back and swing partners",
             "description": "",
             "couples": [1,2,3,4],
@@ -711,7 +711,7 @@
         ],
         [
           {
-            "id": "chain-and-line-up",
+            "id": "chain-lineup",
             "name": "Chain and line-up",
             "description": "behind 2nd Side couple. NOTE that places in the line remain the same, but dancers have turned to face in the opposite direction, gent behind lady.",
             "couples": [1,2,3,4],
@@ -732,7 +732,7 @@
             "duration": 8
           },
           {
-            "id": "dance-back-swing",
+            "id": "swing",
             "name": "Dance back and swing partners",
             "description": "",
             "couples": [1,2,3,4],
