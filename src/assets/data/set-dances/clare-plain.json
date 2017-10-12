@@ -1,0 +1,15 @@
+{
+  "id": "clare-plain",
+  "name": "Plain Set",
+  "alternativeNames": ["Clare Plain"],
+  "figures": [
+    {
+      "name": "Pass Through",
+      "style": "reel",
+      "duration": 112,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": []
+    }
+  ]
+}
