@@ -93,6 +93,88 @@
           }
         ]
       ]
+    },
+    {
+      "name": "Turn the Ladies",
+      "style": "reel",
+      "duration": 128,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "home",
+            "name": "Dance at home",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "advance-retire",
+            "name": "Advance, retire and turn across",
+            "description": "(4 bars), R hand in R, and turn across to the opposite place, gents passing each other L to L behind their partners while the ladies turn 1½ turns clockwise under R arm to face centre (4 bars). The movement is then repeated back to place.",
+            "couples": [1,3],
+            "duration": 16
+          },
+          {
+            "id": "home",
+            "name": "Dance at home",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire",
+            "name": "Advance retire and turn across",
+            "description": "",
+            "couples": [1,3],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "home",
+            "name": "Dance at home",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "",
+            "couples": [2,4],
+            "duration": 40
+          }
+        ],
+        [
+          {
+            "id": "home",
+            "name": "Dance at home",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
     }
   ]
 }
