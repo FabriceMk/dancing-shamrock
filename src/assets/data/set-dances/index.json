@@ -35,13 +35,6 @@
     "styles": ["reel"]
   },
   {
-    "id": "clare-plain",
-    "name": "Clare Plain ",
-    "alternativeNames": ["Plain"],
-    "figuresCount": 6,
-    "styles": ["reel", "jig"]
-  },
-  {
     "id": "connemara-reel",
     "name": "Connemara (Reel)",
     "alternativeNames": [],
@@ -61,6 +54,13 @@
     "alternativeNames": [],
     "figuresCount": 4,
     "styles": ["reel", "hornpipe"]
+  },
+  {
+    "id": "plain",
+    "name": "Plain",
+    "alternativeNames": ["Clare Plain"],
+    "figuresCount": 6,
+    "styles": ["reel", "jig"]
   },
   {
     "id": "sliabh-luachra",
