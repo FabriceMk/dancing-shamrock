@@ -314,7 +314,7 @@
       ]
     },
     {
-      "name": "House Opposite",
+      "name": "House Opposites",
       "style": "jig",
       "duration": 224,
       "videoUrl": "",
@@ -347,7 +347,7 @@
           {
             "id": "advance-retire",
             "name": "Advance retire and gents turn across",
-            "description": "To opposite ladies while turning clockwise twice.",
+            "description": "To opposite ladies while turning clockwise twice while the ladies turn once in place.",
             "couples": [1,3],
             "duration": 8
           },
