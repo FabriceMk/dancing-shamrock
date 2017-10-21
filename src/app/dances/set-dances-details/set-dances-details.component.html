@@ -1,4 +1,7 @@
 <mat-spinner *ngIf="isLoading"></mat-spinner>
+<div class="error" *ngIf="hasError">
+  <div>Dance not implemented, come back later...</div>
+</div>
 <mat-tab-group *ngIf="dance">
   <mat-tab *ngFor="let figure of dance.figures; let figureNumber = index;" label="Figure {{figureNumber+1}}">
     <mat-card>
