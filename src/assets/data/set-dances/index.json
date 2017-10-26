@@ -35,9 +35,9 @@
     "styles": ["reel"]
   },
   {
-    "id": "connemara-reel",
-    "name": "Connemara (Reel)",
-    "alternativeNames": [],
+    "id": "connemara",
+    "name": "Connemara",
+    "alternativeNames": ["Connemara Reel"],
     "figuresCount": 4,
     "styles": ["reel"]
   },
