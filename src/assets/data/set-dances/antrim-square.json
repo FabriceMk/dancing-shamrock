@@ -12,20 +12,20 @@
       "movements": [
         [
           {
-          "id": "lead-around-back",
-          "name": "Lead around and back",
-          "description": "Lead all the way around in 8b, lead back 8b. Gents right arm over ladies right shoulder, left hands held in front. When turning to lead back, merely turn on the spot without spinning around each other.",
-          "couples": [1,2,3,4],
-          "duration": 16
+            "id": "lead-around-back",
+            "name": "Lead around and back",
+            "description": "Lead all the way around in 8b, lead back 8b. Gents right arm over ladies right shoulder, left hands held in front. When turning to lead back, merely turn on the spot without spinning around each other.",
+            "couples": [1,2,3,4],
+            "duration": 16
           }
         ],
         [
           {
-          "id": "swing",
-          "name": "Swing",
-          "description": "In waltz hold.",
-          "couples": [1,2,3,4],
-          "duration": 8
+            "id": "swing",
+            "name": "Swing",
+            "description": "In waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
           }
         ],
         [
@@ -249,11 +249,11 @@
         ],
         [
           {
-          "id": "house-around",
-          "name": "House around",
-          "description": "",
-          "couples": [1,2,3,4],
-          "duration": 8
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
           }
         ]
       ]
