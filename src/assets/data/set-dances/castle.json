@@ -111,6 +111,96 @@
           }
         ]
       ]
+    },
+    {
+      "name": "Wheel in Line",
+      "style": "polka",
+      "duration": 136,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire",
+            "name": "Advance retire once",
+            "description": "R in R.",
+            "couples": [1,3],
+            "duration": 4
+          },
+          {
+            "id": "cross-over",
+            "name": "Ladies cross over",
+            "description": "Ladies dance 2 steps across to the opposite gent and swing him one turn with waltz hold.",
+            "couples": [1,3],
+            "duration": 4
+          },
+          {
+            "id": "wheel-line",
+            "name": "Wheel in line",
+            "description": "With gent's R arm still around new partner's waist, ladies take R hands in the centre and all four wheel clockwise in line back to the gent's place.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "New couples in the gent's place.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire",
+            "name": "Advance retire once",
+            "description": "",
+            "couples": [1,3],
+            "duration": 4
+          },
+          {
+            "id": "cross-over",
+            "name": "Ladies cross back and swing",
+            "description": "",
+            "couples": [1,3],
+            "duration": 4
+          },
+          {
+            "id": "wheel-line",
+            "name": "Wheel in line",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing partners",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 64
+          }
+        ]
+      ]
     }
   ]
 }
