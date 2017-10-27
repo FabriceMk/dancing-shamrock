@@ -201,6 +201,86 @@
           }
         ]
       ]
+    },
+    {
+      "name": "Ladies Chain",
+      "style": "polka",
+      "duration": 200,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "ladies-chain",
+            "name": "Ladies Chain",
+            "description": " R hands in the centre, L arm to turn the opposite gent in place, R hands again in the centre and L arm to turn their own partner.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing opposites",
+            "description": "1st gent and 2nd lady dance in to face each other (2 bars). They swing, separate, and drop back between the couple to the L of their own place. Each line of three takes crossed hand hold behind with outside hands resting on the hip of the outside dancer.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire",
+            "name": "Singletons advance retire twice",
+            "description": "2nd gent and 1st lady advance and retire twice while the trios dance in place.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire",
+            "name": "Trios advance retire twice",
+            "description": "While the singletons dance in place.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing partners",
+            "description": "All couples reform (2 bars) and swing.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 2nd gent and 1st lady doing the swing and 1st gent and 2nd lady as singletons.",
+            "couples": [1,3],
+            "duration": 48
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 1st gent and 2nd lady doing the swing and 2nd gent and 1st lady as singletons.",
+            "couples": [2,4],
+            "duration": 48
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 2nd gent and 1st lady doing the swing and 1st gent and 2nd lady as singletons.",
+            "couples": [2,4],
+            "duration": 48
+          }
+        ]
+      ]
     }
   ]
 }
