@@ -1,0 +1,48 @@
+{
+  "id": "sliabh-luachra",
+  "name": "Sliabh Luachra",
+  "alternativeNames": ["Sliabh gCua"],
+  "figures": [
+    {
+      "name": "Introduction ",
+      "style": "polka",
+      "duration": 72,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "tip-swing",
+            "name": "Tip and swing",
+            "description": "Couples tip in, with waltz hold, towards the centre – tip1, tip2, tip123 and back tip2, tip123 (4 bars) and swing partners at home.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "ladies-chain",
+            "name": "Ladies chain",
+            "description": "R hands in the centre, L hand to turn the opposite gent and back R to R to take waltz hold with their own partners.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House around each other",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 32
+          }
+        ]
+      ]
+    }
+  ]
+}
