@@ -4,7 +4,7 @@
   "alternativeNames": ["Sliabh gCua"],
   "figures": [
     {
-      "name": "Introduction ",
+      "name": "Introduction",
       "style": "polka",
       "duration": 72,
       "videoUrl": "",
@@ -40,6 +40,115 @@
             "description": "",
             "couples": [2,4],
             "duration": 32
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Introduction All Round",
+      "style": "polka",
+      "duration": 152,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "tip-swing",
+            "name": "Tip and swing",
+            "description": "Couples tip in, with waltz hold, towards the centre – tip1, tip2, tip123 and back tip2, tip123 (4 bars) and swing partners at home.",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "balance-cross",
+            "name": "Balance and cross",
+            "description": "With crossed hand hold in front, couples dance in towards the centre and back (4 bars). They then drop L hands and the lady turns clockwise 1½ turns under R arm into the opposite place, the gents passing L to L (4 bars). The whole movement is then repeated back to place.",
+            "couples": [1,3],
+            "duration": 16
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "",
+            "couples": [2,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "balance-cross",
+            "name": "Balance and cross",
+            "description": "Remaining in the opposite place with R hands held.",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "balance-cross",
+            "name": "Balance and cross",
+            "description": "",
+            "couples": [2,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "half-chain",
+            "name": "Half chain",
+            "description": "Ladies clockwise and gents anti-clockwise, back home.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "balance-cross",
+            "name": "Balance and cross",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "balance-cross",
+            "name": "Balance and cross",
+            "description": "",
+            "couples": [2,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "half-chain",
+            "name": "Half chain home",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
           }
         ]
       ]
