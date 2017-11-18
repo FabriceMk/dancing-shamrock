@@ -47,7 +47,7 @@
     {
       "name": "Introduction All Round",
       "style": "polka",
-      "duration": 152,
+      "duration": 128,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -139,6 +139,104 @@
           {
             "id": "half-chain",
             "name": "Half chain home",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Swing Opposites",
+      "style": "polka",
+      "duration": 152,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "All join hands in a circle and advance and retire twice.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "swing",
+            "name": "Dance in swing",
+            "description": "1st gent and 2nd lady dance in and swing. For the first 2 bars, the 2nd gent and 1st lady dance in place, then dance anti-clockwise across to the opposite place and turn to face centre. Swinging couple end with their backs to their partners.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "dance-around",
+            "name": "Dance around",
+            "description": "1st gent and 2nd lady dance anti-clockwise around each other twice, bow to each other and dance out into place beside their own partners to take waltz hold.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "slide-in-back-dance-back",
+            "name": "Slide in and back and dance back home",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "With 2nd gent and 1st lady dancing in.",
+            "couples": [1,3],
+            "duration": 24
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "With 1st side gent and 2nd side lady dancing in.",
+            "couples": [2,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "With 2nd side gent and 1st side lady dancing in.",
+            "couples": [2,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
             "description": "",
             "couples": [1,2,3,4],
             "duration": 8
