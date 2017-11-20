@@ -1,0 +1,91 @@
+{
+  "id": "merchant",
+  "name": "Merchant",
+  "alternativeNames": [""],
+  "figures": [
+    {
+      "name": "Cross over",
+      "style": "reel",
+      "duration": 120,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "All join hands in a circle and advance and retire twice.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-inside",
+            "name": "House inside",
+            "description": "",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire-cross-over",
+            "name": "Advance retire and cross over",
+            "description": "Everyone in waltz hold, tops turn left and sides turn right. All advance and retire once, then ladies cross right shoulder and gents cross left shoulder.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "With 1st side couple housing inside from 1st top position",
+            "couples": [1,2,3,4],
+            "duration": 48
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "With second top couple housing inside from 1st top position",
+            "couples": [1,2,3,4],
+            "duration": 48
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "With second side couple housing inside from 1st top position",
+            "couples": [1,2,3,4],
+            "duration": 48
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    }
+  ]
+}
