@@ -21,7 +21,7 @@
           {
             "id": "swing",
             "name": "Swing",
-            "description": "",
+            "description": "In waltz hold.",
             "couples": [1,3],
             "duration": 8
           }
@@ -74,6 +74,104 @@
             "description": "With second side couple housing inside from 1st top position",
             "couples": [1,2,3,4],
             "duration": 48
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "The Square",
+      "style": "reel",
+      "duration": 184,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-inside",
+            "name": "House inside",
+            "description": "",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "square",
+            "name": "Dance the square",
+            "description": "First couple take right hand in right, dance forward, face their partner (2b), gent pulls the lady’s hand and turns the lady counter-clockwise, both change places to face out (2b), dance forward again (2b), gent turns the lady CCW as before and they change places to face in (2b).",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "swing-four",
+            "name": "Swing four",
+            "description": "Swing in four, with hands around the waist, after six bars tops break to the right into lines in sides’ position. While tops are swinging sides take a step to their right and after the swing tops break to the right of sides to form two lines.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire-circle-right",
+            "name": "Advance and retire and circle right",
+            "description": "All advance and retire, advance again and take hands in a circle and everyone retires moving one place to the right.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "With 1st side couple housing inside from 1st top position",
+            "couples": [1,2,3,4],
+            "duration": 40
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "With 2nd top couple housing inside from 1st top position",
+            "couples": [1,2,3,4],
+            "duration": 40
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "With 2nd side couple housing inside from 1st top position",
+            "couples": [1,2,3,4],
+            "duration": 40
           }
         ],
         [
