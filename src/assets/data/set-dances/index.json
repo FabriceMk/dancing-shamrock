@@ -65,8 +65,8 @@
   {
     "id": "sliabh-luachra",
     "name": "Sliabh Luachra",
-    "alternativeNames": [],
+    "alternativeNames": ["Sliabh gCua"],
     "figuresCount": 6,
-    "styles": ["polka", "jig", "slide", "hornpipe"]
+    "styles": ["polka"]
   }
 ]
