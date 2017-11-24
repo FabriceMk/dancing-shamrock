@@ -1,0 +1,461 @@
+{
+  "id": "sliabh-gcua",
+  "name": "Sliabh gCua",
+  "alternativeNames": [""],
+  "figures": [
+    {
+      "name": "Introduction",
+      "style": "polka",
+      "duration": 72,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "tip-swing",
+            "name": "Tip and swing",
+            "description": "Couples tip in, with waltz hold, towards the centre – tip1, tip2, tip123 and back tip2, tip123 (4 bars) and swing partners at home.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "ladies-chain",
+            "name": "Ladies chain",
+            "description": "R hands in the centre, L hand to turn the opposite gent and back R to R to take waltz hold with their own partners.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House around each other",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 32
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Introduction All Round",
+      "style": "polka",
+      "duration": 128,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "tip-swing",
+            "name": "Tip and swing",
+            "description": "Couples tip in, with waltz hold, towards the centre – tip1, tip2, tip123 and back tip2, tip123 (4 bars) and swing partners at home.",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "balance-cross",
+            "name": "Balance and cross",
+            "description": "With crossed hand hold in front, couples dance in towards the centre and back (4 bars). They then drop L hands and the lady turns clockwise 1½ turns under R arm into the opposite place, the gents passing L to L (4 bars). The whole movement is then repeated back to place.",
+            "couples": [1,3],
+            "duration": 16
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "",
+            "couples": [2,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "balance-cross",
+            "name": "Balance and cross",
+            "description": "Remaining in the opposite place with R hands held.",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "balance-cross",
+            "name": "Balance and cross",
+            "description": "",
+            "couples": [2,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "half-chain",
+            "name": "Half chain",
+            "description": "Ladies clockwise and gents anti-clockwise, back home.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "balance-cross",
+            "name": "Balance and cross",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "balance-cross",
+            "name": "Balance and cross",
+            "description": "",
+            "couples": [2,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "half-chain",
+            "name": "Half chain home",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Swing Opposites",
+      "style": "polka",
+      "duration": 152,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "All join hands in a circle and advance and retire twice.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "swing",
+            "name": "Dance in swing",
+            "description": "1st gent and 2nd lady dance in and swing. For the first 2 bars, the 2nd gent and 1st lady dance in place, then dance anti-clockwise across to the opposite place and turn to face centre. Swinging couple end with their backs to their partners.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "dance-around",
+            "name": "Dance around",
+            "description": "1st gent and 2nd lady dance anti-clockwise around each other twice, bow to each other and dance out into place beside their own partners to take waltz hold.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "slide-in-back-dance-back",
+            "name": "Slide in and back and dance back home",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "With 2nd gent and 1st lady dancing in.",
+            "couples": [1,3],
+            "duration": 24
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "With 1st side gent and 2nd side lady dancing in.",
+            "couples": [2,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "With 2nd side gent and 1st side lady dancing in.",
+            "couples": [2,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Bring Up The Figure",
+      "style": "polka",
+      "duration": 248,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "ladies-chain",
+            "name": "Ladies chain",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House around each other",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "slide-home",
+            "name": "Slide and home",
+            "description": "1st couple slide and home: the dancing couple slides towards the centre and back (4 bars) and dances at home, turning once (4 bars). They then repeat the movement.",
+            "couples": [1],
+            "duration": 16
+          },
+          {
+            "id": "house-around",
+            "name": "House around each other",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "ladies-chain",
+            "name": "Ladies chain",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House around each other",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "slide-home",
+            "name": "Slide and home",
+            "description": "",
+            "couples": [3],
+            "duration": 16
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 88
+          }
+        ],
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "long-quarterhouse",
+            "name": "Long quarterhouse",
+            "description": "Couples slide towards the centre and back (4 bars) and house to the next place on the R, turning twice (4 bars). They repeat this movement into each place and back home.",
+            "couples": [1,2,3,4],
+            "duration": 32
+          }
+        ],
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Swing all Round",
+      "style": "polka",
+      "duration": 88,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing the lady on the L",
+            "description": "Ladies dance across to the gent on their R and into waltz hold and new couples swing in the gent's place.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing the lady on the L",
+            "description": "Ladies dance across to the gent on their R and into waltz hold and new couples swing in the gent's place.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing the lady on the L",
+            "description": "Ladies dance across to the gent on their R and into waltz hold and new couples swing in the gent's place.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing partners",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    }
+  ]
+}
