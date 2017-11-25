@@ -1,0 +1,98 @@
+{
+  "id": "corofin-plain",
+  "name": "Corofin Plain",
+  "alternativeNames": ["Corofin"],
+  "figures": [
+    {
+      "name": "Crossover",
+      "style": "reel",
+      "duration": 112,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "With crossed hand hold, couples dance round anti-clockwise to place, ladies turning under R arm on the last 2 bars to face gents and drop hands.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "set-swing",
+            "name": "Set and swing",
+            "description": "All dance R to R past partners and into each other’s position and ½ turn clockwise to face partners (4 bars), take waltz hold and swing (4 bars).",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "crossover",
+            "name": "Crossover",
+            "description": "Ladies change places, R to R, followed by gents, L to L, and all turn inwards to face centre (4 bars). The movement is repeated back to place.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "ladies-chain",
+            "name": "Ladies chain",
+            "description": "R hands in the centre, L elbow to turn the opposite gents, R hands again in the centre and back to face partners.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "set-swing",
+            "name": "Set and swing",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "crossover",
+            "name": "Crossover",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "set-swing",
+            "name": "Set and swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "",
+            "couples": [2,4],
+            "duration": 32
+          }
+        ],
+        [
+          {
+            "id": "set-swing",
+            "name": "Set and swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    }
+  ]
+}
