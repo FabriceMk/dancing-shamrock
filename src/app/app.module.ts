@@ -1,9 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MATERIAL_COMPATIBILITY_MODE } from '@angular/material';
 import 'hammerjs';
 
 import { CoreModule } from './core/core.module';
@@ -20,7 +19,7 @@ import { AppComponent } from './app.component';
     // Angular modules
     BrowserModule,
     FormsModule,
-    HttpModule,
+    HttpClientModule,
 
     // AngularMaterial
     BrowserAnimationsModule,
@@ -40,9 +39,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   exports: [],
-  providers: [
-    {provide: MATERIAL_COMPATIBILITY_MODE, useValue: true}
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
