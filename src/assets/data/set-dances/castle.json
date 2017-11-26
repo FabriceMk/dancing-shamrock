@@ -129,7 +129,7 @@
           },
           {
             "id": "advance-retire",
-            "name": "Advance retire once",
+            "name": "Advance, retire once",
             "description": "R in R.",
             "couples": [1,3],
             "duration": 4
@@ -164,7 +164,7 @@
           },
           {
             "id": "advance-retire",
-            "name": "Advance retire once",
+            "name": "Advance, retire once",
             "description": "",
             "couples": [1,3],
             "duration": 4
@@ -233,14 +233,14 @@
           },
           {
             "id": "advance-retire",
-            "name": "Singletons advance retire twice",
+            "name": "Singletons Advance, retire twice",
             "description": "2nd gent and 1st lady advance and retire twice while the trios dance in place.",
             "couples": [1,2,3,4],
             "duration": 8
           },
           {
             "id": "advance-retire",
-            "name": "Trios advance retire twice",
+            "name": "Trios Advance, retire twice",
             "description": "While the singletons dance in place.",
             "couples": [1,2,3,4],
             "duration": 8
