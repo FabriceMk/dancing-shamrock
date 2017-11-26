@@ -28,15 +28,15 @@
         ],
         [
           {
-            "id": "house-inside",
-            "name": "House inside",
+            "id": "house-within",
+            "name": "House within",
             "description": "",
             "couples": [1],
             "duration": 8
           },
           {
             "id": "advance-retire-cross-over",
-            "name": "Advance retire and cross over",
+            "name": "Advance, retire and cross over",
             "description": "Everyone in waltz hold, tops turn left and sides turn right. All advance and retire once, then ladies cross right shoulder and gents cross left shoulder.",
             "couples": [1,2,3,4],
             "duration": 8
@@ -112,8 +112,8 @@
         ],
         [
           {
-            "id": "house-inside",
-            "name": "House inside",
+            "id": "house-within",
+            "name": "House within",
             "description": "",
             "couples": [1],
             "duration": 8
@@ -210,8 +210,8 @@
         ],
         [
           {
-            "id": "house-inside",
-            "name": "House inside",
+            "id": "house-within",
+            "name": "House within",
             "description": "",
             "couples": [1],
             "duration": 8
@@ -294,8 +294,8 @@
         ],
         [
           {
-            "id": "house-inside",
-            "name": "House inside",
+            "id": "house-within",
+            "name": "House within",
             "description": "",
             "couples": [1],
             "duration": 8

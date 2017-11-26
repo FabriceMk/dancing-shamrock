@@ -17,9 +17,7 @@
             "description": "Lead all the way around in 8b, lead back 8b. Gents right arm over ladies right shoulder, left hands held in front. When turning to lead back, merely turn on the spot without spinning around each other.",
             "couples": [1,2,3,4],
             "duration": 16
-          }
-        ],
-        [
+          },
           {
             "id": "swing",
             "name": "Swing",
@@ -86,7 +84,7 @@
         [
           {
             "id": "repeat",
-            "reference": 5,
+            "reference": 4,
             "description": "Side couples lead the Antrim square this time.",
             "couples": [2,4],
             "duration": 48
@@ -108,9 +106,7 @@
             "description": "This time use a hop step.",
             "couples": [1,2,3,4],
             "duration": 16
-          }
-        ],
-        [
+          },
           {
             "id": "swing",
             "name": "Swing",
@@ -159,7 +155,7 @@
         [
           {
             "id": "repeat",
-            "reference": 3,
+            "reference": 2,
             "description": "",
             "couples": [2,4],
             "duration": 56
@@ -190,9 +186,7 @@
             "description": "",
             "couples": [1,2,3,4],
             "duration": 16
-          }
-        ],
-        [
+          },
           {
             "id": "swing",
             "name": "Swing",
@@ -241,7 +235,7 @@
         [
           {
             "id": "repeat",
-            "reference": 3,
+            "reference": 2,
             "description": "",
             "couples": [2,4],
             "duration": 56

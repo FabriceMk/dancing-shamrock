@@ -171,8 +171,8 @@
         ],
         [
           {
-            "id": "house-inside",
-            "name": "House inside",
+            "id": "house-within",
+            "name": "House within",
             "description": "",
             "couples": [1],
             "duration": 8
@@ -435,8 +435,8 @@
         ],
         [
           {
-            "id": "house-inside",
-            "name": "House inside",
+            "id": "house-within",
+            "name": "House within",
             "description": "1st Top couple house within the set.",
             "couples": [1],
             "duration": 8
@@ -478,8 +478,8 @@
         ],
         [
           {
-            "id": "house-inside",
-            "name": "House inside",
+            "id": "house-within",
+            "name": "House within",
             "description": "2nd Top couple house within the set.",
             "couples": [3],
             "duration": 8
