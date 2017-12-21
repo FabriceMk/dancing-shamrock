@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ServiceWorkerModule } from '@angular/service-worker'
 import 'hammerjs';
 
 import { CoreModule } from './core/core.module';
@@ -20,6 +21,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     HttpClientModule,
+    ServiceWorkerModule.register('/ngsw-worker.js'),
 
     // AngularMaterial
     BrowserAnimationsModule,
