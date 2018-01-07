@@ -36,6 +36,7 @@ deploy:
   token:
     secure: $FIREBASE_TOKEN
   project: "dancing-clover"
+  skip_cleanup: true
   on:
     branch: master
 
