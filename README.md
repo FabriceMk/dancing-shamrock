@@ -3,7 +3,7 @@ A Progressive Web Application to easily browse through Irish Set Dances.
 
 Disclaimer: Currently Work In Progress
 
-[![Build Status](https://travis-ci.org/FabriceMk/dancing-clover.svg?branch=master)](https://travis-ci.org/FabriceMk/dancing-clover) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c15cfac37b0144869c8844885871e5e9)](https://www.codacy.com/app/FabriceMk/dancing-clover?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=FabriceMk/dancing-clover&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.org/FabriceMk/dancing-clover.svg?branch=master)](https://travis-ci.org/FabriceMk/dancing-clover)
 
 ## Purpose of the application
 When you start learning Irish Set Dancing, you notice that one of the troubles is to remember all the figures and their order for each set dance.
