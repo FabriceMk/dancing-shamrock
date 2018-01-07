@@ -2,17 +2,26 @@
 
 mat-card {
   margin-top: $magic-spacing;
-  margin-bottom: $magic-spacing;
+}
+
+mat-card-content {
+  margin-top: $magic-spacing;
 }
 
 mat-card-subtitle {
   margin-bottom: 0px;
 }
 
+.separator {
+  padding-top: $magic-spacing/2;
+  padding-bottom: $magic-spacing/2;
+}
+
 .group-movement {
   display: flex;
 
-  padding-top: $magic-spacing;
+  margin-top: $magic-spacing/2;
+  margin-bottom: $magic-spacing/2;
   
   .group-number {
     min-width: 24px;
@@ -35,10 +44,6 @@ mat-card-subtitle {
       align-items: baseline;
     }
   }
-}
-
-mat-divider {
-  margin-top: $magic-spacing;
 }
 
 .error {

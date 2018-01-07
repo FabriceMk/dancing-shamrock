@@ -15,7 +15,7 @@
         <mat-card-content>
           <mat-list>
             <ng-container *ngFor="let movement of figure.movements; let movementNumber = index;">
-              <mat-divider></mat-divider>
+              <div class="separator"><mat-divider></mat-divider></div>
               <div class="group-movement" *ngFor="let group of movement; let groupNumber = index;">
                 <div class="group-number">
                   <span class="primary-text" *ngIf="groupNumber == 0">{{movementNumber+1 + '. '}}</span>
