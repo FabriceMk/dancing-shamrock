@@ -22,7 +22,6 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }),
 
     // AngularMaterial
     BrowserAnimationsModule,
@@ -36,7 +35,10 @@ import { AppComponent } from './app.component';
     DancesModule,
 
     // App Routing Module
-    AppRoutingModule
+    AppRoutingModule,
+
+    // Service Worker
+    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
   ],
   declarations: [
     AppComponent
