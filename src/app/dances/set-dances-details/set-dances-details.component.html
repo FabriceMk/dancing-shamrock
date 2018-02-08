@@ -4,7 +4,7 @@
 </div>
 <mat-tab-group *ngIf="dance">
   <mat-tab *ngFor="let figure of dance.figures; let figureNumber = index;" label="Figure {{figureNumber+1}}">
-    <mat-card>
+    <mat-card class="mat-elevation-z1">
         <mat-card-title>{{figure.name}}</mat-card-title>
         <mat-card-subtitle>
           <mat-chip-list >
