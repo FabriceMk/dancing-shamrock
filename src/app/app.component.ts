@@ -2,7 +2,7 @@ import { MatDialog } from '@angular/material';
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
-import { ConfigurationService } from './core/configuration/configuration.service'
+import { ConfigurationService } from './core/configuration/configuration.service';
 import { AboutDialogComponent } from './core/help/about-dialog.component';
 
 @Component({

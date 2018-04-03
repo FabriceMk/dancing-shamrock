@@ -70,7 +70,7 @@ export class SetDancesDetailsComponent implements OnInit {
     let firstSide = false;
     let secondSide = false;
 
-    for (const couple of couplesArray){
+    for (const couple of couplesArray) {
       switch (couple) {
         case 1: firstTop = true; break;
         case 2: firstSide = true; break;
