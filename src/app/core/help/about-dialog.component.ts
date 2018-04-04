@@ -20,7 +20,7 @@ export class AboutDialogComponent {
     @Inject(MAT_DIALOG_DATA) public data: any) { }
 
   /** Event handler for click on Close button */
-  onCloseClick(): void {
+  onCloseClick() {
     this.dialogRef.close();
   }
 }

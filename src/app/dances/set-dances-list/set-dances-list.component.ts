@@ -36,14 +36,6 @@ export class SetDancesListComponent implements OnInit {
       );
   }
 
-  /**
-   * Navigate to the dance details.
-   * @param danceId Id of the dance
-   */
-  navigateToDetails(danceId: string) {
-    this.router.navigate(['set-dances', 'clare-lancers']);
-  }
-
   displayStyles(dance: SetDanceOverview) {
     const result = dance.styles.map((s) => { return s[0].toUpperCase() + s.slice(1); }).join(' - ');
     return result;

@@ -28,6 +28,7 @@ before_script:
   - npm install -g @angular/cli
 
 script:
+  - ng lint
   - ng test --watch false
   - ng build --prod --aot
 
