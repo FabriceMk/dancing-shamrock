@@ -1,6 +1,6 @@
-{   
+{
   "index": "/index.html",
-  "assetGroups": [{     
+  "assetGroups": [{
     "name": "app",
     "installMode": "prefetch",
     "resources": {
