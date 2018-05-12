@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
-import 'rxjs/add/operator/switchMap';
-import 'rxjs/add/operator/finally';
+import { switchMap } from 'rxjs/operators';
 
 import { ConfigurationService } from '../../core/configuration/configuration.service';
 import { DancesService } from '../shared/dances.service';
@@ -41,17 +40,17 @@ export class SetDancesDetailsComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.route.params
-      .switchMap((params: ParamMap) => this.dancesService.getDance(params['id']))
-      .finally(() => this.isLoading = false)
-      .subscribe(
+    this.route.params.pipe(
+      switchMap((params: ParamMap) =>
+      this.dancesService.getDance(params['id']))
+    ).subscribe(
         dance => {
           this.dance = dance;
         },
         error => {
           this.hasError = true;
         }
-      );
+    );
 
     this.configurationService.getDescriptionsDisplay()
     .subscribe(
