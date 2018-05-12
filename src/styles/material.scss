@@ -13,3 +13,19 @@
   color: $black_54;
   font-size: $list-item-font-size - 2px;
 }
+
+/* Angular Material customizations */
+mat-card {
+  max-width: 90%;
+  margin: 2em auto;
+
+  mat-card-actions {
+    .mat-button {
+      color: $primary;
+    }
+  }
+}
+
+mat-toolbar-row {
+  justify-content: space-between;
+}

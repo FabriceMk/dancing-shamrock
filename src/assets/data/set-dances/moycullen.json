@@ -1,0 +1,129 @@
+{
+  "id": "moycullen",
+  "name": "Moycullen",
+  "alternativeNames": [""],
+  "figures": [
+    {
+      "name": "Square",
+      "style": "reel",
+      "duration": 160,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "Gent with his right arm over the lady's shoulder, holding right hand in right and left in left. When arriving home, gents bring their right hand over the lady's head and transition into waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house",
+            "name": "House around",
+            "description": "House around the set in waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "ladies-chain",
+            "name": "Ladies Chain",
+            "description": "Ladies take right hands in center, turn around the opposite gent with left hands held low, dance back to place passing right shoulders with the opposite lady.",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "In waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "ladies-chain",
+            "name": "Ladies Chain",
+            "description": "",
+            "couples": [2,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "advance-turn-left",
+            "name": "Advance and turn left",
+            "description": "Taking crossed hands in front, top couples advance and retire once (4b), dance to face the side couple on the left (2b), release hands and tops and sides dance on the spot (2b).",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "couples-square",
+            "name": "Couples square",
+            "description": "Top couples square with the side couple facing them. Pass right shoulders, turn to face your own partner, pass left shoulders to face the opposite couple again from their side (4b). Top couples pass back through the side couple, pass their partner's left shoulder again, top gents dance to their own places and top ladies cross to the opposite top lady's place (4b). Side couples dance into place.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 7,
+            "description": "Ladies cross back home.",
+            "couples": [1,2,3,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 7,
+            "description": "Side couples leading. Dance to face the top couples on the left.",
+            "couples": [1,2,3,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 7,
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house",
+            "name": "House around",
+            "description": "Full house in waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    }
+  ]
+}

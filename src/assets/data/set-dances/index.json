@@ -56,6 +56,13 @@
     "styles": ["reel", "hornpipe"]
   },
   {
+    "id": "moycullen",
+    "name": "Moycullen",
+    "alternativeNames": [],
+    "figuresCount": 4,
+    "styles": ["reel", "jig", "polka"]
+  },
+  {
     "id": "plain",
     "name": "Plain",
     "alternativeNames": ["Clare Plain"],

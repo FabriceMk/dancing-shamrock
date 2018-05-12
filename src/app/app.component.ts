@@ -2,7 +2,7 @@ import { MatDialog } from '@angular/material';
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 
-import { ConfigurationService } from './core/configuration/configuration.service'
+import { ConfigurationService } from './core/configuration/configuration.service';
 import { AboutDialogComponent } from './core/help/about-dialog.component';
 
 @Component({
@@ -11,8 +11,14 @@ import { AboutDialogComponent } from './core/help/about-dialog.component';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+  /**
+   * Title
+   */
   title = 'Dancing Clover';
 
+  /**
+   * Flag if the descriptions should be shown.
+   */
   showDescriptions: boolean;
 
   constructor(
@@ -31,7 +37,7 @@ export class AppComponent implements OnInit {
   }
 
   /** Toggles the Descriptions Displays setting. */
-  toggleDescriptionsDisplaySetting(): void {
+  toggleDescriptionsDisplaySetting() {
     this.configurationService.toggleDescriptions();
   }
 

@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule  } from '@angular/router/testing';
 import { DebugElement } from '@angular/core';
 
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs';
 
 import { AppComponent } from './app.component';
 import { MaterialExporterModule } from './material-exporter.module';

@@ -16,7 +16,7 @@ import { DancesService } from './shared/dances.service';
 @NgModule({
   imports: [
     SharedModule,
-    MaterialExporterModule ,
+    MaterialExporterModule,
     DancesRoutingModule
   ],
   declarations: [

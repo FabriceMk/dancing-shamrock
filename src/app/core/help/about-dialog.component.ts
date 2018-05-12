@@ -1,7 +1,7 @@
 import {Component, Inject} from '@angular/core';
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 
-import { environment } from './../../../environments/environment'
+import { environment } from './../../../environments/environment';
 
 /**
  * Dialog for 'About' information
@@ -20,7 +20,7 @@ export class AboutDialogComponent {
     @Inject(MAT_DIALOG_DATA) public data: any) { }
 
   /** Event handler for click on Close button */
-  onCloseClick(): void {
+  onCloseClick() {
     this.dialogRef.close();
   }
 }
