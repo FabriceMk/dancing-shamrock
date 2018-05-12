@@ -44,12 +44,12 @@ export class SetDancesDetailsComponent implements OnInit {
       switchMap((params: ParamMap) =>
       this.dancesService.getDance(params['id']))
     ).subscribe(
-        dance => {
-          this.dance = dance;
-        },
-        error => {
-          this.hasError = true;
-        }
+      dance => {
+        this.dance = dance;
+      },
+      error => {
+        this.hasError = true;
+      }
     );
 
     this.configurationService.getDescriptionsDisplay()

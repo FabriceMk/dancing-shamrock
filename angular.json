@@ -30,7 +30,7 @@
             ],
             "stylePreprocessorOptions": {
               "includePaths": [
-                "./src/styles"
+                "src/styles"
               ]
             },
             "scripts": []
@@ -93,7 +93,12 @@
               "src/apple-touch-icon.png",
               "src/apple-touch-icon-180x180.png",
               "src/safari-pinned-tab.svg"
-            ]
+            ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "src/styles"
+              ]
+            }
           }
         },
         "lint": {
