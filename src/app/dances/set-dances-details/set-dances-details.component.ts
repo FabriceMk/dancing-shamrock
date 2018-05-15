@@ -40,10 +40,9 @@ export class SetDancesDetailsComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.route.params.pipe(
-      switchMap((params: ParamMap) =>
-      this.dancesService.getDance(params['id']))
-    ).subscribe(
+    const danceId = this.route.snapshot.paramMap.get('id');
+
+    this.dancesService.getDance(danceId).subscribe(
       dance => {
         this.dance = dance;
       },

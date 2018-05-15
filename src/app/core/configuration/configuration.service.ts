@@ -41,7 +41,7 @@ export class ConfigurationService {
       newValue = JSON.parse(actualValue);
     }
 
-    if (this.showDescriptions === null) {
+    if (!this.showDescriptions) {
       this.showDescriptions = new BehaviorSubject<boolean>(newValue);
     } else {
       this.showDescriptions.next(newValue);
