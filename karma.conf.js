@@ -16,13 +16,11 @@ module.exports = function (config) {
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
     files: [
-      
-
       // Include a sample Material theme in the test suite just to avoid a warning about missing theme until it gets patched.
       {pattern: './node_modules/@angular/material/prebuilt-themes/indigo-pink.css', included: true, watched: true},
     ],
     preprocessors: {
-      
+
     },
     mime: {
       'text/x-typescript': ['ts','tsx']
@@ -43,7 +41,7 @@ module.exports = function (config) {
     autoWatch: true,
     browsers: ['Chrome'],
     singleRun: false,
-    customLaunchers: {  
+    customLaunchers: {
       chromeTravisCi: {
         base: 'Chrome',
         flags: ['--no-sandbox']
@@ -51,7 +49,7 @@ module.exports = function (config) {
     }
   };
 
-  if(process.env.TRAVIS) {  
+  if(process.env.TRAVIS) {
     configuration.browsers = ['chromeTravisCi'];
   }
 
