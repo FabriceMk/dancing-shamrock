@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
-import { switchMap } from 'rxjs/operators';
-
 import { ConfigurationService } from '../../core/configuration/configuration.service';
 import { DancesService } from '../shared/dances.service';
 import { SetDance } from '../shared/models/set-dance.model';
