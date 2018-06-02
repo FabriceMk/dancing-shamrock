@@ -17,9 +17,7 @@
             "description": "Gent with his right arm over the lady's shoulder, holding right hand in right and left in left. When arriving home, gents bring their right hand over the lady's head and transition into waltz hold.",
             "couples": [1,2,3,4],
             "duration": 8
-          }
-        ],
-        [
+          },
           {
             "id": "house",
             "name": "House around",
@@ -90,7 +88,7 @@
         [
           {
             "id": "repeat",
-            "reference": 7,
+            "reference": 6,
             "description": "Ladies cross back home.",
             "couples": [1,2,3,4],
             "duration": 24
@@ -99,7 +97,7 @@
         [
           {
             "id": "repeat",
-            "reference": 7,
+            "reference": 6,
             "description": "Side couples leading. Dance to face the top couples on the left.",
             "couples": [1,2,3,4],
             "duration": 24
@@ -108,7 +106,7 @@
         [
           {
             "id": "repeat",
-            "reference": 7,
+            "reference": 6,
             "description": "",
             "couples": [1,2,3,4],
             "duration": 8
@@ -119,6 +117,309 @@
             "id": "house",
             "name": "House around",
             "description": "Full house in waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Line up",
+      "style": "reel",
+      "duration": 160,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "house",
+            "name": "House around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "line-up",
+            "name": "Line up",
+            "description": "With crossed hands top couples advance and retire once (4b) then advance to form a line of four in the center of the set, gents on the outside. Dance last 2 bars on the spot.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "turn-in-line",
+            "name": "Turn in the line",
+            "description": "Gents take right hands low with the opposite lady and dance one full turn (360°) clockwise (4b), dance forward to opposite positions, gents to the opposite lady's position and each lady to the opposite gent's (2b). Now pass partners, gents on the inside, facing each other as you change places (2b).",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "Repeat to return home.",
+            "couples": [1,3],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "",
+            "couples": [2,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "Repeat to return home.",
+            "couples": [2,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "back-to-back-ladies-move-on",
+            "name": "Back to back & ladies move on",
+            "description": "Face your partner and dance back to back, passing by right shoulders when advancing and left shoulders when retiring back to place (4b). Gents dance in place while the ladies dance forward, passing partner's right shoulder then moving on to face the next gent clockwise of their own positions (4b).",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "With new partner in waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 6,
+            "description": "Repeat until ladies are back home, swinging their original partner.",
+            "couples": [1,2,3,4],
+            "duration": 48
+          }
+        ],
+        [
+          {
+            "id": "house",
+            "name": "House around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Twirl",
+      "style": "jig",
+      "duration": 152,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "body",
+            "name": "Body",
+            "description": "In waltz hold using polka steps, step to the center and back (2b), turn clockwise as you move one position to the right (counter clockwise) (2b). Repeat to home.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "cross-twirl",
+            "name": "Ladies cross, gents twirl",
+            "description": "Top ladies cross the set passing left shoulders and take right hands with opposite gent. Ladies dance clockwise around this gent while he twirls his right arm over his head. Finish facing this partner in the opposite lady's position in waltz hold.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "house",
+            "name": "House around",
+            "description": "Tops house around each other.",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 3,
+            "description": "To return home.",
+            "couples": [1,3],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 3,
+            "description": "",
+            "couples": [2,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 3,
+            "description": "To return home.",
+            "couples": [2,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "wheel",
+            "name": "Wheel to opposite",
+            "description": "Four ladies take right hands and wheel to the opposite position (4b), gents take left hands and wheel to opposite position.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "In opposite positions.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 7,
+            "description": "To return home.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "body",
+            "name": "Body",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Quarter chain",
+      "style": "polka",
+      "duration": 128,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "Adv & retire twice in a circle holding hands.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "crossover",
+            "name": "Diagonal crossover",
+            "description": "Top ladies cross right shoulders, top gents cross left shoulders, side ladies cross right shoulders and side gents cross left shoulders to end in the opposite positions.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "quarter-chain-swing",
+            "name": "Quarter chain & swing",
+            "description": "Facing your partner, weave forward passing right shoulders with your partner and left shoulders with the next person (4b). Finish facing the third person and swing (4b). You should have moved one position around the set.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 3,
+            "description": "Three more times until you are swinging in your home position.  Tops always cross first, wherever they are.",
+            "couples": [1,2,3,4],
+            "duration": 48
+          }
+        ],
+        [
+          {
+            "id": "chain",
+            "name": "Chain",
+            "description": "Face your own partner, take right hands and chain halfway around the set, alternating right and left hands. Dance out the eighth bar in the opposite position, then continue the chain to home.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "Once, advance again and put arms around each other in Christmas formation (left over and right under).",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "swing-eight",
+            "name": "Swing eight / Christmas",
+            "description": "Swing!",
             "couples": [1,2,3,4],
             "duration": 8
           }
