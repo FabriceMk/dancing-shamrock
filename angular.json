@@ -21,7 +21,6 @@
               "src/favicon.ico",
               "src/manifest.json",
               "src/apple-touch-icon.png",
-              "src/apple-touch-icon-180x180.png",
               "src/safari-pinned-tab.svg"
             ],
             "styles": [
@@ -91,7 +90,6 @@
               "src/favicon.ico",
               "src/manifest.json",
               "src/apple-touch-icon.png",
-              "src/apple-touch-icon-180x180.png",
               "src/safari-pinned-tab.svg"
             ],
             "stylePreprocessorOptions": {
