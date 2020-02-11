@@ -2,7 +2,7 @@
 
 A Progressive Web Application to easily browse through Irish Set Dances.
 
-Disclaimer: Currently Work In Progress
+Disclaimer: Currently being rebuilt with Vue.js
 
 [![Build Status](https://travis-ci.org/FabriceMk/dancing-clover.svg?branch=master)](https://travis-ci.org/FabriceMk/dancing-clover)
 
