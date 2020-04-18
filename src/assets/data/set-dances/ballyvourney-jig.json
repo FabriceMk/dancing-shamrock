@@ -1,0 +1,281 @@
+{
+  "id": "ballvourney-jig",
+  "name": "Ballyvourney (Jig)",
+  "alternativeNames": ["BV (Jig)"],
+  "figures": [
+    {
+      "name": "Swing your Own",
+      "style": "slides",
+      "duration": 88,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "With waltz hold, the 1st step being danced slightly anti-clockwise before beginning the house on the second step.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "square-house",
+            "name": "Square the house",
+            "description": "Couples slide 1, 2, 123 towards the couple on the R, make a ¼ turn clockwise and slide 1, 2, 123 towards the couple opposite their own place and house back home.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing partners",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "slide-change",
+            "name": "Slide and change",
+            "description": "Partners take waltz hold and slide towards the centre 1, 2, 123 and back, 2, 123 (4 bars) and house across to the opposite place (4 bars). They then repeat this movement back home.",
+            "couples": [1,3],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 40
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Swing opposites",
+      "style": "slides",
+      "duration": 104,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "With waltz hold, the 1st step being danced slightly anti-clockwise before beginning the house on the second step.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "square-house",
+            "name": "Square the house",
+            "description": "Couples slide 1, 2, 123 towards the couple on the R, make a ¼ turn clockwise and slide 1, 2, 123 towards the couple opposite their own place and house back home.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing opposites",
+            "description": "Gents cross to the opposite lady (2 steps) and swing.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing partners",
+            "description": "Gents dance back and swing partners.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "slide-change",
+            "name": "Slide and change",
+            "description": "Partners take waltz hold and slide towards the centre 1, 2, 123 and back, 2, 123 (4 bars) and house across to the opposite place (4 bars). They then repeat this movement back home.",
+            "couples": [1,3],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 48
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Double Swing Four",
+      "style": "slides",
+      "duration": 104,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "With waltz hold, the 1st step being danced slightly anti-clockwise before beginning the house on the second step.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "square-house",
+            "name": "Square the house",
+            "description": "Couples slide 1, 2, 123 towards the couple on the R, make a ¼ turn clockwise and slide 1, 2, 123 towards the couple opposite their own place and house back home.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "swing-four",
+            "name": "Double Swing Four",
+            "description": "Both couples join hands behind each other’s backs and swing clockwise, falling back to place on the last 2 bars.",
+            "couples": [1,3],
+            "duration": 16
+          },
+          {
+            "id": "slide-change",
+            "name": "Slide and change",
+            "description": "Partners take waltz hold and slide towards the centre 1, 2, 123 and back, 2, 123 (4 bars) and house across to the opposite place (4 bars). They then repeat this movement back home.",
+            "couples": [1,3],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 48
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Swing all Round",
+      "style": "slides",
+      "duration": 136,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "With waltz hold, the 1st step being danced slightly anti-clockwise before beginning the house on the second step.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "square-house",
+            "name": "Square the house",
+            "description": "Couples slide 1, 2, 123 towards the couple on the R, make a ¼ turn clockwise and slide 1, 2, 123 towards the couple opposite their own place and house back home.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing all Round",
+            "description": "Gents swing the lady on the L for 8 bars, move on and swing the next lady and so on to swing their own partners in place to finish.",
+            "couples": [1,3],
+            "duration": 32
+          },
+          {
+            "id": "slide-change",
+            "name": "Slide and change",
+            "description": "Partners take waltz hold and slide towards the centre 1, 2, 123 and back, 2, 123 (4 bars) and house across to the opposite place (4 bars). They then repeat this movement back home.",
+            "couples": [1,3],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 48
+          }
+        ]
+      ]
+    },
+    {
+      "name": "The Chain",
+      "style": "slides",
+      "duration": 112,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "With waltz hold, the 1st step being danced slightly anti-clockwise before beginning the house on the second step.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "square-house",
+            "name": "Square the house",
+            "description": "Couples slide 1, 2, 123 towards the couple on the R, make a ¼ turn clockwise and slide 1, 2, 123 towards the couple opposite their own place and house back home.",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "half-chain",
+            "name": "Half chain",
+            "description": "All face partners and, taking R arm, dance ½ turn around each other to face in the opposite direction.  All chain L arm, R arm etc. to meet partners in the opposite place.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "All face partners and, taking R arm, dance ½ turn around each other to face in the opposite direction.  All chain L arm, R arm etc. to meet partners in the opposite place.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "slide-change",
+            "name": "Full slide",
+            "description": "All couples slide to the centre and back and half house around into their own place. They repeat this movement back to the place opposite their own.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 32
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    }
+  ]
+}

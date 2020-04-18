@@ -15,22 +15,27 @@
         </template>
 
         <v-list>
-          <v-list-item v-for="n in 5" :key="n" @click="() => {}">
-            <v-list-item-title>Option {{ n }}</v-list-item-title>
-          </v-list-item>
+          <v-list-item-group>
+            <v-list-item @click="() => {}">
+              <v-list-item-content>
+                <v-list-item-title>Settings</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+            <v-list-item @click="() => {}">
+              <v-list-item-content>
+                <v-list-item-title>About</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-list-item-group>
         </v-list>
       </v-menu>
     </v-app-bar>
 
     <v-content>
-      <HelloWorld />
+      <Home />
     </v-content>
 
-    <v-bottom-navigation
-      v-model="bottomNav"
-      :value="activeBtn"
-      color="secondary"
-    >
+    <v-bottom-navigation v-model="activeBtn" color="secondary">
       <v-btn value="recent">
         <span>Sets List</span>
         <v-icon>mdi-format-list-bulleted</v-icon>
@@ -51,17 +56,18 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import Home from './views/Home.vue';
 
 export default Vue.extend({
   name: 'App',
 
   components: {
-    HelloWorld,
+    Home,
   },
 
   data: () => ({
-    //
+    activeBtn: 1,
+    showNav: true,
   }),
 });
 </script>

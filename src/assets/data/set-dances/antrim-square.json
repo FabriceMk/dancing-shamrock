@@ -1,0 +1,256 @@
+{
+  "id": "antrim-square",
+  "name": "Antrim Square",
+  "alternativeNames": [],
+  "figures": [
+    {
+      "name": "Ladies star",
+      "style": "reel",
+      "duration": 144,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around-back",
+            "name": "Lead around and back",
+            "description": "Lead all the way around in 8b, lead back 8b. Gents right arm over ladies right shoulder, left hands held in front. When turning to lead back, merely turn on the spot without spinning around each other.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "In waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "ladies-star",
+            "name": "Ladies star",
+            "description": "Right hand star (or wheel) clockwise for 4 bars, reverse and left hand star back to place.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "gents-star",
+            "name": "Gents star",
+            "description": "Right hand star (or wheel) clockwise for 4 bars, reverse and left hand star back to place.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-within",
+            "name": "House within",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "square-house",
+            "name": "Square and House",
+            "description": "In waltz hold, advance toward the couple on the right, back into opposite place, house home.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "antrim-square",
+            "name": "Antrim Square",
+            "description": "Each dancer will dance a small square as part of the overall set. Tops take inside hands and advance to the center, release hands, face their partners and reverse into side position (4b). Tops then turn toward the opposite top, back toward their original side, turn to face their partner and advance to meet their partner at home (4b). At the same time the sides face their partners, reverse away from each other, turn and advance to the opposite person (4b) turn toward the center advance toward their partner, turn toward the center and reverse to home (4b). Everyone reverse the square with side couples leading (8b).",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 4,
+            "description": "Side couples lead the Antrim square this time.",
+            "couples": [2,4],
+            "duration": 48
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Swing in four",
+      "style": "jig",
+      "duration": 136,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around-back",
+            "name": "Lead around and back",
+            "description": "This time use a hop step.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "crossover",
+            "name": "Crossover",
+            "description": "Top ladies cross to opposite ladies position passing right shoulders in 2b, gents cross to opposite gents position passing left shoulders. Repeat. During the repeat, the ladies should not go all the way home and the gents should pass just far enough to get into a little Christmas formation at the center of the set.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "swing-four",
+            "name": "Swing four",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "antrim-square",
+            "name": "Antrim Square",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "",
+            "couples": [2,4],
+            "duration": 56
+          }
+        ],
+        [
+          {
+          "id": "house-around",
+          "name": "House around",
+          "description": "",
+          "couples": [1,2,3,4],
+          "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Swing your corner",
+      "style": "slide",
+      "duration": 152,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around-back",
+            "name": "Lead around and back",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "slide-change",
+            "name": "Slide and change",
+            "description": "Slide in 2 and in 2-3, back 2 and back 2-3. House to opposite, repeat to home.",
+            "couples": [1,3],
+            "duration": 16
+          },
+          {
+            "id": "swing",
+            "name": "Swing your corner",
+            "description": "All turn and swing your corner (left of gent, right of lady).",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing your partner",
+            "description": "Dance back home (2b) and swing your partner (6b).",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "antrim-square",
+            "name": "Antrim Square",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "",
+            "couples": [2,4],
+            "duration": 56
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    }
+  ]
+}

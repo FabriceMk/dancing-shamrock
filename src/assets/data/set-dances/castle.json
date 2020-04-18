@@ -1,0 +1,610 @@
+{
+  "id": "castle",
+  "name": "Castle",
+  "alternativeNames": ["Cashel"],
+  "figures": [
+    {
+      "name": "Pass Through",
+      "style": "polka",
+      "duration": 200,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "pass-through",
+            "name": "Pass through",
+            "description": "Couples dance through each other, ladies in the centre L to L, and turn clockwise in place (4 bars). They dance back through each other, ladies in the centre R shoulder to R shoulder, turn inwards to face centre (4 bars).",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "advance-retire",
+            "name": "Advance and retire twice",
+            "description": "With R hand in R.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "Ladies dance across to the gent on their R and swing with him (waltz hold), ending facing centre and on the R of this gent.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "All take hands in a circle and advance and retire twice.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing partners",
+            "description": "Ladies dance back to their own partners and all swing.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [1,3],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 32
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 32
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 32
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Wheel in Line",
+      "style": "polka",
+      "duration": 136,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire",
+            "name": "Advance, retire once",
+            "description": "R in R.",
+            "couples": [1,3],
+            "duration": 4
+          },
+          {
+            "id": "cross-over",
+            "name": "Ladies cross over",
+            "description": "Ladies dance 2 steps across to the opposite gent and swing him one turn with waltz hold.",
+            "couples": [1,3],
+            "duration": 4
+          },
+          {
+            "id": "wheel-line",
+            "name": "Wheel in line",
+            "description": "With gent's R arm still around new partner's waist, ladies take R hands in the centre and all four wheel clockwise in line back to the gent's place.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "New couples in the gent's place.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire",
+            "name": "Advance, retire once",
+            "description": "",
+            "couples": [1,3],
+            "duration": 4
+          },
+          {
+            "id": "cross-over",
+            "name": "Ladies cross back and swing",
+            "description": "",
+            "couples": [1,3],
+            "duration": 4
+          },
+          {
+            "id": "wheel-line",
+            "name": "Wheel in line",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing partners",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 64
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Ladies Chain",
+      "style": "polka",
+      "duration": 200,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "ladies-chain",
+            "name": "Ladies Chain",
+            "description": " R hands in the centre, L arm to turn the opposite gent in place, R hands again in the centre and L arm to turn their own partner.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing opposites",
+            "description": "1st gent and 2nd lady dance in to face each other (2 bars). They swing, separate, and drop back between the couple to the L of their own place. Each line of three takes crossed hand hold behind with outside hands resting on the hip of the outside dancer.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire",
+            "name": "Singletons Advance, retire twice",
+            "description": "2nd gent and 1st lady advance and retire twice while the trios dance in place.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire",
+            "name": "Trios Advance, retire twice",
+            "description": "While the singletons dance in place.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing partners",
+            "description": "All couples reform (2 bars) and swing.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 2nd gent and 1st lady doing the swing and 1st gent and 2nd lady as singletons.",
+            "couples": [1,3],
+            "duration": 48
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 1st gent and 2nd lady doing the swing and 2nd gent and 1st lady as singletons.",
+            "couples": [2,4],
+            "duration": 48
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 2nd gent and 1st lady doing the swing and 1st gent and 2nd lady as singletons.",
+            "couples": [2,4],
+            "duration": 48
+          }
+        ]
+      ]
+    },
+    {
+      "name": "The Hop",
+      "style": "hornpipe",
+      "duration": 152,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-hop",
+            "name": "House and hop",
+            "description": "House across to the opposite place, dancing the hornpipe step (2 bars), then double the step back to place: hop 1, hop 2, hop 3, hop 4 (2 bars).",
+            "couples": [1,3],
+            "duration": 4
+          },
+          {
+            "id": "gents-change",
+            "name": "Gents change",
+            "description": "Gents cross, L to L, to turn in and face the opposite ladies (2 bars).",
+            "couples": [1,3],
+            "duration": 2
+          },
+          {
+            "id": "clap-stamp",
+            "name": "Clap and stamp",
+            "description": "Clap three times (1 bar) and stamp four times 1-2, 3, 4 (1 bar).",
+            "couples": [1,3],
+            "duration": 2
+          },
+          {
+            "id": "house-hop",
+            "name": "House and hop",
+            "description": "House across to the opposite place, dancing the hornpipe step (2 bars), then double the step back to place: hop 1, hop 2, hop 3, hop 4 (2 bars).",
+            "couples": [1,3],
+            "duration": 4
+          },
+          {
+            "id": "gents-change",
+            "name": "Gents change",
+            "description": "Gents cross, L to L, to turn in and face the opposite ladies (2 bars).",
+            "couples": [1,3],
+            "duration": 2
+          },
+          {
+            "id": "clap-stamp",
+            "name": "Clap and stamp",
+            "description": "Clap three times (1 bar) and stamp four times 1-2, 3, 4 (1 bar).",
+            "couples": [1,3],
+            "duration": 2
+          },
+          {
+            "id": "house-hop",
+            "name": "House and hop",
+            "description": "House across to the opposite place, dancing the hornpipe step (2 bars), then double the step back to place: hop 1, hop 2, hop 3, hop 4 (2 bars).",
+            "couples": [1,3],
+            "duration": 4
+          },
+          {
+            "id": "gents-change",
+            "name": "Gents change",
+            "description": "Gents cross, L to L, to turn in and face the opposite ladies (2 bars).",
+            "couples": [1,3],
+            "duration": 2
+          },
+          {
+            "id": "clap-stamp",
+            "name": "Clap and stamp",
+            "description": "Clap three times (1 bar) and stamp four times 1-2, 3, 4 (1 bar).",
+            "couples": [1,3],
+            "duration": 2
+          },
+          {
+            "id": "house-hop",
+            "name": "House and hop",
+            "description": "House across to the opposite place, dancing the hornpipe step (2 bars), then double the step back to place: hop 1, hop 2, hop 3, hop 4 (2 bars).",
+            "couples": [1,3],
+            "duration": 4
+          },
+          {
+            "id": "gents-change",
+            "name": "Gents change",
+            "description": "Gents cross, L to L, to turn in and face the opposite ladies (2 bars).",
+            "couples": [1,3],
+            "duration": 2
+          },
+          {
+            "id": "clap-stamp",
+            "name": "Clap and stamp",
+            "description": "Clap three times (1 bar) and stamp four times 1-2, 3, 4 (1 bar).",
+            "couples": [1,3],
+            "duration": 2
+          },
+          {
+            "id": "house-hop",
+            "name": "House and hop",
+            "description": "With own partners.",
+            "couples": [1,3],
+            "duration": 4
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 36
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [1,3],
+            "duration": 36
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 36
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Slide and Change",
+      "style": "slide",
+      "duration": 256,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "long-lead-around",
+            "name": "Long Lead around",
+            "description": "With waist hold, all couples dance 2 steps into the next place and dance 2 steps in place.  They repeat this sequence into each place and dance the last 2 steps at home.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "slide-change",
+            "name": "Slide and change",
+            "description": "Couples slide 2 steps to the centre and 2 steps back (4 bars) then house across to the opposite place (4 bars). They repeat the movement back to place.",
+            "couples": [1,3],
+            "duration": 16
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "ladies-chain",
+            "name": "Ladies chain",
+            "description": "R hands in the centre, L arm to turn the opposite gent, R hands in the centre, turn partners L hand to end facing anti-clockwise around the set holding L hands in front and R hands behind.",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "long-lead-around",
+            "name": "Long Lead around",
+            "description": "All holding L hands in front and R hands behind.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "",
+            "couples": [2,4],
+            "duration": 40
+          }
+        ],
+        [
+          {
+            "id": "long-lead-around",
+            "name": "Long Lead around",
+            "description": "All holding L hands in front and R hands behind.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "",
+            "couples": [1,3],
+            "duration": 40
+          }
+        ],
+        [
+          {
+            "id": "long-lead-around",
+            "name": "Long Lead around",
+            "description": "All holding L hands in front and R hands behind.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "",
+            "couples": [2,4],
+            "duration": 40
+          }
+        ],
+        [
+          {
+            "id": "long-lead-around",
+            "name": "Long Lead around",
+            "description": "All holding L hands in front and R hands behind.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "The Offering Up",
+      "style": "polka",
+      "duration": 120,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "change-partners",
+            "name": "Change partners",
+            "description": "Gents dance 1 step into the centre of the set and 1 step to turn ¼ turn R to face anti-clockwise around the set.  At the same time, ladies dance 2 steps on to the next gent on their R and new partners take waist hold (2 bars). Couples lead around back to the gent's place (6 bars).",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    }
+  ]
+}
