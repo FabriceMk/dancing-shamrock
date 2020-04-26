@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar app color="primary" dark>
       <div class="d-flex align-center">
-        <v-toolbar-title>Dancing Clover</v-toolbar-title>
+        <v-toolbar-title>Dancing Shamrock</v-toolbar-title>
       </div>
 
       <v-spacer></v-spacer>
@@ -32,23 +32,18 @@
     </v-app-bar>
 
     <v-content>
-      <Home />
+      <router-view />
     </v-content>
 
     <v-bottom-navigation v-model="activeBtn" color="secondary">
-      <v-btn value="recent">
-        <span>Sets List</span>
+      <v-btn value="sets" to="/set-list" >
+        <span>Dance Sets</span>
         <v-icon>mdi-format-list-bulleted</v-icon>
       </v-btn>
 
-      <v-btn value="favorites">
+      <v-btn value="favorites" to="/about">
         <span>Favorites</span>
         <v-icon>mdi-heart</v-icon>
-      </v-btn>
-
-      <v-btn value="nearby">
-        <span>Nearby</span>
-        <v-icon>mdi-map-marker</v-icon>
       </v-btn>
     </v-bottom-navigation>
   </v-app>
@@ -56,18 +51,14 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import Home from './views/Home.vue';
+import { Component } from 'vue-property-decorator';
 
-export default Vue.extend({
+@Component({
   name: 'App',
+})
+export default class App extends Vue {
+  activeBtn = 1;
 
-  components: {
-    Home,
-  },
-
-  data: () => ({
-    activeBtn: 1,
-    showNav: true,
-  }),
-});
+  showNav = true;
+}
 </script>
