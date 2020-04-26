@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-list two-line>
-      <template v-for="(set) in setList">
+      <template v-for="set in setList">
         <v-list-item
           :key="set.id"
           @click="dummyMethod"
@@ -11,11 +11,6 @@
             <v-list-item-subtitle v-text="formattedStyles(set)"></v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
-
-        <!-- <v-divider
-          v-if="index + 1 < setList.length"
-          :key="index"
-        ></v-divider> -->
       </template>
     </v-list>
   </div>
