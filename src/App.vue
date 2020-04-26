@@ -35,7 +35,7 @@
       <router-view />
     </v-content>
 
-    <v-bottom-navigation v-model="activeBtn" color="secondary">
+    <v-bottom-navigation v-model="activeBtn" color="secondary" fixed="true">
       <v-btn value="sets" to="/set-list" >
         <span>Dance Sets</span>
         <v-icon>mdi-format-list-bulleted</v-icon>

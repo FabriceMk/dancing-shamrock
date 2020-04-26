@@ -1,15 +1,22 @@
 <template>
   <div>
     <v-list two-line>
-      <v-list-item
-        v-for="set in setList"
-        :key="set.id"
-      >
-        <v-list-item-content>
-          <v-list-item-title v-text="set.name"></v-list-item-title>
-          <v-list-item-subtitle v-text="set.figuresCount"></v-list-item-subtitle>
-        </v-list-item-content>
-      </v-list-item>
+      <template v-for="(set) in setList">
+        <v-list-item
+          :key="set.id"
+          @click="dummyMethod"
+        >
+          <v-list-item-content>
+            <v-list-item-title v-text="set.name"></v-list-item-title>
+            <v-list-item-subtitle v-text="formattedStyles(set)"></v-list-item-subtitle>
+          </v-list-item-content>
+        </v-list-item>
+
+        <!-- <v-divider
+          v-if="index + 1 < setList.length"
+          :key="index"
+        ></v-divider> -->
+      </template>
     </v-list>
   </div>
 </template>
@@ -29,6 +36,15 @@ export default class SetList extends Vue {
   mounted() {
     this.setList = SetDancesIndex;
   }
+
+  // eslint-disable-next-line class-methods-use-this
+  formattedStyles(entry: SetEntry): string {
+    const names = entry.styles.map((name) => name[0].toUpperCase() + name.slice(1)).join(' - ');
+    return names;
+  }
+
+  // eslint-disable-next-line class-methods-use-this
+  dummyMethod() { return 0; }
 }
 
 </script>
