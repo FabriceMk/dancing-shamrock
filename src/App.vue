@@ -7,6 +7,11 @@
 
       <v-spacer></v-spacer>
 
+      <v-btn icon @click="switchSortType">
+        <v-icon v-if="alphabeticalSortType">mdi-sort-alphabetical-variant</v-icon>
+        <v-icon v-else>mdi-playlist-star</v-icon>
+      </v-btn>
+
       <v-menu left bottom>
         <template v-slot:activator="{ on }">
           <v-btn icon v-on="on">
@@ -21,7 +26,7 @@
                 <v-list-item-title>Settings</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
-            <v-list-item @click="() => {}">
+            <v-list-item to="/about">
               <v-list-item-content>
                 <v-list-item-title>About</v-list-item-title>
               </v-list-item-content>
@@ -60,5 +65,11 @@ export default class App extends Vue {
   activeBtn = 1;
 
   showNav = true;
+
+  alphabeticalSortType = true;
+
+  switchSortType(): void {
+    this.alphabeticalSortType = !this.alphabeticalSortType;
+  }
 }
 </script>
