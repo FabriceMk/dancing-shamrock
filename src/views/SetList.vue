@@ -6,10 +6,22 @@
           :key="set.id"
           @click="dummyMethod"
         >
+          <v-list-item-action @click.stop="" @mousedown.stop @touchstart.native.stop>
+            <v-btn icon>
+              <v-icon color="grey lighten-1">mdi-star-outline</v-icon>
+            </v-btn>
+          </v-list-item-action>
+
           <v-list-item-content>
             <v-list-item-title v-text="set.name"></v-list-item-title>
             <v-list-item-subtitle v-text="formattedStyles(set)"></v-list-item-subtitle>
           </v-list-item-content>
+
+          <v-chip
+            class="ma-2"
+          >
+            Figs: {{set.figuresCount}}
+          </v-chip>
         </v-list-item>
       </template>
     </v-list>

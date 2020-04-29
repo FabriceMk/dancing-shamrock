@@ -41,9 +41,9 @@
         <v-icon>mdi-format-list-bulleted</v-icon>
       </v-btn>
 
-      <v-btn value="favorites" to="/about">
-        <span>Favorites</span>
-        <v-icon>mdi-heart</v-icon>
+      <v-btn value="glossary" to="/about">
+        <span>Glossary</span>
+        <v-icon>mdi-book-alphabet</v-icon>
       </v-btn>
     </v-bottom-navigation>
   </v-app>
