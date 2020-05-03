@@ -40,13 +40,13 @@
       <router-view />
     </v-content>
 
-    <v-bottom-navigation v-model="activeBtn" color="secondary" fixed="true">
+    <v-bottom-navigation v-model="activeBtn" color="secondary" fixed>
       <v-btn value="sets" to="/set-list" >
         <span>Dance Sets</span>
         <v-icon>mdi-format-list-bulleted</v-icon>
       </v-btn>
 
-      <v-btn value="glossary" to="/about">
+      <v-btn value="glossary" to="/soon">
         <span>Glossary</span>
         <v-icon>mdi-book-alphabet</v-icon>
       </v-btn>

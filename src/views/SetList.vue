@@ -4,7 +4,7 @@
       <template v-for="set in setList">
         <v-list-item
           :key="set.id"
-          @click="dummyMethod"
+          :to="'/set-details/' + set.id"
         >
           <v-list-item-action @click.stop="" @mousedown.stop @touchstart.native.stop>
             <v-btn icon>
@@ -31,13 +31,13 @@
 <script lang="ts">
 import Vue from 'vue';
 import { Component } from 'vue-property-decorator';
-import { SetEntry } from '@/models/SetEntry';
+import SetEntry from '@/models/SetEntry';
 import SetDancesIndex from '@/assets/data/set-dances/index.json';
 
 @Component({
   name: 'SetListComponent',
 })
-export default class SetList extends Vue {
+export default class SetListComponent extends Vue {
   setList: SetEntry[] = [];
 
   mounted() {

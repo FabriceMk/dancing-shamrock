@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="soon">
+    <h1>Coming soon...</h1>
   </div>
 </template>
 
@@ -9,7 +9,7 @@ import Vue from 'vue';
 import { Component } from 'vue-property-decorator';
 
 @Component({
-  name: 'AboutComponent',
+  name: 'SoonComponent',
 })
-export default class AboutComponent extends Vue { }
+export default class SoonComponent extends Vue { }
 </script>

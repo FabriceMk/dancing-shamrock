@@ -1,7 +1,7 @@
 /**
- * Represents a Set Dance entry with general metadata.
+ * General metadata of a dance Set.
  */
-export class SetEntry {
+export default class SetEntry {
   /** Unique identifier of the dance set. */
   id: string;
 
