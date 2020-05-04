@@ -4,7 +4,7 @@
       <router-view />
     </v-content>
 
-    <v-bottom-navigation v-model="activeBtn" color="secondary" fixed>
+    <v-bottom-navigation v-model="activeNav" color="secondary" fixed>
       <v-btn value="sets" to="/set-list" >
         <span>Dance Sets</span>
         <v-icon>mdi-format-list-bulleted</v-icon>
@@ -32,6 +32,6 @@ import { Component } from 'vue-property-decorator';
   name: 'App',
 })
 export default class App extends Vue {
-  activeBtn = 'sets';
+  activeNav = 'sets';
 }
 </script>

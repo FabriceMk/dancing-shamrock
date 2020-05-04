@@ -68,7 +68,6 @@
 import Vue from 'vue';
 import { Component } from 'vue-property-decorator';
 import SetEntry from '@/models/SetEntry';
-import SetDancesIndex from '@/assets/data/set-dances/index.json';
 
 @Component({
   name: 'SetListComponent',
@@ -78,8 +77,12 @@ export default class SetListComponent extends Vue {
 
   alphabeticalSortType = true;
 
-  mounted() {
-    this.setList = SetDancesIndex;
+  created() {
+    fetch('/data/set-dances/index.json')
+      .then((response) => response.json())
+      .then((data) => {
+        this.setList = data;
+      });
   }
 
   // eslint-disable-next-line class-methods-use-this
