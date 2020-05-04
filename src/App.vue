@@ -1,41 +1,5 @@
 <template>
-  <v-app>
-    <v-app-bar app color="primary" dark>
-      <div class="d-flex align-center">
-        <v-toolbar-title>Dancing Shamrock</v-toolbar-title>
-      </div>
-
-      <v-spacer></v-spacer>
-
-      <v-btn icon @click="switchSortType">
-        <v-icon v-if="alphabeticalSortType">mdi-sort-alphabetical-variant</v-icon>
-        <v-icon v-else>mdi-playlist-star</v-icon>
-      </v-btn>
-
-      <v-menu left bottom>
-        <template v-slot:activator="{ on }">
-          <v-btn icon v-on="on">
-            <v-icon>mdi-dots-vertical</v-icon>
-          </v-btn>
-        </template>
-
-        <v-list>
-          <v-list-item-group>
-            <v-list-item @click="() => {}">
-              <v-list-item-content>
-                <v-list-item-title>Settings</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-            <v-list-item to="/about">
-              <v-list-item-content>
-                <v-list-item-title>About</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-          </v-list-item-group>
-        </v-list>
-      </v-menu>
-    </v-app-bar>
-
+  <v-app app>
     <v-content>
       <router-view />
     </v-content>
@@ -54,6 +18,12 @@
   </v-app>
 </template>
 
+<style>
+  .v-item-group.v-bottom-navigation .v-btn.v-size--default {
+      height: inherit;
+  }
+</style>
+
 <script lang="ts">
 import Vue from 'vue';
 import { Component } from 'vue-property-decorator';
@@ -62,14 +32,6 @@ import { Component } from 'vue-property-decorator';
   name: 'App',
 })
 export default class App extends Vue {
-  activeBtn = 1;
-
-  showNav = true;
-
-  alphabeticalSortType = true;
-
-  switchSortType(): void {
-    this.alphabeticalSortType = !this.alphabeticalSortType;
-  }
+  activeBtn = 'sets';
 }
 </script>

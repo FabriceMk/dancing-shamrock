@@ -1,10 +1,46 @@
 <template>
   <div>
+    <v-app-bar color="primary" dark>
+      <div class="d-flex align-center">
+        <v-toolbar-title>Dancing Shamrock</v-toolbar-title>
+      </div>
+
+      <v-spacer></v-spacer>
+
+      <v-btn icon @click="switchSortType">
+        <v-icon v-if="alphabeticalSortType">mdi-sort-alphabetical-variant</v-icon>
+        <v-icon v-else>mdi-playlist-star</v-icon>
+      </v-btn>
+
+      <v-menu left bottom>
+        <template v-slot:activator="{ on }">
+          <v-btn icon v-on="on">
+            <v-icon>mdi-dots-vertical</v-icon>
+          </v-btn>
+        </template>
+
+        <v-list>
+          <v-list-item-group>
+            <v-list-item @click="() => {}">
+              <v-list-item-content>
+                <v-list-item-title>Settings</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+            <v-list-item to="/about">
+              <v-list-item-content>
+                <v-list-item-title>About</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-list-item-group>
+        </v-list>
+      </v-menu>
+    </v-app-bar>
+
     <v-list two-line>
       <template v-for="set in setList">
         <v-list-item
           :key="set.id"
-          :to="'/set-details/' + set.id"
+          @click="goToDanceDetails(set.id)"
         >
           <v-list-item-action @click.stop="" @mousedown.stop @touchstart.native.stop>
             <v-btn icon>
@@ -40,6 +76,8 @@ import SetDancesIndex from '@/assets/data/set-dances/index.json';
 export default class SetListComponent extends Vue {
   setList: SetEntry[] = [];
 
+  alphabeticalSortType = true;
+
   mounted() {
     this.setList = SetDancesIndex;
   }
@@ -50,8 +88,13 @@ export default class SetListComponent extends Vue {
     return names;
   }
 
-  // eslint-disable-next-line class-methods-use-this
-  dummyMethod() { return 0; }
+  switchSortType(): void {
+    this.alphabeticalSortType = !this.alphabeticalSortType;
+  }
+
+  goToDanceDetails(danceId: string) {
+    this.$router.push({ path: `/set-details/${danceId}` });
+  }
 }
 
 </script>
