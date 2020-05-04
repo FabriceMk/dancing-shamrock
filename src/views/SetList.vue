@@ -77,6 +77,7 @@ export default class SetListComponent extends Vue {
 
   alphabeticalSortType = true;
 
+  /* Lifecycle hooks */
   created() {
     fetch('/data/set-dances/index.json')
       .then((response) => response.json())
@@ -84,6 +85,8 @@ export default class SetListComponent extends Vue {
         this.setList = data;
       });
   }
+
+  /* Methods */
 
   // eslint-disable-next-line class-methods-use-this
   formattedStyles(entry: SetEntry): string {
