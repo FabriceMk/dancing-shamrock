@@ -88,7 +88,6 @@ export default class SetListComponent extends Vue {
 
   /* Methods */
 
-  // eslint-disable-next-line class-methods-use-this
   formattedStyles(entry: SetEntry): string {
     const names = entry.styles.map((name) => name[0].toUpperCase() + name.slice(1)).join(' - ');
     return names;
