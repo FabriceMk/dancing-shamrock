@@ -54,7 +54,7 @@
             :key="i"
             :href="`#tab-${i}`"
           >
-            Fig. {{ i }}
+            Fig. {{ i+1 }}
           </v-tab>
         </v-tabs>
       </template>
@@ -70,11 +70,14 @@
               <v-card
                 color="basil"
               >
-                <v-card-text>
-                  <p class="display-1 text--primary">
-                    {{ setDetails.name }}
-                  </p>
-                </v-card-text>
+                <v-img
+                  class="white--text align-end"
+                  height="200px"
+                  src="/img/hero-images/GiantsCausewayCasparDiederikbg.jpg"
+                  gradient="to bottom left, rgba(100,115,201,.10), rgba(25,32,72,.9)"
+                >
+                  <v-card-title>{{ setDetails.name }}</v-card-title>
+                </v-img>
               </v-card>
             </v-tab-item>
             <v-tab-item
@@ -85,6 +88,27 @@
               <v-card
                 color="basil"
               >
+                <v-list-item>
+                  <v-list-item-content>
+                    <v-list-item-title class="headline">
+                      {{ figure.name }}
+                    </v-list-item-title>
+                    <v-list-item-subtitle>
+                      <v-chip
+                        class="ma-2"
+                        color="green"
+                        text-color="white"
+                      >
+                        {{ figure.style | capitalize }}
+                      </v-chip>
+                      <v-chip
+                        class="ma-2"
+                      >
+                        {{ figure.duration }} bars
+                      </v-chip>
+                    </v-list-item-subtitle>
+                  </v-list-item-content>
+                </v-list-item>
                 <v-card-text>{{ figure }}</v-card-text>
               </v-card>
             </v-tab-item>

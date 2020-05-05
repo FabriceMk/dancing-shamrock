@@ -56,7 +56,7 @@
           <v-chip
             class="ma-2"
           >
-            Figs: {{set.figuresCount}}
+             {{ set.figuresCount }} Figs
           </v-chip>
         </v-list-item>
       </template>
