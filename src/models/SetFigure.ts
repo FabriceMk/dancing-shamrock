@@ -1,4 +1,4 @@
-import DanceMovementModel from './DanceMovement'
+import DanceMovementModel from './DanceMovement';
 
 /**
  * Represents a Figure of a Set dance.
@@ -14,7 +14,7 @@ export default class SetFigure {
   duration: number;
 
   /** List of Movements in the Figure. */
-  movements: DanceMovementModel[];
+  movements: DanceMovementModel[][];
 
   /** Link to a video tutorial of that Figure. */
   videoUrl: string;
@@ -22,13 +22,16 @@ export default class SetFigure {
   /** Link to the video thumbnail. */
   videoThumbnailUrl: string;
 
+  /** A special ID for movement groups repetition. */
+  static REPEAT_ID = 'repeat';
+
   constructor(
     name: string,
     style: string,
     duration: number,
-    movements: DanceMovementModel[],
+    movements: DanceMovementModel[][],
     videoUrl = '',
-    videoThumbnailUrl = ''
+    videoThumbnailUrl = '',
   ) {
     this.name = name;
     this.style = style;

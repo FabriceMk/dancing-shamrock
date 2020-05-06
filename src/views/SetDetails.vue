@@ -16,8 +16,8 @@
       <v-spacer></v-spacer>
 
       <v-btn icon @click="toggleDescriptions()">
-        <v-icon v-if="showDescriptions">mdi-eye</v-icon>
-        <v-icon v-else>mdi-eye-off</v-icon>
+        <v-icon v-if="showDescriptions">mdi-eye-off</v-icon>
+        <v-icon v-else>mdi-eye</v-icon>
       </v-btn>
 
       <v-menu left bottom>
@@ -104,9 +104,9 @@
         </v-tab-item>
 
           <v-tab-item
-            v-for="(figure, i) in setDetails.figures"
-            :key="i"
-            :value="`tab-${i}`"
+            v-for="(figure, figureIndex) in setDetails.figures"
+            :key="figureIndex"
+            :value="`tab-${figureIndex}`"
           >
           <v-container>
           <v-row dense>
@@ -120,7 +120,7 @@
                     <v-list-item-subtitle>
                       <v-chip
                         class="ma-2"
-                        color="green"
+                        color="secondary"
                         text-color="white"
                       >
                         {{ figure.style | capitalize }}
@@ -133,16 +133,17 @@
                     </v-list-item-subtitle>
                   </v-list-item-content>
                 </v-list-item>
-                <v-divider></v-divider>
+
                 <v-list two-line>
                   <template v-for="(movementGroup, movementGroupIndex) in figure.movements">
                     <template v-for="(movement, movementIndex) in movementGroup">
                       <v-list-item
                         :key="`${movementGroupIndex}-${movementIndex}`"
+                        v-bind:class="{ 'repeat-group': isMovementGroupRepeated(figureIndex, movementGroupIndex) }"
                       >
                         <v-list-item-content>
                           <v-list-item-title v-if="movement.name" v-text="movement.name"></v-list-item-title>
-                          <v-list-item-title v-else>Repeat</v-list-item-title>
+                          <v-list-item-title v-else>- Repeat -</v-list-item-title>
                           <v-list-item-subtitle v-text="displayCouples(movement.couples)"></v-list-item-subtitle>
                           <p class="body-2 text-justify" v-if="showDescriptions" v-text="movement.description"></p>
                         </v-list-item-content>
@@ -157,7 +158,7 @@
                   </template>
                 </v-list>
                 <v-card-actions>
-                  <v-btn text color="secondary">
+                  <v-btn text color="accent">
                     Share
                   </v-btn>
                 </v-card-actions>
@@ -178,10 +179,17 @@
   </div>
 </template>
 
+<style scoped>
+  .repeat-group {
+    background-color: var(--v-primary-lighten5);
+  }
+</style>
+
 <script lang="ts">
 import Vue from 'vue';
 import { Component } from 'vue-property-decorator';
 import SetDetails from '@/models/SetDetails';
+import SetFigure from '../models/SetFigure';
 
 @Component({
   name: 'SetDetailsComponent',
@@ -192,6 +200,23 @@ export default class SetDetailsComponent extends Vue {
   currentTab = 'info';
 
   showDescriptions = false;
+
+  /** This computed property tags all movement groups that are repeated in a figure for the whole set. */
+  get repeatedGroups() {
+    const repeatedGroupsSet: number[][] = [];
+
+    this.setDetails.figures.forEach((figure) => {
+      const repeatedGroupsFigure: number[] = [];
+      for (let index = 0; index < figure.movements.length - 1; index += 1) {
+        if ((figure.movements[index + 1][0]).id === SetFigure.REPEAT_ID
+          && (figure.movements[index][0]).id !== SetFigure.REPEAT_ID) {
+          repeatedGroupsFigure.push(index);
+        }
+      }
+      repeatedGroupsSet.push(repeatedGroupsFigure);
+    });
+    return repeatedGroupsSet;
+  }
 
   created(): void {
     fetch(`/data/set-dances/${this.$route.params.id}.json`)
@@ -207,6 +232,10 @@ export default class SetDetailsComponent extends Vue {
 
   toggleDescriptions(): void {
     this.showDescriptions = !this.showDescriptions;
+  }
+
+  isMovementGroupRepeated(figureIndex: number, movementGroupIndex: number): boolean {
+    return this.repeatedGroups[figureIndex].includes(movementGroupIndex);
   }
 
   /**
