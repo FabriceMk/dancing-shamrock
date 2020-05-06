@@ -78,7 +78,7 @@ export default class SetListComponent extends Vue {
   alphabeticalSortType = true;
 
   /* Lifecycle hooks */
-  created() {
+  created(): void {
     fetch('/data/set-dances/index.json')
       .then((response) => response.json())
       .then((data) => {
@@ -97,7 +97,7 @@ export default class SetListComponent extends Vue {
     this.alphabeticalSortType = !this.alphabeticalSortType;
   }
 
-  goToDanceDetails(danceId: string) {
+  goToDanceDetails(danceId: string): void {
     this.$router.push({ path: `/set-details/${danceId}` });
   }
 }

@@ -15,6 +15,11 @@
 
       <v-spacer></v-spacer>
 
+      <v-btn icon @click="toggleDescriptions()">
+        <v-icon v-if="showDescriptions">mdi-eye</v-icon>
+        <v-icon v-else>mdi-eye-off</v-icon>
+      </v-btn>
+
       <v-menu left bottom>
         <template v-slot:activator="{ on }">
           <v-btn icon v-on="on">
@@ -139,6 +144,7 @@
                           <v-list-item-title v-if="movement.name" v-text="movement.name"></v-list-item-title>
                           <v-list-item-title v-else>Repeat</v-list-item-title>
                           <v-list-item-subtitle v-text="displayCouples(movement.couples)"></v-list-item-subtitle>
+                          <p class="body-2 text-justify" v-if="showDescriptions" v-text="movement.description"></p>
                         </v-list-item-content>
 
                         <v-chip
@@ -185,7 +191,9 @@ export default class SetDetailsComponent extends Vue {
 
   currentTab = 'info';
 
-  created() {
+  showDescriptions = false;
+
+  created(): void {
     fetch(`/data/set-dances/${this.$route.params.id}.json`)
       .then((response) => response.json())
       .then((data) => {
@@ -193,8 +201,12 @@ export default class SetDetailsComponent extends Vue {
       });
   }
 
-  backHome() {
+  backHome(): void {
     this.$router.push({ path: '/set-list' });
+  }
+
+  toggleDescriptions(): void {
+    this.showDescriptions = !this.showDescriptions;
   }
 
   /**
