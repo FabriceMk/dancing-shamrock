@@ -77,11 +77,15 @@
                   <v-img
                     class="white--text align-end"
                     height="200px"
-                    src="/img/hero-images/GiantsCausewayCasparDiederikbg.jpg"
+                    :src="setDetails.picture"
                     gradient="to bottom left, rgba(100,115,201,.10), rgba(25,32,72,.9)"
                   >
                     <v-card-title>{{ setDetails.name }}</v-card-title>
                   </v-img>
+
+                  <v-card-subtitle>
+                    Total Figures: {{ setDetails.figures.length }}
+                  </v-card-subtitle>
 
                   <v-card-subtitle
                     v-if="setDetails.alternativeNames && setDetails.alternativeNames.length > 0"
@@ -89,13 +93,10 @@
                     Alternative names: {{ setDetails.alternativeNames }}
                   </v-card-subtitle>
 
-                  <v-card-text class="text--primary">
-                    <v-skeleton-loader
-                      class="mx-auto"
-                      max-width="300"
-                      type="paragraph"
-                      :boilerplate="boilerplate"
-                  ></v-skeleton-loader>
+                  <v-card-text
+                    v-if="setDetails.description"
+                  >
+                    {{ setDetails.description }}
                   </v-card-text>
                 </v-card>
               </v-col>
@@ -164,14 +165,6 @@
                 </v-card-actions>
               </v-card>
             </v-col>
-
-            <v-col cols="12" md="4">
-              <v-skeleton-loader
-                elevation="2"
-                type="card-avatar, article, actions"
-                :boilerplate="boilerplate"
-                ></v-skeleton-loader>
-            </v-col>
           </v-row>
         </v-container>
       </v-tab-item>
@@ -206,14 +199,14 @@ export default class SetDetailsComponent extends Vue {
     const repeatedGroupsSet: number[][] = [];
 
     this.setDetails.figures.forEach((figure) => {
-      const repeatedGroupsFigure: number[] = [];
-      for (let index = 0; index < figure.movements.length - 1; index += 1) {
-        if ((figure.movements[index + 1][0]).id === SetFigure.REPEAT_ID
-          && (figure.movements[index][0]).id !== SetFigure.REPEAT_ID) {
-          repeatedGroupsFigure.push(index);
+      const repeatedGroupsFigure = new Set<number>();
+      for (let index = 0; index < figure.movements.length; index += 1) {
+        const currentMovementGroup = figure.movements[index];
+        if ((currentMovementGroup[0]).id === SetFigure.REPEAT_ID && (currentMovementGroup[0]).reference !== null) {
+          repeatedGroupsFigure.add((currentMovementGroup[0]).reference);
         }
       }
-      repeatedGroupsSet.push(repeatedGroupsFigure);
+      repeatedGroupsSet.push(Array.from(repeatedGroupsFigure));
     });
     return repeatedGroupsSet;
   }

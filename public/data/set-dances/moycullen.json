@@ -2,6 +2,8 @@
   "id": "moycullen",
   "name": "Moycullen",
   "alternativeNames": [""],
+  "description": "Lorem ipsum dolor sit amet, recteque partiendo ea eum. Ex dolorem prodesset has, nec te admodum accusata dissentiet. Ei mucius graeco aperiri vel, novum putant reformidans sed id. Justo vituperata ad nam, vix voluptua convenire inciderint ut. Mei odio timeam contentiones ea, detracto facilisi vix eu. Mel et consulatu sadipscing.",
+  "picture": "",
   "figures": [
     {
       "name": "Square",
@@ -33,9 +35,7 @@
             "description": "Ladies take right hands in center, turn around the opposite gent with left hands held low, dance back to place passing right shoulders with the opposite lady.",
             "couples": [1,3],
             "duration": 8
-          }
-        ],
-        [
+          },
           {
             "id": "swing",
             "name": "Swing",
@@ -46,20 +46,11 @@
         ],
         [
           {
-            "id": "ladies-chain",
-            "name": "Ladies Chain",
+            "id": "repeat",
+            "reference": 1,
             "description": "",
             "couples": [2,4],
-            "duration": 8
-          }
-        ],
-        [
-          {
-            "id": "swing",
-            "name": "Swing",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
+            "duration": 16
           }
         ],
         [
@@ -81,34 +72,34 @@
             "id": "swing",
             "name": "Swing",
             "description": "",
-            "couples": [1,2,3,4],
+            "couples": [1,3],
             "duration": 8
           }
         ],
         [
           {
             "id": "repeat",
-            "reference": 6,
+            "reference": 3,
             "description": "Ladies cross back home.",
-            "couples": [1,2,3,4],
+            "couples": [2,4],
             "duration": 24
           }
         ],
         [
           {
             "id": "repeat",
-            "reference": 6,
+            "reference": 3,
             "description": "Side couples leading. Dance to face the top couples on the left.",
-            "couples": [1,2,3,4],
+            "couples": [1,3],
             "duration": 24
           }
         ],
         [
           {
             "id": "repeat",
-            "reference": 6,
-            "description": "",
-            "couples": [1,2,3,4],
+            "reference": 3,
+            "description": "Ladies cross back home.",
+            "couples": [2,4],
             "duration": 8
           }
         ],
@@ -165,7 +156,7 @@
         [
           {
             "id": "repeat",
-            "reference": 2,
+            "reference": 1,
             "description": "Repeat to return home.",
             "couples": [1,3],
             "duration": 16
@@ -174,7 +165,7 @@
         [
           {
             "id": "repeat",
-            "reference": 2,
+            "reference": 1,
             "description": "",
             "couples": [2,4],
             "duration": 16
@@ -183,7 +174,7 @@
         [
           {
             "id": "repeat",
-            "reference": 2,
+            "reference": 1,
             "description": "Repeat to return home.",
             "couples": [2,4],
             "duration": 16
@@ -208,7 +199,7 @@
         [
           {
             "id": "repeat",
-            "reference": 6,
+            "reference": 5,
             "description": "Repeat until ladies are back home, swinging their original partner.",
             "couples": [1,2,3,4],
             "duration": 48
@@ -269,7 +260,7 @@
         [
           {
             "id": "repeat",
-            "reference": 3,
+            "reference": 2,
             "description": "To return home.",
             "couples": [1,3],
             "duration": 16
@@ -278,7 +269,7 @@
         [
           {
             "id": "repeat",
-            "reference": 3,
+            "reference": 2,
             "description": "",
             "couples": [2,4],
             "duration": 16
@@ -287,7 +278,7 @@
         [
           {
             "id": "repeat",
-            "reference": 3,
+            "reference": 2,
             "description": "To return home.",
             "couples": [2,4],
             "duration": 16
@@ -312,7 +303,7 @@
         [
           {
             "id": "repeat",
-            "reference": 7,
+            "reference": 6,
             "description": "To return home.",
             "couples": [1,2,3,4],
             "duration": 16
@@ -382,10 +373,28 @@
         [
           {
             "id": "repeat",
-            "reference": 3,
-            "description": "Three more times until you are swinging in your home position.  Tops always cross first, wherever they are.",
+            "reference": 2,
+            "description": "Tops always cross first, wherever they are.",
             "couples": [1,2,3,4],
-            "duration": 48
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "Tops always cross first, wherever they are.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 2,
+            "description": "Tops always cross first, wherever they are.",
+            "couples": [1,2,3,4],
+            "duration": 16
           }
         ],
         [

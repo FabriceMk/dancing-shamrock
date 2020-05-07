@@ -2,6 +2,8 @@
   "id": "plain",
   "name": "Plain Set",
   "alternativeNames": ["Clare Plain"],
+  "description": "Lorem ipsum dolor sit amet, recteque partiendo ea eum. Ex dolorem prodesset has, nec te admodum accusata dissentiet. Ei mucius graeco aperiri vel, novum putant reformidans sed id. Justo vituperata ad nam, vix voluptua convenire inciderint ut. Mei odio timeam contentiones ea, detracto facilisi vix eu. Mel et consulatu sadipscing.",
+  "picture": "",
   "figures": [
     {
       "name": "Pass Through",
@@ -54,9 +56,7 @@
             "description": "Couples lead round anticlockwise (2 bars) and partners change places, the ladies turning clockwise under both arms, to face centre (2 bars).  Partners drop hands and couples pass through each other (2 bars). Partners again exchange places, the lady turning under the gent's R arm, and take waltz hold (2 bars).",
             "couples": [1,3],
             "duration": 8
-          }
-        ],
-        [
+          },
           {
             "id": "home",
             "name": "Dance at home",
@@ -68,20 +68,13 @@
         [
           {
             "id": "repeat",
-            "reference": 2,
+            "reference": 1,
             "description": "",
             "couples": [2,4],
-            "duration": 32
+            "duration": 40
           }
         ],
         [
-          {
-            "id": "home",
-            "name": "Dance at home",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
-          },
           {
             "id": "house-around",
             "name": "House around",
@@ -136,9 +129,7 @@
             "description": "",
             "couples": [1,3],
             "duration": 16
-          }
-        ],
-        [
+          },
           {
             "id": "home",
             "name": "Dance at home",
@@ -150,20 +141,13 @@
         [
           {
             "id": "repeat",
-            "reference": 2,
+            "reference": 1,
             "description": "",
             "couples": [2,4],
-            "duration": 40
+            "duration": 48
           }
         ],
         [
-          {
-            "id": "home",
-            "name": "Dance at home",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
-          },
           {
             "id": "house-around",
             "name": "House around",
@@ -225,34 +209,15 @@
             "description": "Partners take waltz hold and slide towards the couple on their R and back (4 bars) and house back home.",
             "couples": [1,3],
             "duration": 8
-          },
+          }
+        ],
+        [
           {
-            "id": "cross-over",
-            "name": "Ladies cross over",
+            "id": "repeat",
+            "reference": 1,
             "description": "",
             "couples": [1,3],
-            "duration": 8
-          },
-          {
-            "id": "chase",
-            "name": "Gents chase the ladies",
-            "description": "",
-            "couples": [1,3],
-            "duration": 8
-          },
-          {
-            "id": "advance-retire",
-            "name": "Advance retire twice",
-            "description": "",
-            "couples": [1,3],
-            "duration": 8
-          },
-          {
-            "id": "slide-house",
-            "name": "Slide and house home",
-            "description": "",
-            "couples": [1,3],
-            "duration": 8
+            "duration": 32
           }
         ],
         [
@@ -267,10 +232,19 @@
         [
           {
             "id": "repeat",
-            "reference": 2,
+            "reference": 1,
             "description": "",
             "couples": [2,4],
-            "duration": 64
+            "duration": 32
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 32
           }
         ],
         [
@@ -405,9 +379,7 @@
             "description": "",
             "couples": [1,3],
             "duration": 8
-          }
-        ],
-        [
+          },
           {
             "id": "home",
             "name": "Dance at home",
@@ -419,20 +391,13 @@
         [
           {
             "id": "repeat",
-            "reference": 2,
+            "reference": 1,
             "description": "Side couples now dance 2. led by 1st side couple.",
             "couples": [2,4],
-            "duration": 104
+            "duration": 112
           }
         ],
         [
-          {
-            "id": "home",
-            "name": "Dance at home",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
-          },
           {
             "id": "house-around",
             "name": "House around",
@@ -464,16 +429,16 @@
             "description": "",
             "couples": [1,2,3,4],
             "duration": 8
-          },
+          }
+        ],
+        [
           {
             "id": "house-around",
             "name": "House around",
             "description": "",
             "couples": [1,2,3,4],
             "duration": 8
-          }
-        ],
-        [
+          },
           {
             "id": "gallop",
             "name": "The Gallop 1/4",
@@ -501,47 +466,13 @@
             "description": "Side couples gallop back to place, ladies back to back.",
             "couples": [2,4],
             "duration": 2
-          }
-        ],
-        [
+          },
           {
             "id": "ladies-chain",
             "name": "Ladies chain",
             "description": "Top ladies take R hands in the centre and chain to the opposite gent. As they reach the centre, side ladies begin the same movement. All ladies give L hand to the opposite gent and turn clockwise under his arm as he dances anti-clockwise around them, all turning at the same time. Ladies dance on to the gent R of the place they chained from, giving R hand and turning once anti-clockwise under his arm and into waltz hold.",
             "couples": [1,2,3,4],
             "duration": 8
-          }
-        ],
-        [
-          {
-            "id": "swing",
-            "name": "Swing",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
-          },
-          {
-            "id": "house-around",
-            "name": "House around",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
-          }
-        ],
-        [
-          {
-            "id": "gallop",
-            "name": "The Gallop",
-            "description": "This time top ladies leading with their new partners, followed by side ladies with their new partners.",
-            "couples": [1,2,3,4],
-            "duration": 8
-          },
-          {
-            "id": "ladies-chain",
-            "name": "Ladies chain",
-            "description": "On to the gent R of the place they chained from.",
-            "couples": [1,2,3,4],
-            "duration": 8
           },
           {
             "id": "swing",
@@ -549,40 +480,42 @@
             "description": "",
             "couples": [1,2,3,4],
             "duration": 8
-          },
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With top ladies leading the gallop.",
+            "couples": [1,2,3,4],
+            "duration": 32
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With top ladies leading the gallop.",
+            "couples": [1,2,3,4],
+            "duration": 32
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With top ladies leading the gallop.",
+            "couples": [1,2,3,4],
+            "duration": 32
+          }
+        ],
+        [
           {
             "id": "house-around",
             "name": "House around",
             "description": "",
             "couples": [1,2,3,4],
             "duration": 8
-          }
-        ],
-        [
-          {
-            "id": "repeat",
-            "reference": 5,
-            "description": "With top ladies leading the gallop.",
-            "couples": [1,2,3,4],
-            "duration": 32
-          }
-        ],
-        [
-          {
-            "id": "repeat",
-            "reference": 5,
-            "description": "With top ladies leading the gallop.",
-            "couples": [1,2,3,4],
-            "duration": 32
-          }
-        ],
-        [
-          {
-            "id": "repeat",
-            "reference": 5,
-            "description": "With top ladies leading the gallop.",
-            "couples": [1,2,3,4],
-            "duration": 32
           }
         ]
       ]
@@ -608,7 +541,9 @@
             "description": "",
             "couples": [1,2,3,4],
             "duration": 8
-          },
+          }
+        ],
+        [
           {
             "id": "house-around",
             "name": "House around",
@@ -622,40 +557,20 @@
             "description": "",
             "couples": [1,2,3,4],
             "duration": 8
-          }
-        ],
-        [
+          },
           {
             "id": "ladies-in",
             "name": "Ladies in",
             "description": "All the ladies advance and retire twice.",
             "couples": [1,2,3,4],
             "duration": 8
-          }
-        ],
-        [
+          },
           {
             "id": "wheel-r-l",
             "name": "Gents Wheel R and L",
             "description": "Gents take R hands in the centre and wheel half way around the set, turning inwards on the 4th step and taking L hands to wheel back to place.  On the last 4 bars, the ladies dance around the set to the next place on their R and turn in to face the new gent and take waltz hold.",
             "couples": [1,2,3,4],
             "duration": 8
-          }
-        ],
-        [
-          {
-            "id": "home",
-            "name": "Dance at home",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
-          },
-          {
-            "id": "house-around",
-            "name": "House around",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
           },
           {
             "id": "home",
@@ -667,112 +582,32 @@
         ],
         [
           {
-            "id": "ladies-in",
-            "name": "Ladies in",
+            "id": "repeat",
+            "reference": 1,
             "description": "",
             "couples": [1,2,3,4],
-            "duration": 8
+            "duration": 40
           }
         ],
         [
           {
-            "id": "wheel-l-r",
-            "name": "Gents Wheel L and R",
-            "description": "NOTE the change of direction and ladies move on.",
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
             "couples": [1,2,3,4],
-            "duration": 8
+            "duration": 40
           }
         ],
         [
           {
-            "id": "home",
-            "name": "Dance at home",
+            "id": "repeat",
+            "reference": 1,
             "description": "",
             "couples": [1,2,3,4],
-            "duration": 8
-          },
-          {
-            "id": "house-around",
-            "name": "House around",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
-          },
-          {
-            "id": "home",
-            "name": "Dance at home",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
+            "duration": 40
           }
         ],
         [
-          {
-            "id": "ladies-in",
-            "name": "Ladies in",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
-          }
-        ],
-        [
-          {
-            "id": "wheel-r-l",
-            "name": "Gents Wheel R and L",
-            "description": "And ladies move on.",
-            "couples": [1,2,3,4],
-            "duration": 8
-          }
-        ],
-        [
-          {
-            "id": "home",
-            "name": "Dance at home",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
-          },
-          {
-            "id": "house-around",
-            "name": "House around",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
-          },
-          {
-            "id": "home",
-            "name": "Dance at home",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
-          }
-        ],
-        [
-          {
-            "id": "ladies-in",
-            "name": "Ladies in",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
-          }
-        ],
-        [
-          {
-            "id": "wheel-l-r",
-            "name": "Gents Wheel L and R",
-            "description": "And ladies move on.",
-            "couples": [1,2,3,4],
-            "duration": 8
-          }
-        ],
-        [
-          {
-            "id": "home",
-            "name": "Dance at home",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
-          },
           {
             "id": "house-around",
             "name": "House around",

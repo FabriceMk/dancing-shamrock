@@ -29,17 +29,22 @@ export default class DanceMovementModel {
    */
   duration: number;
 
+  /** Optional: Only for repeats, represents the index of the other moveemnt to repeat. */
+  reference: number | null;
+
   constructor (
     id: string,
     name: string,
     description: string = '',
     couples: number[] = [],
-    duration = 0
+    duration = 0,
+    reference = null
   ) {
     this.id = id,
     this.name = name,
     this.description = description,
     this.couples = couples,
-    this.duration = duration
+    this.duration = duration,
+    this.reference = reference
   }
 }

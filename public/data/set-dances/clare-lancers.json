@@ -2,6 +2,8 @@
   "id": "clare-lancers",
   "name": "Clare Lancers",
   "alternativeNames": [],
+  "description": "Lorem ipsum dolor sit amet, recteque partiendo ea eum. Ex dolorem prodesset has, nec te admodum accusata dissentiet. Ei mucius graeco aperiri vel, novum putant reformidans sed id. Justo vituperata ad nam, vix voluptua convenire inciderint ut. Mei odio timeam contentiones ea, detracto facilisi vix eu. Mel et consulatu sadipscing.",
+  "picture": "",
   "figures": [
     {
       "name": "The Square",
@@ -61,7 +63,7 @@
         [
           {
             "id": "repeat",
-            "reference": 3,
+            "reference": 2,
             "description": "With 2nd gent and 1st lady leading.",
             "couples": [2,4],
             "duration": 16
@@ -70,7 +72,7 @@
         [
           {
             "id": "repeat",
-            "reference": 3,
+            "reference": 2,
             "description": "With 1st side gent and 2nd side lady leading.",
             "couples": [1,3],
             "duration": 16
@@ -79,7 +81,7 @@
         [
           {
             "id": "repeat",
-            "reference": 3,
+            "reference": 2,
             "description": "With 2nd side gent and 1st side lady leading.",
             "couples": [2,4],
             "duration": 16
@@ -257,6 +259,7 @@
         [
           {
             "id": "repeat",
+            "reference": 1,
             "name": "",
             "description": "",
             "couples": [1,2,3,4],
@@ -428,7 +431,7 @@
         [
           {
             "id": "repeat",
-            "reference": "1",
+            "reference": 1,
             "description": "This time the second top couple face out of their position to lead the line-up, second side couple behind them.",
             "couples": [1,2,3,4],
             "duration": 40
