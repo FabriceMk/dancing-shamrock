@@ -44,6 +44,18 @@
     </v-app-bar>
 
     <v-list two-line>
+      <v-container fill-height v-if="!showAllSets && favorites.length === 0">
+        <v-row align="center" justify="center">
+          <v-col cols="4">
+            <v-img src="/img/illustrations/no_data.svg"></v-img>
+          </v-col>
+          <v-col cols="10" align="center">
+            <p class="title">No Favorites yet</p>
+            <p>Here you will find all the Sets you added as Favorites.</p>
+            <p>You can do so by clicking on the star next to a Set <v-icon color="grey lighten-1">mdi-star-outline</v-icon></p>
+          </v-col>
+        </v-row>
+      </v-container>
       <template v-for="set in setList">
         <v-list-item
           v-if="showAllSets || !showAllSets && isFavorite(set.id)"
