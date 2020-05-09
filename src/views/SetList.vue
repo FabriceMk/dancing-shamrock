@@ -15,7 +15,7 @@
       <v-spacer></v-spacer>
 
       <v-btn icon @click="switchSortType">
-        <v-icon v-if="alphabeticalSortType">mdi-sort-alphabetical-variant</v-icon>
+        <v-icon v-if="!showAllSets">mdi-sort-alphabetical-variant</v-icon>
         <v-icon v-else>mdi-playlist-star</v-icon>
       </v-btn>
 
@@ -46,12 +46,14 @@
     <v-list two-line>
       <template v-for="set in setList">
         <v-list-item
+          v-if="showAllSets || !showAllSets && isFavorite(set.id)"
           :key="set.id"
           @click="goToDanceDetails(set.id)"
         >
-          <v-list-item-action @click.stop="" @mousedown.stop @touchstart.native.stop>
+          <v-list-item-action @click.stop="" @mousedown.stop @touchstart.native.stop @click=setFavorite(set.id)>
             <v-btn icon>
-              <v-icon color="grey lighten-1">mdi-star-outline</v-icon>
+              <v-icon v-if="!isFavorite(set.id)" color="grey lighten-1">mdi-star-outline</v-icon>
+              <v-icon v-if="isFavorite(set.id)" color="yellow">mdi-star</v-icon>
             </v-btn>
           </v-list-item-action>
 
@@ -82,7 +84,9 @@ import SetEntry from '@/models/SetEntry';
 export default class SetListComponent extends Vue {
   setList: SetEntry[] = [];
 
-  alphabeticalSortType = true;
+  showAllSets = true;
+
+  favorites: string[] = [];
 
   /* Lifecycle hooks */
   created(): void {
@@ -93,6 +97,18 @@ export default class SetListComponent extends Vue {
       });
   }
 
+  mounted(): void {
+    const favorites = localStorage.getItem('sets:favorites');
+    console.log(favorites);
+    if (favorites) {
+      try {
+        this.favorites = JSON.parse(favorites);
+      } catch (e) {
+        localStorage.removeItem('sets:favorites');
+      }
+    }
+  }
+
   /* Methods */
 
   formattedStyles(entry: SetEntry): string {
@@ -101,7 +117,22 @@ export default class SetListComponent extends Vue {
   }
 
   switchSortType(): void {
-    this.alphabeticalSortType = !this.alphabeticalSortType;
+    this.showAllSets = !this.showAllSets;
+  }
+
+  setFavorite(setId: string): void {
+    const index = this.favorites.indexOf(setId);
+    if (index >= 0) {
+      this.favorites.splice(index, 1);
+    } else {
+      this.favorites.push(setId);
+    }
+
+    localStorage.setItem('sets:favorites', JSON.stringify(this.favorites));
+  }
+
+  isFavorite(setId: string): boolean {
+    return this.favorites.indexOf(setId) >= 0;
   }
 
   goToDanceDetails(danceId: string): void {
