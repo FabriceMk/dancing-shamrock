@@ -1,7 +1,12 @@
 <template>
-  <div class="soon">
-    <h1>Coming soon...</h1>
-  </div>
+  <v-container fill-height>
+    <v-row align="center" justify="center">
+      <v-col cols="10">
+        <v-img src="/img/illustrations/under_construction.svg"></v-img>
+      </v-col>
+      <h3>Coming Soon...</h3>
+    </v-row>
+  </v-container>
 </template>
 
 <script lang="ts">

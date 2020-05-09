@@ -98,6 +98,12 @@
                   >
                     {{ setDetails.description }}
                   </v-card-text>
+
+                  <v-card-actions>
+                    <v-btn text color="accent">
+                      Share
+                    </v-btn>
+                  </v-card-actions>
                 </v-card>
               </v-col>
             </v-row>
@@ -158,11 +164,6 @@
                     </template>
                   </template>
                 </v-list>
-                <v-card-actions>
-                  <v-btn text color="accent">
-                    Share
-                  </v-btn>
-                </v-card-actions>
               </v-card>
             </v-col>
           </v-row>
