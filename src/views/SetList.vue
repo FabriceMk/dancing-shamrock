@@ -1,9 +1,16 @@
 <template>
   <div>
-    <v-app-bar color="primary" dark>
-      <div class="d-flex align-center">
-        <v-toolbar-title>Dancing Shamrock</v-toolbar-title>
-      </div>
+    <v-app-bar
+      fixed app
+      color="primary"
+      dark
+      src="/img/hero-images/shamrock.jpg"
+      fade-img-on-scroll
+      elevate-on-scroll
+      shrink-on-scroll
+      prominent
+    >
+      <v-toolbar-title>Dancing Shamrock</v-toolbar-title>
 
       <v-spacer></v-spacer>
 

@@ -1,21 +1,19 @@
 <template>
   <div>
     <v-app-bar
-      color="primary"
-      dark
-      fixed
-      app>
+      fixed app
+      elevate-on-scroll
+      color="white"
+    >
       <v-btn icon @click="backHome()">
         <v-icon>mdi-arrow-left</v-icon>
       </v-btn>
 
-      <div class="d-flex align-center">
-        <v-toolbar-title>{{setDetails.name}}</v-toolbar-title>
-      </div>
+      <v-toolbar-title>{{setDetails.name}}</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
-      <v-btn icon @click="toggleDescriptions()">
+      <v-btn v-if="currentTab !== 'tab-info'" icon @click="toggleDescriptions()">
         <v-icon v-if="showDescriptions">mdi-eye-off</v-icon>
         <v-icon v-else>mdi-eye</v-icon>
       </v-btn>
@@ -191,7 +189,7 @@ import SetFigure from '../models/SetFigure';
 export default class SetDetailsComponent extends Vue {
   setDetails: SetDetails = new SetDetails('', '', []);
 
-  currentTab = 'info';
+  currentTab = 'tab-info';
 
   showDescriptions = false;
 
