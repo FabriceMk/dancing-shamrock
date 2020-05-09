@@ -65,7 +65,7 @@
                   <v-card-subtitle
                     v-if="setDetails.alternativeNames && setDetails.alternativeNames.length > 0"
                   >
-                    Alternative names: {{ setDetails.alternativeNames }}
+                    Alternative names: {{ setDetails.alternativeNames.join(', ') }}
                   </v-card-subtitle>
 
                   <v-card-text
