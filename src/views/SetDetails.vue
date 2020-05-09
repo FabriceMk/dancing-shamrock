@@ -219,15 +219,18 @@ export default class SetDetailsComponent extends Vue {
   share(): void {
     if (navigator.share) {
       navigator.share({
-        title: this.setDetails.name,
+        title: 'Dancing Shamrock: Irish Set Dancing App',
         text: `View the details about the ${this.setDetails.name} Set.`,
         url: window.location.href,
       })
         .then(() => {
-          this.snackbarText = 'Set shared!';
+          this.snackbarText = 'Set shared';
           this.showSnackbar = true;
         })
-        .catch((error: Error) => console.log('Sharing failed', error));
+        .catch(() => {
+          this.snackbarText = 'The sharing of set failed';
+          this.showSnackbar = true;
+        });
     } else {
       const el = document.createElement('textarea');
       el.value = window.location.href;
