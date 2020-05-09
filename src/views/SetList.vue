@@ -111,7 +111,6 @@ export default class SetListComponent extends Vue {
 
   mounted(): void {
     const favorites = localStorage.getItem('sets:favorites');
-    console.log(favorites);
     if (favorites) {
       try {
         this.favorites = JSON.parse(favorites);
