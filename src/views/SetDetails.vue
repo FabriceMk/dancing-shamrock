@@ -220,9 +220,13 @@ export default class SetDetailsComponent extends Vue {
     if (navigator.share) {
       navigator.share({
         title: this.setDetails.name,
+        text: `View the details about the ${this.setDetails.name} Set.`,
         url: window.location.href,
       })
-        .then(() => console.log('Share was successful.'))
+        .then(() => {
+          this.snackbarText = 'Set shared!';
+          this.showSnackbar = true;
+        })
         .catch((error: Error) => console.log('Sharing failed', error));
     } else {
       const el = document.createElement('textarea');
