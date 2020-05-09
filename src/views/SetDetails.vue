@@ -98,7 +98,7 @@
                   </v-card-text>
 
                   <v-card-actions>
-                    <v-btn text color="accent">
+                    <v-btn text color="accent" @click="share()">
                       Share
                     </v-btn>
                   </v-card-actions>
@@ -168,6 +168,13 @@
         </v-container>
       </v-tab-item>
     </v-tabs-items>
+
+    <v-snackbar
+      v-model="showSnackbar"
+      :timeout="snackbarTimeout"
+    >
+      {{ snackbarText }}
+    </v-snackbar>
   </div>
 </template>
 
@@ -192,6 +199,12 @@ export default class SetDetailsComponent extends Vue {
   currentTab = 'tab-info';
 
   showDescriptions = false;
+
+  showSnackbar = false;
+
+  snackbarText = '';
+
+  snackbarTimeout = 2000;
 
   /** This computed property tags all movement groups that are repeated in a figure for the whole set. */
   get repeatedGroups() {
@@ -224,6 +237,39 @@ export default class SetDetailsComponent extends Vue {
 
   toggleDescriptions(): void {
     this.showDescriptions = !this.showDescriptions;
+  }
+
+  share(): void {
+    if (navigator.share) {
+      navigator.share({
+        title: this.setDetails.name,
+        url: window.location.href,
+      })
+        .then(() => console.log('Share was successful.'))
+        .catch((error: Error) => console.log('Sharing failed', error));
+    } else {
+      const el = document.createElement('textarea');
+      el.value = window.location.href;
+      el.setAttribute('readonly', '');
+      el.style.position = 'absolute';
+      el.style.left = '-9999px';
+      document.body.appendChild(el);
+
+      const elementHtml = document.getSelection();
+      if (elementHtml) {
+        const selected = elementHtml.rangeCount > 0 ? elementHtml.getRangeAt(0) : false;
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+        if (selected) {
+          elementHtml.removeAllRanges();
+          elementHtml.addRange(selected);
+        }
+      }
+
+      this.snackbarText = 'URL copied to the clipboard';
+      this.showSnackbar = true;
+    }
   }
 
   isMovementGroupRepeated(figureIndex: number, movementGroupIndex: number): boolean {
