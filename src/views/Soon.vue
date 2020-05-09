@@ -4,7 +4,7 @@
       <v-col cols="10">
         <v-img src="/img/illustrations/under_construction.svg"></v-img>
       </v-col>
-      <h3>Coming Soon...</h3>
+      <p class="title">Coming Soon...</p>
     </v-row>
   </v-container>
 </template>
