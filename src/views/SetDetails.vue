@@ -18,29 +18,6 @@
         <v-icon v-else>mdi-eye</v-icon>
       </v-btn>
 
-      <v-menu left bottom>
-        <template v-slot:activator="{ on }">
-          <v-btn icon v-on="on">
-            <v-icon>mdi-dots-vertical</v-icon>
-          </v-btn>
-        </template>
-
-        <v-list>
-          <v-list-item-group>
-            <v-list-item @click="() => {}">
-              <v-list-item-content>
-                <v-list-item-title>Settings</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-            <v-list-item to="/about">
-              <v-list-item-content>
-                <v-list-item-title>About</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-          </v-list-item-group>
-        </v-list>
-      </v-menu>
-
       <template v-slot:extension>
         <v-tabs
           show-arrows
