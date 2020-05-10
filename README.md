@@ -4,8 +4,6 @@ A Progressive Web Application to easily browse through Irish Set Dances.
 
 Disclaimer: Currently being rebuilt with Vue.js
 
-// TODO Build status
-
 ## Purpose of the application
 
 When you start learning Irish Set Dancing, you notice that one of the troubles is to remember all the figures and their order for each set dance.
