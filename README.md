@@ -1,8 +1,8 @@
-# dancing-clover
+# dancing-shamrock
 
 A Progressive Web Application to easily browse through Irish Set Dances.
 
-Disclaimer: Currently Work In Progress
+Disclaimer: Currently being rebuilt with Vue.js
 
 ![CI](https://github.com/FabriceMk/dancing-shamrock/workflows/CI/badge.svg)
 

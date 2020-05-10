@@ -1,0 +1,375 @@
+{
+  "id": "merchant",
+  "name": "Merchant",
+  "alternativeNames": [],
+  "description": "This set is from O’Shea’s Merchant Pub on Bridge Street in Dublin and has been created by Padraig McEneany.\nIn every figure of this set, all couples will rotate anti-clockwise and house inside from the 1st Top position. It can be pictured as a wheel.\nSwing in Waltz hold.\nFirst side couple is on the left of the first top couple.",
+  "picture": "/img/hero-images/osheas-1.jpg",
+  "figures": [
+    {
+      "name": "Cross over",
+      "style": "reel",
+      "duration": 120,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "All join hands in a circle and advance and retire twice.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "In waltz hold.",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-within",
+            "name": "House within",
+            "description": "",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire-cross-over",
+            "name": "Advance, retire and cross over",
+            "description": "Everyone in waltz hold, tops turn left and sides turn right. All advance and retire once, then ladies cross right shoulder and gents cross left shoulder.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 1st side couple housing inside from 1st top position",
+            "couples": [1,2,3,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 2nd top couple housing inside from 1st top position",
+            "couples": [1,2,3,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 2nd side couple housing inside from 1st top position",
+            "couples": [1,2,3,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "The Square",
+      "style": "reel",
+      "duration": 184,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-within",
+            "name": "House within",
+            "description": "",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "square",
+            "name": "Dance the square",
+            "description": "First couple take right hand in right, dance forward, face their partner (2b), gent pulls the lady’s hand and turns the lady counter-clockwise, both change places to face out (2b), dance forward again (2b), gent turns the lady CCW as before and they change places to face in (2b).",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "swing-four",
+            "name": "Swing four",
+            "description": "Swing in four, with hands around the waist, after six bars tops break to the right into lines in sides’ position. While tops are swinging sides take a step to their right and after the swing tops break to the right of sides to form two lines.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire-circle-right",
+            "name": "Advance and retire and circle right",
+            "description": "All advance and retire, advance again and take hands in a circle and everyone retires moving one place to the right.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 1st side couple housing inside from 1st top position",
+            "couples": [1,2,3,4],
+            "duration": 40
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 2nd top couple housing inside from 1st top position",
+            "couples": [1,2,3,4],
+            "duration": 40
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 2nd side couple housing inside from 1st top position",
+            "couples": [1,2,3,4],
+            "duration": 40
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "The Star",
+      "style": "reel",
+      "duration": 120,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-within",
+            "name": "House within",
+            "description": "",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "gents-star",
+            "name": "Gents star left and ladies dance to the left",
+            "description": "All face their partners, gents put left hands in and dance around 1 ¼ ways to the position on the right. Ladies all face to the left, they dance two bars in place and then dance around on the outside ¾ of the way to meet their own partners.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 1st side couple housing inside from the first top position.",
+            "couples": [1,2,3,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 2nd top couple housing inside from the first top position.",
+            "couples": [1,2,3,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 2nd side couple housing inside from the first top position.",
+            "couples": [1,2,3,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Sevens",
+      "style": "hornpipe",
+      "duration": 136,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-within",
+            "name": "House within",
+            "description": "",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "turn-the-lady",
+            "name": "Turn the lady",
+            "description": "1st top couple take right hand in right, gents turns the lady four times clockwise in front of him as they move around counter-clockwise on the inside of the set.",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "sevens-dance-around",
+            "name": "Sevens and dance around",
+            "description": "All couples take waltz hold, tops turn left, sides turn right. All dance seven forward and seven back then dance around in waltz turning twice to change places.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 1st side couple housing inside from the first top position. The new tops will turn right for the sevens. (Couples that start as sides always face right and progress CCW around the set. Those starting as tops face left, even in side positions, and progress CW around the set.)",
+            "couples": [1,2,3,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 2nd top couple housing inside from the first top position.",
+            "couples": [1,2,3,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "With 2nd side couple housing inside from the first top position. The new tops will turn right for the sevens. (Couples that start as sides always face right and progress CCW around the set. Those starting as tops face left, even in side positions, and progress CW around the set.)",
+            "couples": [1,2,3,4],
+            "duration": 24
+          }
+        ],
+        [
+          {
+            "id": "circle",
+            "name": "Circle",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    }
+  ]
+}
