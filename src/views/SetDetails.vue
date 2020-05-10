@@ -53,25 +53,24 @@
                     class="white--text align-end"
                     height="200px"
                     :src="setDetails.picture"
-                    gradient="to bottom left, rgba(100,115,201,.10), rgba(25,32,72,.9)"
+                    gradient="to bottom left, rgba(100,100,100,0), rgba(15,20,15,.80)"
                   >
                     <v-card-title>{{ setDetails.name }}</v-card-title>
                   </v-img>
 
                   <v-card-subtitle>
-                    Total Figures: {{ setDetails.figures.length }}
-                  </v-card-subtitle>
-
-                  <v-card-subtitle
-                    v-if="setDetails.alternativeNames && setDetails.alternativeNames.length > 0"
-                  >
-                    Alternative names: {{ setDetails.alternativeNames.join(', ') }}
+                    <div>Total Figures: {{ setDetails.figures.length }}</div>
+                    <div v-if="setDetails.alternativeNames && setDetails.alternativeNames.length > 0">
+                      Alternative names: {{ setDetails.alternativeNames.join(', ') }}
+                    </div>
                   </v-card-subtitle>
 
                   <v-card-text
                     v-if="setDetails.description"
                   >
-                    {{ setDetails.description }}
+                    <template v-for="(text, indexNewline) in setDetails.description.split('\n')">
+                      <p :key="'description-' + indexNewline">{{ text }}</p>
+                    </template>
                   </v-card-text>
 
                   <v-card-actions>
