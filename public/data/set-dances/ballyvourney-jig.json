@@ -1,9 +1,9 @@
 {
   "id": "ballvourney-jig",
   "name": "Ballyvourney (Jig)",
-  "alternativeNames": ["BV (Jig)"],
-  "description": "Lorem ipsum dolor sit amet, recteque partiendo ea eum. Ex dolorem prodesset has, nec te admodum accusata dissentiet. Ei mucius graeco aperiri vel, novum putant reformidans sed id. Justo vituperata ad nam, vix voluptua convenire inciderint ut. Mei odio timeam contentiones ea, detracto facilisi vix eu. Mel et consulatu sadipscing.",
-  "picture": "/img/hero-images/placeholder.jpg",
+  "alternativeNames": ["Baile Bhuirne Jig", "BV (Jig)"],
+  "description": "This set is from West County Cork, Ireland.\nSwing: For Figures One through Five, swing in waltz or hug (right hands on partner’s right upper waist, left hands on partner’s upper right arm) hold.\nThe set is often danced with no pause.",
+  "picture": "/img/hero-images/ballyvourney-1.jpg",
   "figures": [
     {
       "name": "Swing your Own",
