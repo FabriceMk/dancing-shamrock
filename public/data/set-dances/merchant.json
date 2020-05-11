@@ -4,6 +4,12 @@
   "alternativeNames": [],
   "description": "This set is from O’Shea’s Merchant Pub on Bridge Street in Dublin and has been created by Padraig McEneany.\nIn every figure of this set, all couples will rotate anti-clockwise and house inside from the 1st Top position. It can be pictured as a wheel.\nSwing in Waltz hold.\nFirst side couple is on the left of the first top couple.",
   "picture": "/img/hero-images/osheas-1.jpg",
+  "pictureData": {
+    "name": "O’Shea’s Merchant 12 lower bridge street, Dublin 8",
+    "author": "O’Shea’s Merchant",
+    "sourceUrl": "https://www.osheasmerchant.com",
+    "license": ""
+  },
   "figures": [
     {
       "name": "Cross over",

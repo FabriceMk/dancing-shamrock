@@ -5,7 +5,7 @@
       elevate-on-scroll
       color="white"
     >
-      <v-btn icon @click="backHome()">
+      <v-btn icon @click="back()">
         <v-icon>mdi-arrow-left</v-icon>
       </v-btn>
 
@@ -59,6 +59,12 @@
                   </v-img>
 
                   <v-card-subtitle>
+                    <p class="caption">
+                      <v-icon small>mdi-image</v-icon>
+                      <span v-if="!setDetails.pictureData.name"> Photo </span>
+                      <span v-else=""> {{ setDetails.pictureData.name }} </span>
+                      by <a target="_blank" :href="setDetails.pictureData.sourceUrl">{{ setDetails.pictureData.author }}</a>
+                    </p>
                     <div>Total Figures: {{ setDetails.figures.length }}</div>
                     <div v-if="setDetails.alternativeNames && setDetails.alternativeNames.length > 0">
                       Alternative names: {{ setDetails.alternativeNames.join(', ') }}
@@ -207,8 +213,9 @@ export default class SetDetailsComponent extends Vue {
       });
   }
 
-  backHome(): void {
-    this.$router.push({ path: '/set-list' });
+  back(): void {
+    // eslint-disable-next-line no-unused-expressions
+    (window.history?.length > 2) ? this.$router.go(-1) : this.$router.push('/');
   }
 
   toggleDescriptions(): void {

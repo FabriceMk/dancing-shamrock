@@ -4,6 +4,12 @@
   "alternativeNames": ["Clare Plain"],
   "description": "This West County Clare, Ireland set was derived from the Plain Polka Set.\nChain: Ladies give right-hand-to-right, at waist-height, in the center then left-hand-to-left to the opposite gent (who has danced into his partner's position); form and arch and the lady dances under the arch and around the gent; the gent follows the lady around at his position; ladies do not chain in the center when dancing to home; they give right hands to their original partner; the gent turns the lady anticlockwise under an arch to-place.\nSwing in waltz hold.",
   "picture": "/img/hero-images/clare-4.jpg",
+  "pictureData": {
+    "name": "Massive cliffs off County Clare, Ireland",
+    "author": "John Finkelstein",
+    "sourceUrl": "https://unsplash.com/photos/ci9HzWTIVas",
+    "license": "Unsplash"
+  },
   "figures": [
     {
       "name": "Pass Through",

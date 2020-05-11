@@ -4,6 +4,12 @@
   "alternativeNames": [],
   "description": "This set dance was composed in 2003 by Des Jackson, a dancer with the Sydney Irish Ceili Dancers in Australia. Mr. Jackson was born in County Antrim, Ireland and chose to create a set dance to celebrate the place of his birth.\nGents dance first on the left foot and ladies dance first on the right foot. The first step is usually forward but see the big square pattern wherein dancers dance backward initially.Swing in waltz hold.",
   "picture": "/img/hero-images/antrim-1.jpg",
+  "pictureData": {
+    "name": "Landscape at the Giant's Causeway in County Antrim, Northern Ireland",
+    "author": "Dimitry Anikin",
+    "sourceUrl": "https://unsplash.com/photos/uuFbDfFh5kk",
+    "license": "Unsplash"
+  },
   "figures": [
     {
       "name": "Ladies star",
