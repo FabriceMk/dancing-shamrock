@@ -22,6 +22,9 @@ export default class SetDetails {
   /** URL to the picture for the set. */
   picture: string;
 
+  /** Metadata for the picture. */
+  pictureData: { name: string; author: string; sourceUrl: string; license: string };
+
   constructor(
     id: string,
     name: string,
@@ -29,6 +32,12 @@ export default class SetDetails {
     alternativeNames: string[] = [],
     description = '',
     picture = '',
+    pictureData = {
+      name: '',
+      author: '',
+      sourceUrl: '',
+      license: '',
+    },
   ) {
     this.id = id;
     this.name = name;
@@ -36,5 +45,6 @@ export default class SetDetails {
     this.alternativeNames = alternativeNames;
     this.description = description;
     this.picture = picture;
+    this.pictureData = pictureData;
   }
 }

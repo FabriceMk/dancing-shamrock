@@ -4,6 +4,12 @@
   "alternativeNames": ["Connemara Reel"],
   "description": "This set is from County Galway, Ireland.\nSwing in ceili hold – except at some sites where the final swing of the set is in waltz hold.\nChain: High follow -- The gent pull-the-lady’s-hand to arch position and follows her around at his position; ladies chain on the way home.\nExcept when the gent steps first on the left foot for the house arounds, all dancers begin forward on the right foot for Figures 1 through 3.\nThe traditional step for Figures 1 through 3 is a lift (slight hop) on the right with a heel-down on the left then down on the right, toe-heel (batter-step) on the left then down on the right.\nAn ordinary polka step is danced in Figure 4 (gents begin forward on left foot and ladies begin forward on right foot:  down-2-3, down-2-3).\nFinish: The final two measures of swings, house arounds and advance and retires in Figures 1 through 3 are traditionally a back, back, 1-2-3 (backward slightly on the right, then backward slightly on the left then in-place R-L-R; the final right is a light stamp or may be toe-tap across the left).\nFirst side couple is on the right of the first top couple.",
   "picture": "/img/hero-images/galway-1.jpg",
+  "pictureData": {
+    "name": "A beautiful view at connemara",
+    "author": "Daniel Angele",
+    "sourceUrl": "https://unsplash.com/photos/6kjnCPsodp4",
+    "license": "Unsplash"
+  },
   "figures": [
     {
       "name": "Ladies Chain",

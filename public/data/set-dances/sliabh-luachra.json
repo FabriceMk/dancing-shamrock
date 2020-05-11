@@ -4,6 +4,12 @@
   "alternativeNames": ["Knocknagree", "North Cork Polka"],
   "description": "This set is from County Kerry, Ireland.\nSwing in waltz hold.\nFirst side couple is on the left of the first top couple.",
   "picture": "/img/hero-images/kerry-1.jpg",
+  "pictureData": {
+    "name": "Ring of Kerry, County Kerry, Ireland",
+    "author": "Jean Carlo Emer",
+    "sourceUrl": "https://unsplash.com/photos/6sDmwO4__D8",
+    "license": "Unsplash"
+  },
   "figures": [
     {
       "name": "Ladies chain",

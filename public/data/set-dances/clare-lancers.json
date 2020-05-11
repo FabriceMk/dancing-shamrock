@@ -4,6 +4,12 @@
   "alternativeNames": ["Crusheen Lancers Set"],
   "description": "This dance from County Clare, Ireland.\nSwing in waltz hold.\nDance ordinary reel steps -- lift-2-3-4 and step, step, 3-4-5.\nFirst side couple is on the left of the first top couple.",
   "picture": "/img/hero-images/clare-1.jpg",
+  "pictureData": {
+    "name": "Ireland’s Cliffs of Moher",
+    "author": "Leighton Smith",
+    "sourceUrl": "https://unsplash.com/photos/NPxkSK-makg",
+    "license": "Unsplash"
+  },
   "figures": [
     {
       "name": "The Square",

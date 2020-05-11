@@ -4,6 +4,12 @@
   "alternativeNames": ["Corofin"],
   "description": "This set is from County Clare, Ireland.\nSwing in waltz hold.\nLadies chain: With a waist-level hold for all contacts, ladies first give right hands in the center and dance on to the opposite gent (who has danced into his partner's position); couples take left hands and dance anticlockwise around each other (no arch); ladies dance right-shoulder-to-right to home without chaining in the center.\nDance around partner: In four bars of music, partners face one another, maintain eye contact, and dance clockwise around each other without touching. Gents dance forward on the left foot and ladies begin forward on the right foot.\nFirst side couple is on the left of the first top couple.",
   "picture": "/img/hero-images/clare-3.jpg",
+  "pictureData": {
+    "name": "Doolin, Ireland",
+    "author": "Magdalena Smolnicka",
+    "sourceUrl": "https://unsplash.com/photos/5ncpOfvJc_0",
+    "license": "Unsplash"
+  },
   "figures": [
     {
       "name": "Crossover",

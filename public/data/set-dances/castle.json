@@ -4,6 +4,12 @@
   "alternativeNames": ["Cashel"],
   "description": "This set comes from County Tipperary, Ireland.\nChain: ladies give right hands at waist-height to one another in the center then left hands to the opposite gent (also at waist-height) dance around the gent, chain right-to-right in the center and chain left-to-left to-place with partner.\nSwing in waltz hold.\nFirst Side couple is on the left of the first top couple.",
   "picture": "/img/hero-images/tipperary-3.jpg",
+  "pictureData": {
+    "name": "Hore Abbey Entrance, St. Patricksrock, Cashel, County Tipperary, Ireland",
+    "author": "Mick Haupt",
+    "sourceUrl": "https://unsplash.com/photos/id6MTSZHogo",
+    "license": "Unsplash"
+  },
   "figures": [
     {
       "name": "Pass Through",

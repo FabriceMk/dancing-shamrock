@@ -59,6 +59,12 @@
                   </v-img>
 
                   <v-card-subtitle>
+                    <p class="caption">
+                      <v-icon small>mdi-image</v-icon>
+                      <span v-if="!setDetails.pictureData.name"> Photo </span>
+                      <span v-else=""> {{ setDetails.pictureData.name }} </span>
+                      by <a target="_blank" :href="setDetails.pictureData.sourceUrl">{{ setDetails.pictureData.author }}</a>
+                    </p>
                     <div>Total Figures: {{ setDetails.figures.length }}</div>
                     <div v-if="setDetails.alternativeNames && setDetails.alternativeNames.length > 0">
                       Alternative names: {{ setDetails.alternativeNames.join(', ') }}

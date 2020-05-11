@@ -4,6 +4,12 @@
   "alternativeNames": ["Common Set", "Common Half Set"],
   "description": "This set dance from County Galway, Ireland has been described by dancer/teacher Marie Philbin as \"my father's set.\"\nSwing in waltz hold.",
   "picture": "/img/hero-images/galway-2.jpg",
+  "pictureData": {
+    "name": "Aran Islands Made with Google Pixel 3a",
+    "author": "Greg Hadala",
+    "sourceUrl": "https://unsplash.com/photos/sT5-Dr_7jMk",
+    "license": "Unsplash"
+  },
   "figures": [
     {
       "name": "Square",

@@ -4,6 +4,12 @@
   "alternativeNames": [],
   "description": "This set is from County Clare, Ireland.\nAdvance and Retire as couples in waltz hold. A Clare style (lift-2-3-4) is to be danced for the reels and hornpipes; dancers often also batter-step with various patterns of heel-toe, toe-heel, etc.\nDance an ordinary jig step (down-2-3) in Figure 4 except as shown.",
   "picture": "/img/hero-images/clare-2.jpg",
+  "pictureData": {
+    "name": "Cliffs of Moher landscape",
+    "author": "Ireland Information",
+    "sourceUrl": "https://www.ireland-information.com/public-domain-photographs-of-ireland/Cliffs-of-Moher-landscape.html",
+    "license": "Public Domain"
+  },
   "figures": [
     {
       "name": "House Across",

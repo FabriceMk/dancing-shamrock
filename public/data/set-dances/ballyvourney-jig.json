@@ -4,6 +4,12 @@
   "alternativeNames": ["Baile Bhuirne Jig", "BV (Jig)"],
   "description": "This set is from West County Cork, Ireland.\nSwing: For Figures One through Five, swing in waltz or hug (right hands on partner’s right upper waist, left hands on partner’s upper right arm) hold.\nThe set is often danced with no pause.",
   "picture": "/img/hero-images/ballyvourney-1.jpg",
+  "pictureData": {
+    "name": "Ballyvourney Church",
+    "author": "Cobhbhoy",
+    "sourceUrl": "https://en.wikipedia.org/wiki/File:Ballyvourney_Church_yard.jpg",
+    "license": "CC BY-SA 4.0"
+  },
   "figures": [
     {
       "name": "Swing your Own",
