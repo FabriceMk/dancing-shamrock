@@ -22,13 +22,12 @@ export default class SetEntry {
     name: string,
     alternativeNames: string[],
     figuresCount: number,
-    styles: string[]
+    styles: string[],
   ) {
     this.id = id;
     this.name = name;
     this.alternativeNames = alternativeNames;
     this.figuresCount = figuresCount;
     this.styles = styles;
-
   }
 }
