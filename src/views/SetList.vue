@@ -28,11 +28,6 @@
 
         <v-list>
           <v-list-item-group>
-            <v-list-item to="/soon">
-              <v-list-item-content>
-                <v-list-item-title>Settings</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
             <v-list-item to="/about">
               <v-list-item-content>
                 <v-list-item-title>About</v-list-item-title>
