@@ -4,7 +4,7 @@ A Progressive Web Application to easily browse through Irish Set Dances.
 
 Disclaimer: Currently being rebuilt with Vue.js
 
-// TODO Build status
+![CI](https://github.com/FabriceMk/dancing-shamrock/workflows/CI/badge.svg)
 
 ## Purpose of the application
 
