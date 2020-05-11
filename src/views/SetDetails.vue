@@ -5,7 +5,7 @@
       elevate-on-scroll
       color="white"
     >
-      <v-btn icon @click="backHome()">
+      <v-btn icon @click="back()">
         <v-icon>mdi-arrow-left</v-icon>
       </v-btn>
 
@@ -207,8 +207,9 @@ export default class SetDetailsComponent extends Vue {
       });
   }
 
-  backHome(): void {
-    this.$router.push({ path: '/set-list' });
+  back(): void {
+    // eslint-disable-next-line no-unused-expressions
+    (window.history?.length > 2) ? this.$router.go(-1) : this.$router.push('/');
   }
 
   toggleDescriptions(): void {
