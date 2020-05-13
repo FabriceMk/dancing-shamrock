@@ -13,6 +13,7 @@
 import Vue from 'vue';
 import { Component } from 'vue-property-decorator';
 
+/** Component that displays a 'Coming Soon' screen. For upcmoing features. */
 @Component({
   name: 'SoonComponent',
 })

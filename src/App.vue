@@ -32,6 +32,7 @@ import { Component } from 'vue-property-decorator';
   name: 'App',
 })
 export default class App extends Vue {
+  /** Active navigation item. */
   activeNav = 'sets';
 }
 </script>

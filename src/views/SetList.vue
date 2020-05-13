@@ -85,14 +85,20 @@ import Vue from 'vue';
 import { Component } from 'vue-property-decorator';
 import SetEntry from '@/models/SetEntry';
 
+/**
+ * Component in charge of showing a list of Set dances.
+ */
 @Component({
   name: 'SetListComponent',
 })
 export default class SetListComponent extends Vue {
+  /** List of sets. */
   setList: SetEntry[] = [];
 
+  /** Switch to display either all sets or a filtered view. */
   showAllSets = true;
 
+  /** List of sets marked as Favorites. */
   favorites: string[] = [];
 
   /* Lifecycle hooks */
@@ -116,16 +122,18 @@ export default class SetListComponent extends Vue {
   }
 
   /* Methods */
-
+  /** Formats the array of dance styles into a string. */
   formattedStyles(entry: SetEntry): string {
     const names = entry.styles.map((name) => name[0].toUpperCase() + name.slice(1)).join(' - ');
     return names;
   }
 
+  /** Changes the current sort type. */
   switchSortType(): void {
     this.showAllSets = !this.showAllSets;
   }
 
+  /** Put a dance set in the Favorites list (persisted in local storage). */
   setFavorite(setId: string): void {
     const index = this.favorites.indexOf(setId);
     if (index >= 0) {
@@ -137,10 +145,12 @@ export default class SetListComponent extends Vue {
     localStorage.setItem('sets:favorites', JSON.stringify(this.favorites));
   }
 
+  /** Checks if a dance set is in the Favorites. */
   isFavorite(setId: string): boolean {
     return this.favorites.indexOf(setId) >= 0;
   }
 
+  /** Navigate to the details of a dance set. */
   goToDanceDetails(danceId: string): void {
     this.$router.push({ path: `/set-details/${danceId}` });
   }

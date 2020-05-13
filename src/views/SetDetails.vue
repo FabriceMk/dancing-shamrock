@@ -172,20 +172,28 @@ import { Component } from 'vue-property-decorator';
 import SetDetails from '@/models/SetDetails';
 import SetFigure from '../models/SetFigure';
 
+/**
+ * Component that displays the various details and figures of a dance set.
+ */
 @Component({
   name: 'SetDetailsComponent',
 })
 export default class SetDetailsComponent extends Vue {
   setDetails: SetDetails = new SetDetails('', '', []);
 
+  /** Current active tab. */
   currentTab = 'tab-info';
 
+  /** Switch to display the description of each movement. */
   showDescriptions = false;
 
+  /** Switch to display/hide the snackbar. */
   showSnackbar = false;
 
+  /** Text of the snackbar. */
   snackbarText = '';
 
+  /** Timeout of the snackbar. */
   snackbarTimeout = 2000;
 
   /** This computed property tags all movement groups that are repeated in a figure for the whole set. */
@@ -205,6 +213,7 @@ export default class SetDetailsComponent extends Vue {
     return repeatedGroupsSet;
   }
 
+  /* Lifecycle hooks */
   created(): void {
     fetch(`/data/set-dances/${this.$route.params.id}.json`)
       .then((response) => response.json())
@@ -213,15 +222,22 @@ export default class SetDetailsComponent extends Vue {
       });
   }
 
+  /** Navigates to the previous route in the history. */
   back(): void {
     // eslint-disable-next-line no-unused-expressions
     (window.history?.length > 2) ? this.$router.go(-1) : this.$router.push('/');
   }
 
+  /** Toggles the display of the descriptions. */
   toggleDescriptions(): void {
     this.showDescriptions = !this.showDescriptions;
   }
 
+  /**
+   * Shares the current dance set.
+   * If the W3C Web Share API is supported, it will use it to trigger the native share mechanism.
+   * If not, it will copy the URL of the dance set to the clipboard.
+   */
   share(): void {
     if (navigator.share) {
       navigator.share({
@@ -262,13 +278,12 @@ export default class SetDetailsComponent extends Vue {
     }
   }
 
+  /** Checks if a movement group is repeated in the figure. */
   isMovementGroupRepeated(figureIndex: number, movementGroupIndex: number): boolean {
     return this.repeatedGroups[figureIndex].includes(movementGroupIndex);
   }
 
-  /**
-   * Displays a nice string for couples.
-   */
+  /** Displays a nice string for couples. */
   displayCouples(couplesArray: number[]): string {
     let firstTop = false;
     let secondTop = false;
