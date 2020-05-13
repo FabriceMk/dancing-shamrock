@@ -238,21 +238,13 @@ export default class SetDetailsComponent extends Vue {
    * If the W3C Web Share API is supported, it will use it to trigger the native share mechanism.
    * If not, it will copy the URL of the dance set to the clipboard.
    */
-  share(): void {
+  async share() {
     if (navigator.share) {
-      navigator.share({
+      await navigator.share({
         title: 'Dancing Shamrock: Irish Set Dancing App',
         text: `View the details about the ${this.setDetails.name} Set.`,
         url: window.location.href,
-      })
-        .then(() => {
-          this.snackbarText = 'Set shared';
-          this.showSnackbar = true;
-        })
-        .catch(() => {
-          this.snackbarText = 'The sharing of set failed';
-          this.showSnackbar = true;
-        });
+      });
     } else {
       const el = document.createElement('textarea');
       el.value = window.location.href;
