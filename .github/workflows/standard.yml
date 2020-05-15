@@ -43,12 +43,19 @@ jobs:
           yarn build
 
       # Build an artifact to deploy if appropriate branch
-      - name: Upload artifact
-        uses: actions/upload-artifact@v1
+      - name: Upload output folder as artifact
+        uses: actions/upload-artifact@v2
         if: startsWith(github.ref, 'refs/heads/release/')
         with:
           name: current-build
-          path: ./
+          path: /dist
+
+      - name: Add .firebaserc to the artifact
+        uses: actions/upload-artifact@v2
+        if: startsWith(github.ref, 'refs/heads/release/')
+        with:
+          name: current-build
+          path: .firebaserc
 
   deploy:
     name: Deploy release to Firebase
