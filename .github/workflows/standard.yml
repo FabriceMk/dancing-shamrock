@@ -42,25 +42,35 @@ jobs:
           yarn lint
           yarn build
 
-      # Build an artifact to deploy if appropriate branch
-      - name: Upload artifact
-        uses: actions/upload-artifact@v1
+      # Package an artifact
+      - name: Package the needed files into a tar file
+        if: startsWith(github.ref, 'refs/heads/release/')
+        run: tar -cvf dancing-shamrock.tar .firebaserc firebase.json dist/
+
+      # Upload the artifact
+      - name: Upload output folder as artifact
+        uses: actions/upload-artifact@v2
         if: startsWith(github.ref, 'refs/heads/release/')
         with:
-          name: current-build
-          path: ./
+          name: dancing-shamrock
+          path: dancing-shamrock.tar
 
   deploy:
     name: Deploy release to Firebase
+    needs: build
     runs-on: ubuntu-latest
     if: startsWith(github.ref, 'refs/heads/release/')
 
     steps:
       # Get the artifact from the Build Job
       - name: Download artifact
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v2
         with:
-          name: current-build
+          name: dancing-shamrock
+
+      # Decompress the tar file to prepare the deployment
+      - name: Unpackage the artifact
+        run: tar -xvf dancing-shamrock.tar
 
       # Upload the dist folder to Firebase (specified in the .firebaserc file)
       - uses: w9jds/firebase-action@v1.3.0
