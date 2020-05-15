@@ -73,7 +73,7 @@ jobs:
     steps:
       # Get the artifact from the Build Job
       - name: Download artifact
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v2
         with:
           name: current-build
 
