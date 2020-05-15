@@ -6,7 +6,7 @@ A Progressive Web Application to easily browse through Irish Set Dances
 
 Hosted version accessible here: [https://dancing-shamrock.web.app](https://dancing-shamrock.web.app)
 
-![CI](https://github.com/FabriceMk/dancing-shamrock/workflows/CI/badge.svg)
+![CI](https://github.com/FabriceMk/dancing-shamrock/workflows/CI/badge.svg?branch=master)
 
 ## Purpose of the application
 
