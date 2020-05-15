@@ -57,6 +57,13 @@ jobs:
           name: current-build
           path: .firebaserc
 
+      - name: Add firebase.json to the artifact
+        uses: actions/upload-artifact@v2
+        if: startsWith(github.ref, 'refs/heads/release/')
+        with:
+          name: current-build
+          path: firebase.json
+
   deploy:
     name: Deploy release to Firebase
     needs: build
