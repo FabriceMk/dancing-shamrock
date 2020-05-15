@@ -64,6 +64,7 @@ import { Component } from 'vue-property-decorator';
   name: 'AboutComponent',
 })
 export default class AboutComponent extends Vue {
+  /** Navigates to the previous route in the history. */
   back(): void {
     // eslint-disable-next-line no-unused-expressions
     window.history?.length > 2 ? this.$router.go(-1) : this.$router.push('/');
