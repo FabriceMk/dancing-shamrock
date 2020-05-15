@@ -48,7 +48,7 @@ jobs:
         if: startsWith(github.ref, 'refs/heads/release/')
         with:
           name: current-build
-          path: /dist
+          path: dist/
 
       - name: Add .firebaserc to the artifact
         uses: actions/upload-artifact@v2
