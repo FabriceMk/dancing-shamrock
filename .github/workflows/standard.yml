@@ -45,7 +45,7 @@ jobs:
   deploy:
     name: Deploy release to Firebase
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/release/*'
+    if: startsWith(github.ref, 'refs/heads/release/')
 
     steps:
       - uses: w9jds/firebase-action@v1.3.0
