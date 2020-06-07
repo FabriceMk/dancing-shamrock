@@ -49,6 +49,13 @@
     "styles": ["reel", "jig", "polka"]
   },
   {
+    "id": "kilfenora",
+    "name": "Kilfenora",
+    "alternativeNames": ["Kilfenora Plain"],
+    "figuresCount": 6,
+    "styles": ["reel", "jig", "hornipipe"]
+  },
+  {
     "id": "merchant",
     "name": "Merchant",
     "alternativeNames": [],
