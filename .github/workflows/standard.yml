@@ -43,12 +43,12 @@ jobs:
           yarn build
 
       # Package an artifact
-      - name: Package the needed files into a tar file
+      - name: Package the dist/ folder and needed deployment config files into a tar file
         if: startsWith(github.ref, 'refs/heads/release/')
         run: tar -cvf dancing-shamrock.tar .firebaserc firebase.json dist/
 
       # Upload the artifact
-      - name: Upload output folder as artifact
+      - name: Upload the tar file as an artifact
         uses: actions/upload-artifact@v2
         if: startsWith(github.ref, 'refs/heads/release/')
         with:
