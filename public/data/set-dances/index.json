@@ -14,6 +14,13 @@
     "styles": ["slide"]
   },
   {
+    "id": "borlin",
+    "name": "Borlin",
+    "alternativeNames": ["Borlin Valley Polka Set"],
+    "figuresCount": 5,
+    "styles": ["polka", "slide", "hornpipe"]
+  },
+  {
     "id": "caledonian",
     "name": "Caledonian",
     "alternativeNames": [],

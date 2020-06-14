@@ -1,0 +1,362 @@
+{
+  "id": "borlin",
+  "name": "Borlin",
+  "alternativeNames": ["Borlin Valley Polka Set"],
+  "description": "A bouncy polka set from County Cork. It’s simple, with a few added jumps and kicks and is danced fast for added spice.\nThe body figure in this set has the following pattern: Jump, KICK, out-2-3; turn-2-3 and turn-2-3",
+  "picture": "/img/hero-images/cork-1.jpg",
+  "pictureData": {
+    "name": "Maulmareen, Co. Cork, Ireland",
+    "author": "Ingo Doerrie",
+    "sourceUrl": "https://unsplash.com/photos/CcOTjg84fUI",
+    "license": "Unsplash"
+  },
+  "figures": [
+    {
+      "name": "Ladies Chain",
+      "style": "polka",
+      "duration": 144,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "Couples take crossed hand hold, turn to face counter clockwise and lead all the way around the set, turning the lady into place on the last 2 bars. Keep holding both hands when turning the lady.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "body",
+            "name": "Body",
+            "description": "In waltz hold, couples jump or heel drop loudly toward the set's center and kick the outside foot (ladies' L, gents' R) (1b).  Dance away from the center normally on bar 2. House on to the next position around the set.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "House around the set in waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "House around opposite couple.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "square-house",
+            "name": "Square the house",
+            "description": "Top couples travel diagonally right, a little past the couple on their right, in waltz hold with the lady backing up. Footwork is step, step, step-2-kick, ladies starting with the right foot and gents with the left (2b). Turn clockwise on the kick so the gent backs up as the couple repeats the footwork across their opposite's position (2b). House to home, turning twice (4b).",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "ladies-chain",
+            "name": "Ladies Chain",
+            "description": "Ladies chain with low hands to lady and opposite gent, turning counter clockwise with the opposite gent, and ladies passing without taking hands to return home. There are no arm swooshes.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "Dancing couples swing in place, waltz hold.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "body",
+            "name": "Body",
+            "description": "In waltz hold, couples jump or heel drop loudly toward the set's center and kick the outside foot (ladies' L, gents' R) (1b).  Dance away from the center normally on bar 2. House on to the next position around the set.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "House around the set in waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Sides Leading.",
+            "couples": [2,4],
+            "duration": 56
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Two Squares",
+      "style": "polka",
+      "duration": 128,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "Couples take crossed hand hold, turn to face counter clockwise and lead all the way around the set, turning the lady into place on the last 2 bars. Keep holding both hands when turning the lady.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "body",
+            "name": "Body",
+            "description": "In waltz hold, couples jump or heel drop loudly toward the set's center and kick the outside foot (ladies' L, gents' R) (1b).  Dance away from the center normally on bar 2. House on to the next position around the set.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "House around the set in waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "House around opposite couple.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "square-house",
+            "name": "Square the house (x2)",
+            "description": "Top couples travel diagonally right, a little past the couple on their right, in waltz hold with the lady backing up. Footwork is step, step, step-2-kick, ladies starting with the right foot and gents with the left (2b). Turn clockwise on the kick so the gent backs up as the couple repeats the footwork across their opposite's position (2b). House to home, turning twice (4b). Should be repeated twice.",
+            "couples": [1,3],
+            "duration": 16
+          },
+          {
+            "id": "body",
+            "name": "Body",
+            "description": "In waltz hold, couples jump or heel drop loudly toward the set's center and kick the outside foot (ladies' L, gents' R) (1b).  Dance away from the center normally on bar 2. House on to the next position around the set.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "House around the set in waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Sides Leading.",
+            "couples": [2,4],
+            "duration": 48
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Advance, Retire & Passthru",
+      "style": "polka",
+      "duration": 160,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "Couples take crossed hand hold, turn to face counter clockwise and lead all the way around the set, turning the lady into place on the last 2 bars. Keep holding both hands when turning the lady.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "body",
+            "name": "Body",
+            "description": "In waltz hold, couples jump or heel drop loudly toward the set's center and kick the outside foot (ladies' L, gents' R) (1b).  Dance away from the center normally on bar 2. House on to the next position around the set.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "House around the set in waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "House around opposite couple.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "square-house",
+            "name": "Square the house",
+            "description": "Top couples travel diagonally right, a little past the couple on their right, in waltz hold with the lady backing up. Footwork is step, step, step-2-kick, ladies starting with the right foot and gents with the left (2b). Turn clockwise on the kick so the gent backs up as the couple repeats the footwork across their opposite's position (2b). House to home, turning twice (4b). Should be repeated twice.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire",
+            "name": "Advance and retire",
+            "description": "Right hand in right (4b). As they retire, each lady crosses inside to her partner's left side, still holding hands and facing forward as the gent backs into the ladies position. Both couples cross to the opposite side, passing right shoulder to right with the opposite person (4b). Repeat to return home.",
+            "couples": [1,3],
+            "duration": 16
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "Dancing couples swing in place, waltz hold.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "body",
+            "name": "Body",
+            "description": "In waltz hold, couples jump or heel drop loudly toward the set's center and kick the outside foot (ladies' L, gents' R) (1b).  Dance away from the center normally on bar 2. House on to the next position around the set.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "House around the set in waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Sides Leading.",
+            "couples": [2,4],
+            "duration": 64
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Four Squares",
+      "style": "slide",
+      "duration": 112,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "ring-lead-around",
+            "name": "Ring Lead around",
+            "description": "Top gents take left hands in the center, place their right arms around their partners and lead around.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "House around opposite couple in waltz hold.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "square-house",
+            "name": "Square the house (x4)",
+            "description": "Top couples travel diagonally right, a little past the couple on their right, in waltz hold with the lady backing up. Footwork is step, step, step-2-kick, ladies starting with the right foot and gents with the left (2b). Turn clockwise on the kick so the gent backs up as the couple repeats the footwork across their opposite's position (2b). House to home, turning twice (4b). Should be repeated 4 times.",
+            "couples": [1,3],
+            "duration": 32
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "House around opposite couple in waltz hold.",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 0,
+            "description": "",
+            "couples": [2,4],
+            "duration": 56
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Doubles",
+      "style": "hornpipe",
+      "duration": 152,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "barn-dance",
+            "name": "Barn Dance",
+            "description": "Gents place their right arm around their partners' waist, ladies left hand on his shoulder. Everyone dance to the position on the right without turning using a hop-1-2-3, hop-1-2-3 step. Take a 'double hold' with gents hands on the ladies' waist, her hands on each shoulder. Double to the opposite position (first tops double to second top position and so on). Repeat all movements three times, going around the set twice altogether.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "double-house",
+            "name": "Double house",
+            "description": "Double all the way around the set.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "ladies-walk-on",
+            "name": "Ladies walk on",
+            "description": "Ladies walk to the gent on the right of their position while the gents stand in place.",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 0,
+            "name": "Repeat (x3)",
+            "description": "Repeat 3 times until the ladies are back with their original partners.",
+            "couples": [1,2,3,4],
+            "duration": 96
+          }
+        ],
+        [
+          {
+            "id": "barn-dance",
+            "name": "Barn Dance",
+            "description": "Repeat the barn dance with original partners.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "double-house",
+            "name": "Double house",
+            "description": "Double all the way around the set.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    }
+  ]
+}
