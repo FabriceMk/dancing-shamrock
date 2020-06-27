@@ -8,9 +8,6 @@ export default class SetEntry {
   /** Name of the dance set. */
   name: string;
 
-  /** Alternative names of the dance set. */
-  alternativeNames: string[];
-
   /** The number of figures in the dance set. */
   figuresCount: number;
 
@@ -20,13 +17,11 @@ export default class SetEntry {
   constructor(
     id: string,
     name: string,
-    alternativeNames: string[],
     figuresCount: number,
     styles: string[],
   ) {
     this.id = id;
     this.name = name;
-    this.alternativeNames = alternativeNames;
     this.figuresCount = figuresCount;
     this.styles = styles;
   }

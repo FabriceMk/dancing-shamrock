@@ -2,91 +2,84 @@
   {
     "id": "antrim-square",
     "name": "Antrim Square",
-    "alternativeNames": [],
     "figuresCount": 3,
     "styles": ["reel", "jig", "polka"]
   },
   {
     "id": "ballyvourney-jig",
     "name": "Ballyvourney (Jig)",
-    "alternativeNames": ["BV (Jig)"],
     "figuresCount": 5,
     "styles": ["slide"]
   },
   {
     "id": "borlin",
     "name": "Borlin",
-    "alternativeNames": ["Borlin Valley Polka Set"],
     "figuresCount": 5,
     "styles": ["polka", "slide", "hornpipe"]
   },
   {
     "id": "caledonian",
     "name": "Caledonian",
-    "alternativeNames": [],
     "figuresCount": 6,
     "styles": ["reel", "jig"]
   },
   {
     "id": "castle",
     "name": "Castle",
-    "alternativeNames": ["Cashel"],
     "figuresCount": 6,
     "styles": ["slide", "polka", "hornpipe"]
   },
   {
     "id": "clare-lancers",
     "name": "Clare Lancers",
-    "alternativeNames": [],
     "figuresCount": 5,
     "styles": ["reel"]
   },
   {
     "id": "connemara",
     "name": "Connemara",
-    "alternativeNames": ["Connemara Reel"],
     "figuresCount": 4,
     "styles": ["reel"]
   },
   {
     "id": "corofin-plain",
     "name": "Corofin Plain",
-    "alternativeNames": [],
     "figuresCount": 6,
     "styles": ["reel", "jig", "polka"]
   },
   {
     "id": "kilfenora",
     "name": "Kilfenora",
-    "alternativeNames": ["Kilfenora Plain"],
     "figuresCount": 6,
     "styles": ["reel", "jig", "hornipipe"]
   },
   {
+    "id": "labasheeda",
+    "name": "Labasheeda",
+    "figuresCount": 6,
+    "styles": ["reel", "jig","hornpipe"]
+  },
+  {
     "id": "merchant",
     "name": "Merchant",
-    "alternativeNames": [],
     "figuresCount": 4,
     "styles": ["reel", "hornpipe"]
   },
   {
     "id": "moycullen",
     "name": "Moycullen",
-    "alternativeNames": [],
     "figuresCount": 4,
     "styles": ["reel", "jig", "polka"]
   },
   {
     "id": "plain",
     "name": "Plain",
-    "alternativeNames": ["Clare Plain"],
     "figuresCount": 6,
     "styles": ["reel", "jig"]
   },
   {
     "id": "sliabh-luachra",
     "name": "Sliabh Luachra",
-    "alternativeNames": ["Sliabh gCua"],
     "figuresCount": 6,
     "styles": ["polka"]
   }
