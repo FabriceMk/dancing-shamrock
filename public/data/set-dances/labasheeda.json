@@ -1,0 +1,409 @@
+{
+  "id": "labasheeda",
+  "name": "Labasheeda",
+  "alternativeNames": ["Labasheeda Reel Set"],
+  "description": "This set comes from Labasheeda in County Clare, where it was known as the Reel Set.\nNotes from Toss the Feathers by Pat Murphy, reproduced with permission.\nIt’s not unusual to find that both versions of figure 5 are danced during a ceili.  Make sure you find out if that’s going to be the case before you move on to figure 6!\nFirst sides are to the left of first tops.",
+  "picture": "/img/hero-images/labasheeda-1.jpg",
+  "pictureData": {
+    "name": "The old National School of Labasheeda",
+    "author": "Night of the Big Wind",
+    "sourceUrl": "https://en.wikipedia.org/wiki/Labasheeda#/media/File:The_old_National_School_of_Labasheeda.JPG",
+    "license": "CC BY-SA 3.0"
+  },
+  "figures": [
+    {
+      "name": "Show the ladies",
+      "style": "reel",
+      "duration": 184,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "Holding joined hands in front, all couples lead around anticlockwise, turn the lady clockwise under the gents arms.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "In waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "show-the-lady",
+            "name": "Show the lady",
+            "description": "First top couple house inside, facing the couple on their left after six bars. Then they turn again and the gent leaves the lady between the side couple and takes the side lady in her place. The side lady should move out during the last two bars. The top gent now houses with each lady in turn, leaving each one in the next position on the left and taking the next lady in her place. He brings the fourth lady back to his own position.",
+            "couples": [1],
+            "duration": 32
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "With new partners.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "First side gent (on the left), second top gent and second side gent now house with all the ladies in turn bringing each lady on one place to the left each time. After each round, all couples swing.",
+            "couples": [2,3,4],
+            "duration": 120
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "High Gates",
+      "style": "reel",
+      "duration": 120,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "Holding joined hands in front, all couples lead around anticlockwise, turn the lady clockwise under the gents arms.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-inside",
+            "name": "House inside",
+            "description": "",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "high-gates",
+            "name": "High Gates",
+            "description": "The top gent takes the near hand of his own partner and the lady on his left. He raises his left arm and his own partner dances under the arch; then he raises his right arm and the side lady dances under. Finally he raises his left arm again and his own partner dances under again. Each time, the gent follows the lady under the arch.",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Repeat three times, with first side couple, second top couple and second side couple leading. All swing each time.",
+            "couples": [2,3,4],
+            "duration": 72
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Little Christmas",
+      "style": "reel",
+      "duration": 120,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "Holding joined hands in front, all couples lead around anticlockwise, turn the lady clockwise under the gents arms.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-inside",
+            "name": "House inside",
+            "description": "",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "swing-four",
+            "name": "Swing four",
+            "description": "Swing in four with couple on their left.",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Repeat three times, with first side couple, second top couple and second side couple leading. All swing each time.",
+            "couples": [2,3,4],
+            "duration": 72
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Show the gents",
+      "style": "reel",
+      "duration": 184,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "Holding joined hands in front, all couples lead around anticlockwise, turn the lady clockwise under the gents arms.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "show-the-gents",
+            "name": "Show the gents",
+            "description": "First top couple house inside, facing the couple on their left after six bars. The the gent dances in between the side couple and the side gent moves out to house with the top lady. She houses with all the gents in turn, bringing each of them on one position and keeping the last gent.",
+            "couples": [1],
+            "duration": 32
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "First side lady, second top lady and second side lady dance with the gents in turn and all swing after each is finished.",
+            "couples": [2,3,4],
+            "duration": 120
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "The Jig",
+      "style": "jig",
+      "duration": 168,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "Holding joined hands in front, all couples lead around anticlockwise, turn the lady clockwise under the gents arms.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "advance-cross",
+            "name": "Advance and cross",
+            "description": "Top couples advance and retire; then ladies dance across, passing right shoulder to right shoulder, while the gents dance in place.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "With new partners.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "advance-cross",
+            "name": "Advance and cross",
+            "description": "While the ladies are dancing across to place this time, top gents face the side ladies on their left and change places with them, dancing clockwise.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Top gents repeat with the side ladies, all dancing back to their own partners during the last four bars.",
+            "couples": [1,3],
+            "duration": 32
+          },
+          {
+            "id": "home",
+            "name": "Home",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Side gents dancing with the ladies.",
+            "couples": [2,4],
+            "duration": 72
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Hornpipe",
+      "style": "hornpipe",
+      "duration": 152,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "quarterhouse",
+            "name": "Quarterhouse",
+            "description": "All couples, in waltz hold, dance in, back and turn to the right. Repeat the movements three times to get back home.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "ladies-dance-on",
+            "name": "Ladies dance on",
+            "description": "All couples dance in and back (2b), ladies dance inside to the position on the right while gents turn clockwise in place (2b); finally, all dance one turn in place with their new partners (4b).",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 0,
+            "description": "Repeat until the ladies are back with their partners.",
+            "couples": [1,2,3,4],
+            "duration": 96
+          }
+        ],
+        [
+          {
+            "id": "quarterhouse",
+            "name": "Quarterhouse",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    }
+  ]
+}
