@@ -2,13 +2,19 @@
   "id": "sliabh-gcua",
   "name": "Sliabh gCua",
   "alternativeNames": [],
-  "description": "Lorem ipsum dolor sit amet, recteque partiendo ea eum. Ex dolorem prodesset has, nec te admodum accusata dissentiet. Ei mucius graeco aperiri vel, novum putant reformidans sed id. Justo vituperata ad nam, vix voluptua convenire inciderint ut. Mei odio timeam contentiones ea, detracto facilisi vix eu. Mel et consulatu sadipscing.",
-  "picture": "/img/hero-images/placeholder.jpg",
+  "description": "",
+  "picture": "/img/hero-images/kerry-1.jpg",
+  "pictureData": {
+    "name": "Ring of Kerry, County Kerry, Ireland",
+    "author": "Jean Carlo Emer",
+    "sourceUrl": "https://unsplash.com/photos/6sDmwO4__D8",
+    "license": "Unsplash"
+  },
   "figures": [
     {
       "name": "Introduction",
       "style": "polka",
-      "duration": 72,
+      "duration": 64,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -33,12 +39,19 @@
             "description": "",
             "couples": [1,3],
             "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "In waltz hold.",
+            "couples": [1,3],
+            "duration": 8
           }
         ],
         [
           {
             "id": "repeat",
-            "reference": 1,
+            "reference": 0,
             "description": "",
             "couples": [2,4],
             "duration": 32
@@ -49,7 +62,7 @@
     {
       "name": "Introduction All Round",
       "style": "polka",
-      "duration": 128,
+      "duration": 120,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -81,7 +94,7 @@
         [
           {
             "id": "repeat",
-            "reference": 2,
+            "reference": 1,
             "description": "",
             "couples": [2,4],
             "duration": 24
@@ -94,18 +107,14 @@
             "description": "Remaining in the opposite place with R hands held.",
             "couples": [1,3],
             "duration": 8
-          }
-        ],
-        [
+          },
           {
             "id": "balance-cross",
             "name": "Balance and cross",
             "description": "",
             "couples": [2,4],
             "duration": 8
-          }
-        ],
-        [
+          },
           {
             "id": "half-chain",
             "name": "Half chain",
@@ -123,34 +132,11 @@
         ],
         [
           {
-            "id": "balance-cross",
-            "name": "Balance and cross",
-            "description": "",
-            "couples": [1,3],
-            "duration": 8
-          },
-          {
-            "id": "balance-cross",
-            "name": "Balance and cross",
-            "description": "",
-            "couples": [2,4],
-            "duration": 8
-          }
-        ],
-        [
-          {
-            "id": "half-chain",
-            "name": "Half chain home",
+            "id": "repeat",
+            "reference": 3,
             "description": "",
             "couples": [1,2,3,4],
-            "duration": 8
-          },
-          {
-            "id": "swing",
-            "name": "Swing",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
+            "duration": 32
           }
         ]
       ]
@@ -158,7 +144,7 @@
     {
       "name": "Swing Opposites",
       "style": "polka",
-      "duration": 152,
+      "duration": 144,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -204,7 +190,7 @@
         [
           {
             "id": "repeat",
-            "reference": 2,
+            "reference": 1,
             "description": "With 2nd gent and 1st lady dancing in.",
             "couples": [1,3],
             "duration": 24
@@ -220,19 +206,24 @@
         [
           {
             "id": "repeat",
-            "reference": 2,
+            "reference": 1,
             "description": "With 1st side gent and 2nd side lady dancing in.",
             "couples": [2,4],
             "duration": 24
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
-            "reference": 2,
+            "reference": 1,
             "description": "With 2nd side gent and 1st side lady dancing in.",
             "couples": [2,4],
             "duration": 24
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [2,4],
+            "duration": 8
           }
         ],
         [
@@ -256,7 +247,7 @@
     {
       "name": "Bring Up The Figure",
       "style": "polka",
-      "duration": 248,
+      "duration": 240,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -321,7 +312,7 @@
         [
           {
             "id": "repeat",
-            "reference": 1,
+            "reference": 0,
             "description": "",
             "couples": [2,4],
             "duration": 88
@@ -373,7 +364,7 @@
     {
       "name": "Swing all Round",
       "style": "polka",
-      "duration": 88,
+      "duration": 80,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -403,7 +394,7 @@
           },
           {
             "id": "swing",
-            "name": "Swing the lady on the L",
+            "name": "Swing the lady on the L.",
             "description": "Ladies dance across to the gent on their R and into waltz hold and new couples swing in the gent's place.",
             "couples": [1,2,3,4],
             "duration": 8
@@ -411,50 +402,25 @@
         ],
         [
           {
-            "id": "circle",
-            "name": "Circle",
+            "id": "repeat",
+            "reference": 1,
             "description": "",
             "couples": [1,2,3,4],
-            "duration": 8
+            "duration": 16
           },
           {
-            "id": "swing",
-            "name": "Swing the lady on the L",
-            "description": "Ladies dance across to the gent on their R and into waltz hold and new couples swing in the gent's place.",
-            "couples": [1,2,3,4],
-            "duration": 8
-          }
-        ],
-        [
-          {
-            "id": "circle",
-            "name": "Circle",
+            "id": "repeat",
+            "reference": 1,
             "description": "",
             "couples": [1,2,3,4],
-            "duration": 8
+            "duration": 16
           },
           {
-            "id": "swing",
-            "name": "Swing the lady on the L",
-            "description": "Ladies dance across to the gent on their R and into waltz hold and new couples swing in the gent's place.",
-            "couples": [1,2,3,4],
-            "duration": 8
-          }
-        ],
-        [
-          {
-            "id": "circle",
-            "name": "Circle",
+            "id": "repeat",
+            "reference": 1,
             "description": "",
             "couples": [1,2,3,4],
-            "duration": 8
-          },
-          {
-            "id": "swing",
-            "name": "Swing partners",
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 8
+            "duration": 16
           }
         ]
       ]
