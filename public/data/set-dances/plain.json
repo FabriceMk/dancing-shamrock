@@ -14,7 +14,7 @@
     {
       "name": "Pass Through",
       "style": "reel",
-      "duration": 112,
+      "duration": 104,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -94,7 +94,7 @@
     {
       "name": "Turn the Ladies",
       "style": "reel",
-      "duration": 128,
+      "duration": 120,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -167,7 +167,7 @@
     {
       "name": "Chase the Ladies",
       "style": "reel",
-      "duration": 176,
+      "duration": 168,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -242,9 +242,7 @@
             "description": "",
             "couples": [2,4],
             "duration": 32
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
@@ -274,7 +272,7 @@
     {
       "name": "Three and One",
       "style": "reel",
-      "duration": 256,
+      "duration": 248,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -417,7 +415,7 @@
     {
       "name": "The Gallop",
       "style": "jig",
-      "duration": 160,
+      "duration": 152,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -495,18 +493,14 @@
             "description": "With top ladies leading the gallop.",
             "couples": [1,2,3,4],
             "duration": 32
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
             "description": "With top ladies leading the gallop.",
             "couples": [1,2,3,4],
             "duration": 32
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
@@ -529,7 +523,7 @@
     {
       "name": "Ladies In",
       "style": "reel",
-      "duration": 192,
+      "duration": 184,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -593,18 +587,14 @@
             "description": "",
             "couples": [1,2,3,4],
             "duration": 40
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
             "description": "",
             "couples": [1,2,3,4],
             "duration": 40
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,

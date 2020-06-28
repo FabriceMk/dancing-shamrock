@@ -334,7 +334,7 @@
           {
             "id": "repeat",
             "reference": 0,
-            "name": "Repeat (x3)",
+            "name": "- Repeat (x3) -",
             "description": "Repeat 3 times until the ladies are back with their original partners.",
             "couples": [1,2,3,4],
             "duration": 96

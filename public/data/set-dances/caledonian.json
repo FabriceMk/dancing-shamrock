@@ -14,7 +14,7 @@
     {
       "name": "House Across",
       "style": "reel",
-      "duration": 128,
+      "duration": 120,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -101,7 +101,7 @@
     {
       "name": "House Around",
       "style": "reel",
-      "duration": 96,
+      "duration": 88,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -174,7 +174,7 @@
     {
       "name": "Home and Across",
       "style": "reel",
-      "duration": 192,
+      "duration": 184,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -289,7 +289,7 @@
     {
       "name": "House Opposites",
       "style": "jig",
-      "duration": 224,
+      "duration": 216,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -421,7 +421,7 @@
     {
       "name": "House all the Ladies",
       "style": "reel",
-      "duration": 192,
+      "duration": 184,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -536,7 +536,7 @@
     {
       "name": "The Hornpipe (Long)",
       "style": "hornpipe",
-      "duration": 160,
+      "duration": 152,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -586,18 +586,14 @@
             "description": "",
             "couples": [1,2,3,4],
             "duration": 32
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
             "description": "",
             "couples": [1,2,3,4],
             "duration": 32
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,

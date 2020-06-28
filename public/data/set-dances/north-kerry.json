@@ -1,0 +1,328 @@
+{
+  "id": "north-kerry",
+  "name": "North Kerry",
+  "alternativeNames": [""],
+  "description": "This well known polka set is danced by the Ballybunion Set Dancers.\nDance description from Toss the Feathers by Pat Murphy. Reproduced by permission.\nChanges have been made to match how this has been danced in Kerry and by the Ballybunion set dancers. Most notably the 1st sides are on the right rather than the left and there’s no house in the 3rd figure.  If you use the music by Matt Cunningham you’ll find that the music is 8 bars longer than necessary without the house, though the music by Shaskeen is the 'correct' length.\nFirst side couple is on the right of the first top couple.",
+  "picture": "/img/hero-images/placeholder.jpg",
+  "pictureData": {
+    "name": "",
+    "author": "",
+    "sourceUrl": "",
+    "license": ""
+  },
+  "figures": [
+    {
+      "name": "Wheel around",
+      "style": "polka",
+      "duration": 144,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "quarterhouse",
+            "name": "Body (Quarterhouse)",
+            "description": "All couples, in waltz hold, dance the body: they dance in and back (2 bars); then turn clockwise to the right (2 bars) and repeat both movements three times, dancing around the set to place.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "wheel",
+            "name": "Wheel",
+            "description": "Couples join right hands in the centre, dance around (4b); then join left hands and dance back to place (4b).",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "At home, in waltz hold.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "quarterhouse",
+            "name": "Body (Quarterhouse)",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Side couples leading.",
+            "couples": [2,4],
+            "duration": 32
+          },
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Top couples leading.",
+            "couples": [1,3],
+            "duration": 32
+          },
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Side couples leading.",
+            "couples": [2,4],
+            "duration": 32
+          }
+        ]
+      ]
+    },
+    {
+      "name": "House inside",
+      "style": "polka",
+      "duration": 144,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "quarterhouse",
+            "name": "Body (Quarterhouse)",
+            "description": "All couples, in waltz hold, dance the body: they dance in and back (2 bars); then turn clockwise to the right (2 bars) and repeat both movements three times, dancing around the set to place.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "house-inside",
+            "name": "House inside",
+            "description": "",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "slide-in-back-dance",
+            "name": "Slide in & back; dance 1 turn",
+            "description": "Slide to the centre and back. The man puts his arm around the ladies waist and she puts her left hand on his shoulder and they advance into the centre of the set then retire (4b); then dance one turn in place in waltz hold (4b).",
+            "couples": [1],
+            "duration": 8
+          },
+          {
+            "id": "quarterhouse",
+            "name": "Body (Quarterhouse)",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "First side couple leading (on the right of first top).",
+            "couples": [2],
+            "duration": 32
+          },
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Second top couple leading.",
+            "couples": [3],
+            "duration": 32
+          },
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Second side couple leading.",
+            "couples": [4],
+            "duration": 32
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Balance and change",
+      "style": "slide",
+      "duration": 176,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "quarterhouse",
+            "name": "Body (Quarterhouse)",
+            "description": "All couples, in waltz hold, dance the body: they dance in and back (2 bars); then turn clockwise to the right (2 bars) and repeat both movements three times, dancing around the set to place.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "balance-change",
+            "name": "Balance and Change",
+            "description": "Both couples dance toward the centre and back in open waltz / waist hold (4b); then house across to the opposite position - they cross on the right, turning clockwise twice (4b).",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "balance-change",
+            "name": "Balance and Change to Home",
+            "description": "Both top couples dance forward to the center and back (4b); then house back home - they cross on the right, turning clockwise twice (4b).",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House (Optional)",
+            "description": "Note that when danced in Kerry, this movement is not included in the figure. The music for this figure on Matt Cunningham Vol 1 includes this movement though the music by Shaskeen does not.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "quarterhouse",
+            "name": "Body (Quarterhouse)",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 40
+          },
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [1,3],
+            "duration": 40
+          },
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [2,4],
+            "duration": 40
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Wheel and turn",
+      "style": "polka",
+      "duration": 80,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "quarterhouse",
+            "name": "Body (Quarterhouse)",
+            "description": "All couples, in waltz hold, dance the body: they dance in and back (2 bars); then turn clockwise to the right (2 bars) and repeat both movements three times, dancing around the set to place.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "wheel-turn",
+            "name": "Wheel and turn",
+            "description": "The four ladies join right hands in the centre and dance clockwise to the opposite side (2b); then they take the opposite gent’s left hand and dance anticlockwise around with him, turning under his arm (2b). Note that some sources have the ladies turning twice under the gents arm. The ladies now join right hands in the centre again and dance back to join their partners in waltz hold (4b).",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "quarterhouse",
+            "name": "Body (Quarterhouse)",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 32
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Mixer",
+      "style": "hornpipe",
+      "duration": 120,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "quarterhouse",
+            "name": "Body (Hop 123, Stamp 123)",
+            "description": "All couples dance the body, with hornpipe steps. They dance in (hop 123), gents hopping on their right foot, ladies on their left foot and back (stamp 123), gents stamping on their right foot and dancing the first step back on the right foot also, ladies on their left foot (2b). Then all couples turn clockwise to the position on their right, (hop 123; hop 123) (2b). They repeat the movements three times, dancing around to home.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "house-around",
+            "name": "House",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "move-on",
+            "name": "Move on",
+            "description": "The four gents dance in and back as in movement 1, while the ladies dance on to join the gent on the right (2b); then all, with new partners, turn (clockwise) to the position on their right (2b). All couples now dance the body three times, dancing around to the gents’ original positions (12b).",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "house-around",
+            "name": "House",
+            "description": "",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Ladies now dancing with the gent opposite their own original positions.",
+            "couples": [1,2,3,4],
+            "duration": 24
+          },
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Ladies dancing with the gent left of their own original positions.",
+            "couples": [1,2,3,4],
+            "duration": 24
+          },
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Ladies now back home, dancing with their own partners.",
+            "couples": [1,2,3,4],
+            "duration": 24
+          }
+        ]
+      ]
+    }
+  ]
+}
