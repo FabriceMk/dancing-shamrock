@@ -14,7 +14,7 @@
     {
       "name": "The Square",
       "style": "reel",
-      "duration": 160,
+      "duration": 152,
       "videoUrl": "https://www.youtube.com/watch?v=hnzR8Bpmnyo",
       "videoThumbnailUrl": "https://img.youtube.com/vi/hnzR8Bpmnyo/maxresdefault.jpg",
       "movements": [
@@ -73,18 +73,14 @@
             "description": "With 2nd gent and 1st lady leading.",
             "couples": [2,4],
             "duration": 16
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 2,
             "description": "With 1st side gent and 2nd side lady leading.",
             "couples": [1,3],
             "duration": 16
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 2,
@@ -107,9 +103,9 @@
     {
       "name": "Turn the Lady",
       "style": "reel",
-      "duration": 192,
+      "duration": 184,
       "videoUrl": "https://www.youtube.com/watch?v=vA1_jfgO8xs",
-      "videoThumbnailUrl": "https://img.youtube.com/vi/vA1_jfgO8xs/maxresdefault.jpg", 
+      "videoThumbnailUrl": "https://img.youtube.com/vi/vA1_jfgO8xs/maxresdefault.jpg",
       "movements": [
         [
           {
@@ -171,18 +167,14 @@
             "description": "",
             "couples": [3],
             "duration": 40
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
             "description": "",
             "couples": [2],
             "duration": 40
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
@@ -205,9 +197,9 @@
     {
       "name": "Big Wheel",
       "style": "reel",
-      "duration": 144,
+      "duration": 136,
       "videoUrl": "https://www.youtube.com/watch?v=vA1_jfgO8xs",
-      "videoThumbnailUrl": "https://img.youtube.com/vi/vA1_jfgO8xs/maxresdefault.jpg", 
+      "videoThumbnailUrl": "https://img.youtube.com/vi/vA1_jfgO8xs/maxresdefault.jpg",
       "movements": [
         [
           {
@@ -286,9 +278,9 @@
     {
       "name": "Wheel and Swing",
       "style": "reel",
-      "duration": 192,
+      "duration": 184,
       "videoUrl": "https://www.youtube.com/watch?v=vA1_jfgO8xs",
-      "videoThumbnailUrl": "https://img.youtube.com/vi/vA1_jfgO8xs/maxresdefault.jpg", 
+      "videoThumbnailUrl": "https://img.youtube.com/vi/vA1_jfgO8xs/maxresdefault.jpg",
       "movements": [
         [
           {
@@ -350,18 +342,14 @@
             "description": "1st Side leading. The Lead around is anti-clockwise.",
             "couples": [2,4],
             "duration": 40
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
             "description": "2nd Top leading. The Lead around is clockwise.",
             "couples": [1,3],
             "duration": 40
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
@@ -384,9 +372,9 @@
     {
       "name": "The Line",
       "style": "reel",
-      "duration": 192,
+      "duration": 184,
       "videoUrl": "https://www.youtube.com/watch?v=vA1_jfgO8xs",
-      "videoThumbnailUrl": "https://img.youtube.com/vi/vA1_jfgO8xs/maxresdefault.jpg", 
+      "videoThumbnailUrl": "https://img.youtube.com/vi/vA1_jfgO8xs/maxresdefault.jpg",
       "movements": [
         [
           {
@@ -441,18 +429,14 @@
             "description": "This time the second top couple face out of their position to lead the line-up, second side couple behind them.",
             "couples": [1,2,3,4],
             "duration": 40
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": "1",
             "description": "This time the first side couple face out of their position to lead the line-up, second top couple behind them.",
             "couples": [1,2,3,4],
             "duration": 40
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": "1",

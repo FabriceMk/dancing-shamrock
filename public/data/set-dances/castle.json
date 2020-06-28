@@ -14,7 +14,7 @@
     {
       "name": "Pass Through",
       "style": "polka",
-      "duration": 200,
+      "duration": 192,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -69,18 +69,14 @@
             "description": "",
             "couples": [1,3],
             "duration": 48
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 0,
             "description": "",
             "couples": [2,4],
             "duration": 48
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 0,
@@ -94,7 +90,7 @@
     {
       "name": "Wheel in Line",
       "style": "polka",
-      "duration": 136,
+      "duration": 128,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -135,18 +131,14 @@
             "description": "",
             "couples": [1,3],
             "duration": 32
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 0,
             "description": "",
             "couples": [2,4],
             "duration": 32
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 0,
@@ -160,7 +152,7 @@
     {
       "name": "Ladies Chain",
       "style": "polka",
-      "duration": 200,
+      "duration": 192,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -215,18 +207,14 @@
             "description": "With 2nd gent and 1st lady doing the swing and 1st gent and 2nd lady as singletons.",
             "couples": [1,3],
             "duration": 48
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 0,
             "description": "With 1st gent and 2nd lady doing the swing and 2nd gent and 1st lady as singletons.",
             "couples": [2,4],
             "duration": 48
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 0,
@@ -240,7 +228,7 @@
     {
       "name": "The Hop",
       "style": "hornpipe",
-      "duration": 152,
+      "duration": 144,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -288,18 +276,14 @@
             "description": "",
             "couples": [2,4],
             "duration": 36
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 0,
             "description": "",
             "couples": [1,3],
             "duration": 36
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 0,
@@ -313,7 +297,7 @@
     {
       "name": "Slide and Change",
       "style": "slide",
-      "duration": 256,
+      "duration": 248,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -361,18 +345,14 @@
             "description": "",
             "couples": [2,4],
             "duration": 56
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 0,
             "description": "",
             "couples": [1,3],
             "duration": 56
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 0,
@@ -404,7 +384,7 @@
     {
       "name": "The Offering Up",
       "style": "polka",
-      "duration": 120,
+      "duration": 112,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -438,18 +418,14 @@
             "description": "",
             "couples": [1,2,3,4],
             "duration": 24
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 0,
             "description": "",
             "couples": [1,2,3,4],
             "duration": 24
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 0,

@@ -60,6 +60,12 @@
     "styles": ["reel", "jig","hornpipe"]
   },
   {
+    "id": "north-kerry",
+    "name": "North Kerry",
+    "figuresCount": 5,
+    "styles": ["polka", "slide", "hornpipe"]
+  },
+  {
     "id": "merchant",
     "name": "Merchant",
     "figuresCount": 4,
@@ -76,6 +82,12 @@
     "name": "Plain",
     "figuresCount": 6,
     "styles": ["reel", "jig"]
+  },
+  {
+    "id": "sliabh-gcua",
+    "name": "Sliabh gCua",
+    "figuresCount": 5,
+    "styles": ["polka"]
   },
   {
     "id": "sliabh-luachra",

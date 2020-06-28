@@ -14,7 +14,7 @@
     {
       "name": "Crossover",
       "style": "reel",
-      "duration": 112,
+      "duration": 104,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -94,7 +94,7 @@
     {
       "name": "Advance and Retire",
       "style": "jig",
-      "duration": 104,
+      "duration": 96,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -171,7 +171,7 @@
     {
       "name": "The Line",
       "style": "reel",
-      "duration": 176,
+      "duration": 168,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -246,12 +246,10 @@
             "description": "1st side gent and 2nd side lady now lead the movement.",
             "couples": [2,4],
             "duration": 32
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
-            "reference":12,
+            "reference":1,
             "description": "2nd side gent and 1st side lady now lead the movement.",
             "couples": [2,4],
             "duration": 32
@@ -278,7 +276,7 @@
     {
       "name": "Three and One",
       "style": "jig",
-      "duration": 240,
+      "duration": 232,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -360,9 +358,7 @@
             "description": "Side couples now dance 2. With 1st side leading.",
             "couples": [2,4],
             "duration": 48
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
@@ -392,7 +388,7 @@
     {
       "name": "Double Slide with Ladies Chain",
       "style": "reel",
-      "duration": 208,
+      "duration": 200,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -521,7 +517,7 @@
     {
       "name": "The Polka",
       "style": "polka",
-      "duration": 208,
+      "duration": 200,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -598,18 +594,14 @@
             "description": "",
             "couples": [1,2,3,4],
             "duration": 40
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 4,
             "description": "",
             "couples": [1,2,3,4],
             "duration": 40
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 4,

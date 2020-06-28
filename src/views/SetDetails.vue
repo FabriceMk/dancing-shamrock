@@ -115,7 +115,7 @@
                       <v-chip
                         class="ma-2"
                       >
-                        {{ figure.duration }} bars
+                        8 + {{ figure.duration }} bars
                       </v-chip>
                     </v-list-item-subtitle>
                   </v-list-item-content>

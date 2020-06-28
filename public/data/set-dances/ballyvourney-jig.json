@@ -14,7 +14,7 @@
     {
       "name": "Swing your Own",
       "style": "slides",
-      "duration": 88,
+      "duration": 80,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -62,7 +62,7 @@
     {
       "name": "Swing opposites",
       "style": "slides",
-      "duration": 104,
+      "duration": 96,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -117,7 +117,7 @@
     {
       "name": "Double Swing Four",
       "style": "slides",
-      "duration": 104,
+      "duration": 96,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -165,7 +165,7 @@
     {
       "name": "Swing all Round",
       "style": "slides",
-      "duration": 136,
+      "duration": 128,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -213,7 +213,7 @@
     {
       "name": "The Chain",
       "style": "slides",
-      "duration": 112,
+      "duration": 104,
       "videoUrl": "",
       "videoThumbnailUrl": "",
       "movements": [
@@ -231,9 +231,7 @@
             "description": "Couples slide 1, 2, 123 towards the couple on the R, make a ¼ turn clockwise and slide 1, 2, 123 towards the couple opposite their own place and house back home.",
             "couples": [1,3],
             "duration": 8
-          }
-        ],
-        [
+          },
           {
             "id": "half-chain",
             "name": "Half chain",
@@ -262,16 +260,7 @@
             "reference": 0,
             "description": "",
             "couples": [2,4],
-            "duration": 16
-          }
-        ],
-        [
-          {
-            "id": "repeat",
-            "reference": 1,
-            "description": "",
-            "couples": [1,2,3,4],
-            "duration": 32
+            "duration": 48
           }
         ],
         [
