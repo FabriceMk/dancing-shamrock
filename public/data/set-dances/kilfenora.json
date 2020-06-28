@@ -224,18 +224,14 @@
             "description": "Top couples repeat with 2nd gent leading.",
             "couples": [1,3],
             "duration": 32
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
             "description": "Repeat with 1st side gent (on left) leading.",
             "couples": [2,4],
             "duration": 32
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,

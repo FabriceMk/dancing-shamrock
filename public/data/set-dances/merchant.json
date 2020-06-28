@@ -64,18 +64,14 @@
             "description": "With 1st side couple housing inside from 1st top position",
             "couples": [1,2,3,4],
             "duration": 24
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
             "description": "With 2nd top couple housing inside from 1st top position",
             "couples": [1,2,3,4],
             "duration": 24
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
@@ -162,18 +158,14 @@
             "description": "With 1st side couple housing inside from 1st top position",
             "couples": [1,2,3,4],
             "duration": 40
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
             "description": "With 2nd top couple housing inside from 1st top position",
             "couples": [1,2,3,4],
             "duration": 40
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
@@ -246,18 +238,14 @@
             "description": "With 1st side couple housing inside from the first top position.",
             "couples": [1,2,3,4],
             "duration": 24
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
             "description": "With 2nd top couple housing inside from the first top position.",
             "couples": [1,2,3,4],
             "duration": 24
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
@@ -330,18 +318,14 @@
             "description": "With 1st side couple housing inside from the first top position. The new tops will turn right for the sevens. (Couples that start as sides always face right and progress CCW around the set. Those starting as tops face left, even in side positions, and progress CW around the set.)",
             "couples": [1,2,3,4],
             "duration": 24
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
             "description": "With 2nd top couple housing inside from the first top position.",
             "couples": [1,2,3,4],
             "duration": 24
-          }
-        ],
-        [
+          },
           {
             "id": "repeat",
             "reference": 1,
