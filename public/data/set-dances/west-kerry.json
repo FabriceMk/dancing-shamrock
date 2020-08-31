@@ -1,0 +1,428 @@
+{
+  "id": "west-kerry",
+  "name": "West Kerry",
+  "alternativeNames": [],
+  "description": "This set comes from the Dingle Peninsula in County Kerry.\nFirst side couple is on the left side of the first couple.",
+  "picture": "/img/hero-images/kerry-2.jpg",
+  "pictureData": {
+    "name": "The Black Valley, County Kerry, Ireland",
+    "author": "Mark Lawson",
+    "sourceUrl": "https://unsplash.com/photos/P1g8BI2DUuA",
+    "license": "Unsplash"
+  },
+  "figures": [
+    {
+      "name": "Wheel and Chain",
+      "style": "polka",
+      "duration": 136,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-around",
+            "name": "House around twice",
+            "description": "All couples house around twice, with the ladies reversing towards the position on the right during the first two bars each time.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "All lead around, with each gent's arm around his partner's waist.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "wheel",
+            "name": "Wheel",
+            "description": "Ladies join right hands in the centre and dance around clockwise to their partners (4b) then swing in place (12b).",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "ladies-chain",
+            "name": "Ladies Chain",
+            "description": "Top ladies chain with right hands in the centre, left around opposite gent, right in the centre again and back to their partners, who face forward to meet them in the lady's position.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "Top couples house, ladies reversing across for the first two bars.",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 0,
+            "description": "Side couples ladies chain and house.",
+            "couples": [2,4],
+            "duration": 56
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around twice",
+            "description": "All couples house around twice, with the ladies reversing towards the position on the right during the first two bars each time.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "All lead around, with each gent's arm around his partner's waist.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "House Inside",
+      "style": "polka",
+      "duration": 176,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-around",
+            "name": "House around twice",
+            "description": "All couples house around twice, with the ladies reversing towards the position on the right during the first two bars each time.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "All lead around, with each gent's arm around his partner's waist.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House inside twice",
+            "description": "First top couple house around inside twice.",
+            "couples": [1],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 0,
+            "description": "Second Tops house inside.",
+            "couples": [3],
+            "duration": 40
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 0,
+            "description": "First Sides house inside.",
+            "couples": [2],
+            "duration": 40
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 0,
+            "description": "Second Sides house inside.",
+            "couples": [4],
+            "duration": 40
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around twice",
+            "description": "All couples house around twice, with the ladies reversing towards the position on the right during the first two bars each time.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Slide, Lead Around and Chain",
+      "style": "slide",
+      "duration": 184,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "slide-in-out-house",
+            "name": "Slide in, out and house",
+            "description": "All couples slide in 1-2, 1-2 (tap), out (1-2, 123) and house to opposite sides, slide in and back again and house back to place.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "All lead around, with each gent's arm around his partner's waist.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "ladies-chain",
+            "name": "Ladies Chain",
+            "description": "Top ladies chain as in figure 1.",
+            "couples": [1,3],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "Top couples house around each other.",
+            "couples": [1,3],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 0,
+            "description": "Tops dancing again.",
+            "couples": [1,3],
+            "duration": 40
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 0,
+            "description": "Sides dancing Ladies Chain and House.",
+            "couples": [2,4],
+            "duration": 40          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 0,
+            "description": "Sides dancing Ladies Chain and House.",
+            "couples": [2,4],
+            "duration": 40
+          }
+        ],
+        [
+          {
+            "id": "slide-in-out-house",
+            "name": "Slide in, out and house",
+            "description": "All couples slide in 1-2, 1-2 (tap), out (1-2, 123) and house to opposite sides, slide in and back again and house back to place.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "All lead around, with each gent's arm around his partner's waist.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Slide and House",
+      "style": "polka",
+      "duration": 144,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "All couples lead around twice, holding crossed hands. Ladies turn clockwise under their partners' raised arms after the first round.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House inside twice",
+            "description": "First top couple house around inside twice.",
+            "couples": [1],
+            "duration": 16
+          },
+          {
+            "id": "slide-in-out-house",
+            "name": "Slide in, Out, House to opposite twice",
+            "description": "Slide in and back then house to opposite positions. Slide in and back then house to home.",
+            "couples": [1,3],
+            "duration": 16
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Second Tops house inside twice. Tops slide in and out.",
+            "couples": [3],
+            "duration": 32
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "First Sirdes house inside twice. Sides slide in and out.",
+            "couples": [2],
+            "duration": 32
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "reference": 1,
+            "description": "Second Sides house inside twice. Sides slide in and out.",
+            "couples": [4],
+            "duration": 32
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Meet your neighbor",
+      "style": "slide",
+      "duration": 216,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-around",
+            "name": "House around twice",
+            "description": "All couples house around twice, with the ladies reversing towards the position on the right during the first two bars each time.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "All lead around, with each gent's arm around his partner's waist.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "advance-retire",
+            "name": "Advance & Retire twice",
+            "description": "All circle, advance and retire twice.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "wheel",
+            "name": "Wheel around",
+            "description": "Ladies join right hands in the centre and dance three- quarter way around. to the position right of their own (4b). Gents join left hands in the centre and dance all the way around to their own positions (4b).",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "swing",
+            "name": "Swing",
+            "description": "All swing new partners.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "name": "- Repeat (x3) -",
+            "reference": 0,
+            "description": "Until the ladies are back swinging their own partners again.",
+            "couples": [1,2,3,4],
+            "duration": 144
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around twice",
+            "description": "All couples house around twice, with the ladies reversing towards the position on the right during the first two bars each time.",
+            "couples": [1,2,3,4],
+            "duration": 16
+          },
+          {
+            "id": "lead-around",
+            "name": "Lead around",
+            "description": "All lead around, with each gent's arm around his partner's waist. All clap on the last beat.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    },
+    {
+      "name": "Doubles",
+      "style": "hornpipe",
+      "duration": 112,
+      "videoUrl": "",
+      "videoThumbnailUrl": "",
+      "movements": [
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "All couples house around, with the ladies reversing during the first two bars.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House (Double)",
+            "description": "All couples double around the house, turning twice (hop 1, hop 2, hop 3, hop 4) to each position.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "walk-on",
+            "name": "Walk on (Ladies)",
+            "description": "Ladies walk on to join the gent on their right, passing outside him on the way over. Gents stand in place while the ladies are moving.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ],
+        [
+          {
+            "id": "repeat",
+            "name": "- Repeat (x3) -",
+            "reference": 0,
+            "description": "Until ladies are back with their own partners.",
+            "couples": [1,2,3,4],
+            "duration": 72
+          }
+        ],
+        [
+          {
+            "id": "house-around",
+            "name": "House around",
+            "description": "All couples house around, with the ladies reversing during the first two bars.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          },
+          {
+            "id": "house-around",
+            "name": "House (Double)",
+            "description": "All couples double around the house, turning twice (hop 1, hop 2, hop 3, hop 4) to each position.",
+            "couples": [1,2,3,4],
+            "duration": 8
+          }
+        ]
+      ]
+    }
+  ]
+}

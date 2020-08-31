@@ -1,14 +1,14 @@
 {
   "id": "north-kerry",
   "name": "North Kerry",
-  "alternativeNames": [""],
-  "description": "This well known polka set is danced by the Ballybunion Set Dancers.\nDance description from Toss the Feathers by Pat Murphy. Reproduced by permission.\nChanges have been made to match how this has been danced in Kerry and by the Ballybunion set dancers. Most notably the 1st sides are on the right rather than the left and there’s no house in the 3rd figure.  If you use the music by Matt Cunningham you’ll find that the music is 8 bars longer than necessary without the house, though the music by Shaskeen is the 'correct' length.\nFirst side couple is on the right of the first top couple.",
-  "picture": "/img/hero-images/placeholder.jpg",
+  "alternativeNames": [],
+  "description": "This well known polka set is danced by the Ballybunion Set Dancers.\nDance description from Toss the Feathers by Pat Murphy. Reproduced by permission.\nChanges have been made to match how this has been danced in Kerry and by the Ballybunion set dancers. Most notably the 1st sides are on the right rather than the left and there's no house in the 3rd figure.  If you use the music by Matt Cunningham you'll find that the music is 8 bars longer than necessary without the house, though the music by Shaskeen is the 'correct' length.\nFirst side couple is on the right of the first top couple.",
+  "picture": "/img/hero-images/kerry-1.jpg",
   "pictureData": {
-    "name": "",
-    "author": "",
-    "sourceUrl": "",
-    "license": ""
+    "name": "Ring of Kerry, County Kerry, Ireland",
+    "author": "Jean Carlo Emer",
+    "sourceUrl": "https://unsplash.com/photos/6sDmwO4__D8",
+    "license": "Unsplash"
   },
   "figures": [
     {
@@ -230,7 +230,7 @@
           {
             "id": "wheel-turn",
             "name": "Wheel and turn",
-            "description": "The four ladies join right hands in the centre and dance clockwise to the opposite side (2b); then they take the opposite gent’s left hand and dance anticlockwise around with him, turning under his arm (2b). Note that some sources have the ladies turning twice under the gents arm. The ladies now join right hands in the centre again and dance back to join their partners in waltz hold (4b).",
+            "description": "The four ladies join right hands in the centre and dance clockwise to the opposite side (2b); then they take the opposite gent's left hand and dance anticlockwise around with him, turning under his arm (2b). Note that some sources have the ladies turning twice under the gents arm. The ladies now join right hands in the centre again and dance back to join their partners in waltz hold (4b).",
             "couples": [1,2,3,4],
             "duration": 8
           },
@@ -287,7 +287,7 @@
           {
             "id": "move-on",
             "name": "Move on",
-            "description": "The four gents dance in and back as in movement 1, while the ladies dance on to join the gent on the right (2b); then all, with new partners, turn (clockwise) to the position on their right (2b). All couples now dance the body three times, dancing around to the gents’ original positions (12b).",
+            "description": "The four gents dance in and back as in movement 1, while the ladies dance on to join the gent on the right (2b); then all, with new partners, turn (clockwise) to the position on their right (2b). All couples now dance the body three times, dancing around to the gents' original positions (12b).",
             "couples": [1,2,3,4],
             "duration": 16
           },

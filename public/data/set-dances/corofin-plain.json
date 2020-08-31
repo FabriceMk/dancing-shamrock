@@ -29,7 +29,7 @@
           {
             "id": "set-swing",
             "name": "Set and swing",
-            "description": "All dance R to R past partners and into each other’s position and ½ turn clockwise to face partners (4 bars), take waltz hold and swing (4 bars).",
+            "description": "All dance R to R past partners and into each other's position and ½ turn clockwise to face partners (4 bars), take waltz hold and swing (4 bars).",
             "couples": [1,2,3,4],
             "duration": 8
           }

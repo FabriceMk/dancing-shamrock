@@ -94,5 +94,11 @@
     "name": "Sliabh Luachra",
     "figuresCount": 6,
     "styles": ["polka"]
+  },
+  {
+    "id": "west-kerry",
+    "name": "West Kerry",
+    "figuresCount": 6,
+    "styles": ["polka", "slide", "hornpipe"]
   }
 ]

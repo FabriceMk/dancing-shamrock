@@ -5,7 +5,7 @@
   "description": "This dance from County Clare, Ireland.\nSwing in waltz hold.\nDance ordinary reel steps -- lift-2-3-4 and step, step, 3-4-5.\nFirst side couple is on the left of the first top couple.",
   "picture": "/img/hero-images/clare-1.jpg",
   "pictureData": {
-    "name": "Ireland’s Cliffs of Moher",
+    "name": "Ireland's Cliffs of Moher",
     "author": "Leighton Smith",
     "sourceUrl": "https://unsplash.com/photos/NPxkSK-makg",
     "license": "Unsplash"
@@ -47,7 +47,7 @@
           {
             "id": "passthrough-square",
             "name": "Pass through (Square)",
-            "description": "Each couple dances through the other, ladies in the centre, each dancer R shoulder to R shoulder with the opposite lady/gent.  Partners then pass each other L shoulder to L shoulder to exchange places and turn in. Couples dance through each other R shoulder to R shoulder and partners pass L shoulder to L shoulder back to place. Side couples dance the last 2 bars in place.",
+            "description": "Each couple dances through the other, ladies in the centre, each dancer R shoulder to R shoulder with the opposite lady/gent. Partners then pass each other L shoulder to L shoulder to exchange places and turn in. Couples dance through each other R shoulder to R shoulder and partners pass L shoulder to L shoulder back to place. Side couples dance the last 2 bars in place.",
             "couples": [1,3],
             "duration": 8
           },
@@ -403,7 +403,7 @@
           {
             "id": "slide-l-r",
             "name": "Slide L and R",
-            "description": "Gents slide L and ladies slide R, dancing 1 2, 1 2, 1 2, 123 (4 bars).  Gents slide R and ladies L with longer steps so the lines pass through each other to finish in line with Side couples' places (4 bars).  On the last bar, all turn inwards and take hands so that the line of gents faces the line of ladies.",
+            "description": "Gents slide L and ladies slide R, dancing 1 2, 1 2, 1 2, 123 (4 bars).  Gents slide R and ladies L with longer steps so the lines pass through each other to finish in line with Side couples' places (4 bars). On the last bar, all turn inwards and take hands so that the line of gents faces the line of ladies.",
             "couples": [1,2,3,4],
             "duration": 8
           },
