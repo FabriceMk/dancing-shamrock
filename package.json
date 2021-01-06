@@ -16,7 +16,7 @@
     "vue-property-decorator": "^9.0.0",
     "vue-router": "^3.4.3",
     "vuetify": "^2.3.10",
-    "axios": "^0.20.0"
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",
